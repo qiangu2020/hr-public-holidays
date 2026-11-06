@@ -8,10 +8,25 @@ import importlib
 import json
 from pathlib import Path
 import sys
+from urllib.parse import urlsplit
 
 PROVIDERS = ("asia", "asean", "global_regions")
 REGIONS = ("MY", "MY-KUL", "HK", "TW", "SG", "KR", "TH", "ID", "VN", "TR", "VU", "AE", "IN", "AU", "CY")
 ROOT = Path(__file__).resolve().parent
+
+# Exact hosts reviewed against the issuing public bodies; never trust a suffix match.
+# KASI, u.ae and the Central Bank of Cyprus use official non-.gov domains.
+OFFICIAL_HOSTS = frozenset({
+    "www.kabinet.gov.my", "www.1823.gov.hk", "data.gov.tw", "www.dgpa.gov.tw",
+    "data.gov.sg", "www.mom.gov.sg", "astro.kasi.re.kr", "www.korea.kr",
+    "www.bot.or.th", "www.kemenkopmk.go.id", "en.baochinhphu.vn",
+    "xaydungchinhsach.chinhphu.vn", "hatinh.gov.vn", "baochinhphu.vn",
+    "www.mevzuat.gov.tr", "vakithesaplama.diyanet.gov.tr", "pmo.gov.vu",
+    "u.ae", "www.fahr.gov.ae", "www.uaecma.gov.ae", "rb.indianrailways.gov.in",
+    "www.fairwork.gov.au", "www.nsw.gov.au", "www.act.gov.au", "www.wa.gov.au",
+    "business.vic.gov.au", "www.qld.gov.au", "www.safework.sa.gov.au",
+    "nt.gov.au", "www.legislation.tas.gov.au", "www.centralbank.cy",
+})
 
 
 def validate(regions: list[dict]) -> None:
@@ -24,6 +39,13 @@ def validate(regions: list[dict]) -> None:
         if not region["sources"] or not region["scope"]:
             raise ValueError(f"Missing official provenance/scope: {region['id']}")
         sources = {source["url"] for source in region["sources"]}
+        for url in sources:
+            parsed = urlsplit(url)
+            if (
+                parsed.scheme != "https" or parsed.hostname not in OFFICIAL_HOSTS
+                or parsed.username is not None or parsed.password is not None
+            ):
+                raise ValueError(f"Unapproved official source: {region['id']} {url}")
         seen = set()
         for event in region["events"]:
             day = date.fromisoformat(event["date"])

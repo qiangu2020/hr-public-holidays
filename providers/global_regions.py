@@ -676,17 +676,24 @@ def _ae_region() -> dict:
 # ---------------------------------------------------------------------------
 
 IN_2026 = (
-    "https://d1jmc0u14z2tmp.cloudfront.net/uploads/cms_pages_files/"
-    "Holidays-to-be-observed-in-Central-Government-Offices-during-the-year-2026"
-    "5vgBs-069edfd4d1e7876-49382262.pdf"
+    "https://rb.indianrailways.gov.in/uploads/directorate/establishment/2025/"
+    "Letter_20250805_HolidaysList2026.pdf"
 )
 IN_2027 = (
     "https://rb.indianrailways.gov.in/uploads/directorate/establishment/E(LR)/"
     "Letter_20260723_HolidaysList2027.pdf"
 )
+IN_BAKRID_2026 = (
+    "https://rb.indianrailways.gov.in/uploads/directorate/establishment/E(LR)/"
+    "Letter_20260522%20to%20All%20IR%20-%20Change%20in%20the%20date%20of%20Id-ul-Zuha(Bakrid).pdf"
+)
+IN_AMBEDKAR_2026 = (
+    "https://rb.indianrailways.gov.in/uploads/directorate/establishment/E(LR)/"
+    "Letter_20260409%20to%20All%20IR%20-%20HL%20on%2020260414%20birthday%20of%20Dr_%20BR%20Ambedkar.pdf"
+)
 IN_SCOPE = (
-    "Central government offices (Delhi/New Delhi gazetted list; restricted "
-    "and state/local holidays excluded)"
+    "Central government offices in Delhi/New Delhi (DoPT annual lists and subsequent "
+    "orders; restricted and state/local holidays excluded)"
 )
 
 
@@ -695,7 +702,7 @@ def _in_region() -> dict:
         {
             "name": (
                 "DoPT OM No. 12/2/2023-JCA dated 03.07.2025 — Annexure-I "
-                "(official CMS copy)"
+                "(Railway Board official copy)"
             ),
             "url": IN_2026,
             "format": "PDF",
@@ -706,6 +713,16 @@ def _in_region() -> dict:
                 "(Railway Board official copy)"
             ),
             "url": IN_2027,
+            "format": "PDF",
+        },
+        {
+            "name": "DoPT OM dated 22.05.2026 — revised Bakrid date (Railway Board official copy)",
+            "url": IN_BAKRID_2026,
+            "format": "PDF",
+        },
+        {
+            "name": "DoPT OM dated 09.04.2026 — Dr. B. R. Ambedkar's birthday holiday (Railway Board official copy)",
+            "url": IN_AMBEDKAR_2026,
             "format": "PDF",
         },
     ]
@@ -727,14 +744,22 @@ def _in_region() -> dict:
         _event("2026-03-26", "Ram Navami", "Central government offices (Delhi/New Delhi)", "government", IN_2026),
         _event("2026-03-31", "Mahavir Jayanti", "Central government offices (Delhi/New Delhi)", "government", IN_2026),
         _event("2026-04-03", "Good Friday", "Central government offices (Delhi/New Delhi)", "government", IN_2026),
+        _event(
+            "2026-04-14",
+            "Birthday of Dr. B. R. Ambedkar",
+            "Central government offices throughout India (Delhi/New Delhi included)",
+            "government",
+            IN_AMBEDKAR_2026,
+            note="Additional holiday declared by DoPT OM dated 09.04.2026.",
+        ),
         _event("2026-05-01", "Buddha Purnima", "Central government offices (Delhi/New Delhi)", "government", IN_2026),
         _event(
-            "2026-05-27",
+            "2026-05-28",
             "Id-ul-Zuha (Bakrid)",
             "Central government offices (Delhi/New Delhi)",
             "government",
-            IN_2026,
-            note=muslim_note,
+            IN_BAKRID_2026,
+            note="DoPT OM dated 22.05.2026 moved the Delhi/New Delhi holiday from 27 May to 28 May 2026.",
         ),
         _event(
             "2026-06-26",
@@ -860,11 +885,12 @@ def _in_region() -> dict:
     notes = [
         "2026 and 2027 Annexure-I each list 17 gazetted holidays for Central Government offices at Delhi/New Delhi; the 2027 OM is dated 16.07.2026.",
         "Outside Delhi/New Delhi, 14 holidays are compulsory and three further holidays are chosen from 12 optional holidays by the Central Government Employees Welfare Coordination Committee in each State capital; state governments and private employers publish separate lists.",
-        "Only gazetted holidays in Annexure-I are included; Annexure-II restricted holidays are optional and excluded.",
+        "Includes Annexure-I gazetted holidays and subsequent DoPT orders; Annexure-II restricted holidays are optional and excluded.",
         "Islamic holiday dates (Id-ul-Fitr, Id-ul-Zuha, Muharram and Milad-un-Nabi) may be changed by official moon-sighting announcements under OM paras 5.1/5.2.",
         "No substitute holiday is allowed when a holiday falls on a weekend or another holiday (OM para 3.2).",
         "In 2027, Independence Day and Milad-un-Nabi both fall on 15 August; the OM lists both and allows no substitute.",
-        "The canonical DoPT URLs were unreachable from the build environment; the cited PDFs are official DoPT CMS and Railway Board copies of the same Office Memoranda.",
+        "The DoPT website copies were unavailable at the time of checking; all cited PDFs are official Railway Board copies of the DoPT Office Memoranda.",
+        "The 22.05.2026 DoPT order supersedes the annual 2026 Bakrid date with 28 May; the 09.04.2026 order adds 14 April for Dr. B. R. Ambedkar's birthday.",
     ]
 
     return _region(

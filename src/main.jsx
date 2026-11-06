@@ -2,6 +2,15 @@ import React, { useEffect, useMemo, useState } from "react";
 import { createRoot } from "react-dom/client";
 import { Button, Card, Chip, Spinner } from "@heroui/react";
 import "./styles.css";
+import {
+  copy,
+  dataText,
+  eventName,
+  formatDate,
+  initialLanguage,
+  regionName,
+  saveLanguage,
+} from "./i18n";
 
 const PALETTE = [
   "#6761c5",
@@ -20,12 +29,6 @@ const PALETTE = [
   "#8a6dab",
   "#488c87",
 ];
-const KIND = {
-  public: "公共假期",
-  bank: "银行假期",
-  government: "政府机关假期",
-  optional: "可选假期",
-};
 const SHORT = { "MY-KUL": "KL" };
 const dateParts = Object.fromEntries(
   new Intl.DateTimeFormat("en-CA", {
@@ -41,14 +44,6 @@ const TODAY = `${dateParts.year}-${dateParts.month}-${dateParts.day}`;
 const CURRENT = { year: +dateParts.year, month: +dateParts.month };
 const keyFor = (year, month, day) =>
   `${year}-${String(month).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
-const weekday = (date) =>
-  new Intl.DateTimeFormat("zh-CN", { weekday: "long", timeZone: "UTC" }).format(
-    new Date(`${date}T00:00:00Z`),
-  );
-const englishMonth = (month) =>
-  new Intl.DateTimeFormat("en", { month: "long", timeZone: "UTC" }).format(
-    new Date(Date.UTC(2026, month - 1, 1)),
-  );
 const safeUrl = (url) => (/^https?:\/\//.test(url) ? url : undefined);
 
 function Icon({ name, ...props }) {
@@ -114,12 +109,68 @@ function SourceLink({ url, children }) {
   );
 }
 
-function HolidayCalendar({ data }) {
+function PageHeader({ language, onLanguageChange }) {
+  const t = (key) => copy(language, key);
+  const fullPage = new URL(window.location.href);
+  fullPage.searchParams.set("lang", language);
+  return (
+    <header className="page-header">
+      <div className="brand">
+        <span className="brand-mark">
+          <Icon name="calendar" width="21" height="21" />
+        </span>
+        <span>
+          HOLIDAY ATLAS<small>{t("subtitle")}</small>
+        </span>
+      </div>
+      <div className="header-actions">
+        <Chip
+          color="success"
+          variant="soft"
+          size="sm"
+          className="official-chip"
+        >
+          <span className="live-dot" />
+          <Chip.Label>{t("official")}</Chip.Label>
+        </Chip>
+        <select
+          className="language-select"
+          aria-label={t("language")}
+          value={language}
+          onChange={(event) => onLanguageChange(event.target.value)}
+        >
+          <option value="zh-CN">中文</option>
+          <option value="en">English</option>
+        </select>
+        <a
+          className="full-page"
+          href={fullPage.href}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={t("fullPage")}
+          title={t("fullPage")}
+        >
+          <Icon name="arrow" />
+        </a>
+      </div>
+    </header>
+  );
+}
+
+function HolidayCalendar({ data, language, onLanguageChange }) {
   const [view, setView] = useState(CURRENT);
   const [selected, setSelected] = useState(
-    () => new Set(data.regions.map((r) => r.id)),
+    () => new Set(data.regions.filter((r) => r.id !== "MY").map((r) => r.id)),
   );
   const [selectedDay, setSelectedDay] = useState(null);
+  const [filtersOpen, setFiltersOpen] = useState(false);
+  const t = (key, values) => copy(language, key, values);
+  const nameOf = (region) =>
+    region.id === "MY"
+      ? t("malaysiaReference")
+      : region.id === "MY-KUL"
+        ? t("kualaLumpur")
+        : regionName(region, language);
   const { year, month } = view;
   const regions = useMemo(
     () =>
@@ -130,11 +181,12 @@ function HolidayCalendar({ data }) {
     [data],
   );
   const active = regions.filter((r) => selected.has(r.id));
+  const locationCount = regions.filter((r) => r.id !== "MY").length;
   const unavailable = active.filter((r) => !r.years.includes(year));
   const years = useMemo(() => {
     const values = data.regions.flatMap((r) => r.years);
-    const min = Math.min(...values, CURRENT.year),
-      max = Math.max(...values, CURRENT.year + 1);
+    const min = Math.min(...values, CURRENT.year);
+    const max = Math.max(...values, CURRENT.year + 1);
     return Array.from({ length: max - min + 1 }, (_, i) => min + i);
   }, [data]);
   const events = useMemo(
@@ -178,12 +230,24 @@ function HolidayCalendar({ data }) {
     (_, index) =>
       index >= offset && index < offset + days ? index - offset + 1 : null,
   );
-  const updated = new Intl.DateTimeFormat("zh-CN", {
-    timeZone: "Asia/Singapore",
-    dateStyle: "medium",
-    timeStyle: "short",
-  }).format(new Date(data.updated_at));
+  const monthTitle = formatDate(keyFor(year, month, 1), language, {
+    year: "numeric",
+    month: "long",
+  });
+  const updated = new Intl.DateTimeFormat(
+    language === "en" ? "en-GB" : "zh-CN",
+    {
+      timeZone: "Asia/Singapore",
+      dateStyle: "medium",
+      timeStyle: "short",
+    },
+  ).format(new Date(data.updated_at));
   const stale = Date.now() - Date.parse(data.updated_at) > 48 * 3600000;
+  const selectionPreview =
+    active.length === locationCount
+      ? t("allRegions")
+      : active.slice(0, 2).map(nameOf).join(" / ") +
+        (active.length > 2 ? ` +${active.length - 2}` : "");
   function changeView(next) {
     setView(next);
     setSelectedDay(null);
@@ -198,81 +262,73 @@ function HolidayCalendar({ data }) {
     setSelected((previous) => {
       const next = new Set(previous);
       if (next.has(id)) next.delete(id);
-      else next.add(id);
+      else {
+        if (id === "MY") next.delete("MY-KUL");
+        if (id === "MY-KUL") next.delete("MY");
+        next.add(id);
+      }
       return next;
     });
     setSelectedDay(null);
   }
   function preset(ids) {
-    setSelected(new Set(ids));
+    const next = new Set(ids);
+    if (next.has("MY-KUL")) next.delete("MY");
+    setSelected(next);
     setSelectedDay(null);
   }
-  let emptyMessage = "已收录地区在此期间没有假期记录。";
-  if (!active.length)
-    emptyMessage = "选择上方地区，即可在同一张月历中查看假期。";
-  else if (unavailable.length === active.length)
-    emptyMessage = "该年份的官方数据尚未收录，不代表没有假期。";
-  else if (unavailable.length)
-    emptyMessage = "已收录地区无假期记录；尚未收录的地区不计入此结论。";
+  let emptyMessage = t("empty");
+  if (!active.length) emptyMessage = t("emptySelection");
+  else if (unavailable.length === active.length) emptyMessage = t("emptyYear");
+  else if (unavailable.length) emptyMessage = t("emptyPartial");
   return (
     <main className="app-shell">
-      <header className="page-header">
-        <div className="brand">
-          <span className="brand-mark">
-            <Icon name="calendar" width="23" height="23" />
-          </span>
-          <span>
-            HOLIDAY ATLAS<small>跨地区协作 · 官方假期月历</small>
-          </span>
-        </div>
-        <Chip
-          color="success"
-          variant="soft"
-          size="sm"
-          className="official-chip"
-        >
-          <span className="live-dot" />
-          <Chip.Label>官方来源</Chip.Label>
-        </Chip>
-      </header>
+      <PageHeader language={language} onLanguageChange={onLanguageChange} />
       <section className="intro">
         <div className="eyebrow">ONE CALENDAR, EVERY REGION</div>
-        <h1>
-          看见假期，<span>从容协作。</span>
-        </h1>
-        <p>把不同地区的休假节奏，放进同一张日历。</p>
+        <h1>{t("heroTitle")}</h1>
+        <p>{t("heroText")}</p>
       </section>
-      <Card className="filter-card">
-        <Card.Header className="filter-heading">
-          <div className="section-heading">
-            <Icon name="filter" />
-            <h2>地区筛选</h2>
-            <span className="muted">
-              已选 {selected.size}/{regions.length}
-            </span>
-          </div>
+      <details
+        className="region-filter"
+        open={filtersOpen}
+        onToggle={(event) => setFiltersOpen(event.currentTarget.open)}
+      >
+        <summary>
+          <Icon name="filter" />
+          <strong>{t("regions")}</strong>
+          <span className="selection-count">
+            {t("selected", { count: selected.size, total: locationCount })}
+          </span>
+          <span className="selection-preview">{selectionPreview}</span>
+          <Icon
+            name="right"
+            className="filter-chevron"
+            width="15"
+            height="15"
+          />
+        </summary>
+        <div className="filter-body">
           <div className="presets">
             <Button
               size="sm"
               variant="ghost"
               onPress={() => preset(regions.map((r) => r.id))}
             >
-              全部
+              {t("all")}
             </Button>
             <Button
               size="sm"
               variant="ghost"
-              onPress={() => preset(["MY", "MY-KUL", "HK"])}
+              onPress={() => preset(["MY-KUL", "HK"])}
             >
-              马来西亚 / 香港
+              {t("focus")}
             </Button>
             <Button size="sm" variant="ghost" onPress={() => preset([])}>
-              清空
+              {t("clear")}
             </Button>
           </div>
-        </Card.Header>
-        <Card.Content>
-          <div className="region-options" aria-label="筛选地区，可多选">
+          <div className="region-options" aria-label={t("filterLabel")}>
             {regions.map((region) => (
               <Button
                 key={region.id}
@@ -284,54 +340,89 @@ function HolidayCalendar({ data }) {
                 onPress={() => toggle(region.id)}
               >
                 <span className="region-dot" />
-                {region.name}
+                {nameOf(region)}
                 {selected.has(region.id) && (
-                  <Icon name="check" width="12" height="12" />
+                  <Icon name="check" width="13" height="13" />
                 )}
               </Button>
             ))}
           </div>
-        </Card.Content>
-        <Card.Footer className="filter-hint">
-          可多选 · 同色标记对应同一地区 · KL 为吉隆坡，MY 为全国适用范围
-        </Card.Footer>
-      </Card>
+          <div className="filter-footer">
+            <p className="filter-hint">{t("filterHint")}</p>
+            <Button
+              size="sm"
+              variant="primary"
+              onPress={() => setFiltersOpen(false)}
+            >
+              {t("done")}
+            </Button>
+          </div>
+        </div>
+      </details>
+      <div className="data-notices" role="status">
+        {!active.length && <p>{t("noRegions")}</p>}
+        {unavailable.length > 0 && (
+          <p>
+            <Icon name="info" />
+            {t("unavailable", {
+              regions: unavailable.map(nameOf).join(", "),
+              year,
+            })}
+          </p>
+        )}
+        {stale && <p>{t("stale")}</p>}
+        {(data.errors || []).map((error, i) => (
+          <p key={i}>{t("syncFailed", error)}</p>
+        ))}
+      </div>
       <div className="workspace">
         <Card className="calendar-card">
           <Card.Header className="calendar-toolbar">
-            <div>
-              <div className="eyebrow">
-                {englishMonth(month).toUpperCase()} {year}
-              </div>
-              <h2>
-                {year}
-                <span>年</span> {month}
-                <span>月</span>
-              </h2>
+            <h2 className="sr-only">{monthTitle}</h2>
+            <div className="date-selects">
+              <select
+                aria-label={t("year")}
+                value={year}
+                onChange={(e) => changeView({ year: +e.target.value, month })}
+              >
+                {years.map((y) => (
+                  <option key={y} value={y}>
+                    {t("yearOption", { year: y })}
+                  </option>
+                ))}
+              </select>
+              <select
+                aria-label={t("month")}
+                value={month}
+                onChange={(e) => changeView({ year, month: +e.target.value })}
+              >
+                {Array.from({ length: 12 }, (_, i) => (
+                  <option key={i} value={i + 1}>
+                    {language === "en"
+                      ? formatDate(keyFor(year, i + 1, 1), language, {
+                          month: "long",
+                        })
+                      : t("monthOption", { month: i + 1 })}
+                  </option>
+                ))}
+              </select>
             </div>
             <div className="month-actions">
               <Button
                 isIconOnly
                 size="sm"
                 variant="ghost"
-                aria-label="上个月"
+                aria-label={t("previous")}
                 isDisabled={year === years[0] && month === 1}
                 onPress={() => navigate(-1)}
               >
                 <Icon name="left" />
               </Button>
               <Button
-                size="sm"
-                variant="secondary"
-                onPress={() => changeView(CURRENT)}
-              >
-                本月
-              </Button>
-              <Button
                 isIconOnly
                 size="sm"
                 variant="ghost"
-                aria-label="下个月"
+                aria-label={t("next")}
                 isDisabled={year === years.at(-1) && month === 12}
                 onPress={() => navigate(1)}
               >
@@ -341,52 +432,24 @@ function HolidayCalendar({ data }) {
           </Card.Header>
           <Card.Content className="calendar-content">
             <div className="calendar-subnav">
-              <div className="date-selects">
-                <label>
-                  <span className="sr-only">年份</span>
-                  <select
-                    aria-label="年份"
-                    value={year}
-                    onChange={(e) =>
-                      changeView({ year: +e.target.value, month })
-                    }
-                  >
-                    {years.map((y) => (
-                      <option key={y} value={y}>
-                        {y} 年
-                      </option>
-                    ))}
-                  </select>
-                </label>
-                <label>
-                  <span className="sr-only">月份</span>
-                  <select
-                    aria-label="月份"
-                    value={month}
-                    onChange={(e) =>
-                      changeView({ year, month: +e.target.value })
-                    }
-                  >
-                    {Array.from({ length: 12 }, (_, i) => (
-                      <option key={i} value={i + 1}>
-                        {i + 1} 月
-                      </option>
-                    ))}
-                  </select>
-                </label>
-              </div>
               <span>
-                {byDay.size} 个假期日 <span className="subnav-dot">·</span>{" "}
-                {events.length} 项地区安排
+                {t("stats", { days: byDay.size, events: events.length })}
               </span>
+              <Button
+                size="sm"
+                variant="ghost"
+                onPress={() => changeView(CURRENT)}
+              >
+                {t("thisMonth")}
+              </Button>
             </div>
             <table
               className="month-grid"
-              aria-label={`${year}年${month}月地区假期`}
+              aria-label={t("calendarLabel", { month: monthTitle })}
             >
               <thead>
                 <tr>
-                  {["一", "二", "三", "四", "五", "六", "日"].map((d, i) => (
+                  {t("weekdays").map((d, i) => (
                     <th key={d} scope="col" className={i > 4 ? "weekend" : ""}>
                       {d}
                     </th>
@@ -401,13 +464,25 @@ function HolidayCalendar({ data }) {
                         return (
                           <td key={`blank-${col}`} className="blank-day" />
                         );
-                      const key = keyFor(year, month, day),
-                        items = byDay.get(key) || [];
+                      const key = keyFor(year, month, day);
+                      const items = byDay.get(key) || [];
+                      const dayRegions = [
+                        ...new Map(
+                          items.map((e) => [e.region.id, e.region]),
+                        ).values(),
+                      ];
+                      const label = t("dayLabel", {
+                        date: key,
+                        weekday: formatDate(key, language, { weekday: "long" }),
+                        count: items.length,
+                        regions: dayRegions.map(nameOf).join(", "),
+                      });
                       return (
                         <td key={key}>
                           <button
                             className={`calendar-day ${items.length ? "has-holidays" : ""} ${selectedDay === key ? "selected-day" : ""} ${TODAY === key ? "today" : ""}`}
-                            aria-label={`${key} ${weekday(key)}，${items.length} 项地区假期，查看明细`}
+                            aria-label={label}
+                            title={label}
                             aria-pressed={selectedDay === key}
                             aria-current={TODAY === key ? "date" : undefined}
                             onClick={() =>
@@ -419,25 +494,19 @@ function HolidayCalendar({ data }) {
                             >
                               {day}
                             </span>
-                            <span className="cell-events">
-                              {items.slice(0, 2).map((item, i) => (
-                                <span
-                                  className="calendar-event"
-                                  style={{
-                                    "--region-color": item.region.color,
-                                  }}
-                                  key={i}
-                                >
-                                  <b>
-                                    {SHORT[item.region.id] || item.region.id}
+                            <span className="cell-codes" aria-hidden="true">
+                              {dayRegions
+                                .slice(0, dayRegions.length > 3 ? 2 : 3)
+                                .map((region) => (
+                                  <b
+                                    key={region.id}
+                                    style={{ "--region-color": region.color }}
+                                  >
+                                    {SHORT[region.id] || region.id}
                                   </b>
-                                  <span>{item.name}</span>
-                                </span>
-                              ))}
-                              {items.length > 2 && (
-                                <span className="more-events">
-                                  +{items.length - 2} 项
-                                </span>
+                                ))}
+                              {dayRegions.length > 3 && (
+                                <small>+{dayRegions.length - 2}</small>
                               )}
                             </span>
                           </button>
@@ -452,57 +521,42 @@ function HolidayCalendar({ data }) {
           <Card.Footer className="calendar-legend">
             <span>
               <i className="today-key" />
-              今天
+              {t("today")}
             </span>
             <span>
               <i className="holiday-key" />
-              假期安排
+              {t("holidays")}
             </span>
-            <span className="legend-tip">点击日期查看明细</span>
+            <span className="legend-tip">{t("dayHint")}</span>
           </Card.Footer>
         </Card>
-        <section className="agenda" aria-label="假期明细">
+        <section className="agenda" aria-label={t("agenda")}>
           <div className="agenda-heading">
-            <div>
-              <div className="eyebrow">HOLIDAY NOTES</div>
-              <h2>
-                {selectedDay
-                  ? `${month} 月 ${Number(selectedDay.slice(-2))} 日`
-                  : "本月假期"}
-                <Chip size="sm" variant="soft">
-                  {visible.length}
-                </Chip>
-              </h2>
-            </div>
+            <h2>
+              {selectedDay
+                ? formatDate(selectedDay, language, {
+                    month: "long",
+                    day: "numeric",
+                  })
+                : t("monthHolidays")}
+              <Chip size="sm" variant="soft">
+                {visible.length}
+              </Chip>
+            </h2>
             {selectedDay && (
               <Button
                 size="sm"
                 variant="ghost"
                 onPress={() => setSelectedDay(null)}
               >
-                查看整月
+                {t("wholeMonth")}
               </Button>
             )}
           </div>
-          <div className="data-notices" role="status">
-            {!active.length && <p>尚未选择地区。</p>}
-            {unavailable.length > 0 && (
-              <p>
-                <Icon name="info" /> {unavailable.map((r) => r.name).join("、")}
-                ：{year} 年官方数据尚未收录。请查阅官方来源，不能视为无假期。
-              </p>
-            )}
-            {stale && <p>数据构建已超过 48 小时，请查阅官方最新公告。</p>}
-            {(data.errors || []).map((error, i) => (
-              <p key={i}>
-                {error.region}：同步失败，{error.error}
-              </p>
-            ))}
-          </div>
           {!visible.length && (
             <Card className="empty-state">
-              <Icon name="calendar" width="30" height="30" />
-              <h3>{active.length ? "暂无可展示的记录" : "从一个地区开始"}</h3>
+              <Icon name="calendar" width="26" height="26" />
+              <h3>{active.length ? t("noRecords") : t("startRegion")}</h3>
               <p>{emptyMessage}</p>
             </Card>
           )}
@@ -510,65 +564,89 @@ function HolidayCalendar({ data }) {
             {[...grouped].map(([date, items]) => (
               <section key={date} className="agenda-day">
                 <div className="agenda-date">
-                  <strong>{Number(date.slice(-2))}</strong>
-                  <span>
-                    {month} 月 / {weekday(date)}
-                  </span>
+                  <strong>
+                    {formatDate(date, language, {
+                      month: "short",
+                      day: "numeric",
+                    })}
+                  </strong>
+                  <span>{formatDate(date, language, { weekday: "long" })}</span>
                   <i />
                 </div>
                 {items.map((event, index) => (
-                  <Card
+                  <details
                     key={`${event.region.id}-${index}`}
                     className="holiday-card"
                     style={{ "--region-color": event.region.color }}
                   >
-                    <Card.Content>
-                      <div className="event-top">
-                        <span className="event-region">
-                          <span className="region-dot" />
-                          {event.region.name}
-                        </span>
-                        {event.kind !== "public" && (
-                          <Chip size="sm" color="warning" variant="soft">
-                            {KIND[event.kind]}
-                          </Chip>
-                        )}
+                    <summary>
+                      <div className="event-heading">
+                        <div className="event-top">
+                          <span className="event-region">
+                            <span className="region-dot" />
+                            {nameOf(event.region)}
+                          </span>
+                          {event.kind !== "public" && (
+                            <Chip size="sm" color="warning" variant="soft">
+                              {t(event.kind)}
+                            </Chip>
+                          )}
+                        </div>
+                        <h3>{eventName(event, language)}</h3>
                       </div>
-                      <h3>{event.name}</h3>
-                      {event.name_en && event.name_en !== event.name && (
-                        <p className="event-english">{event.name_en}</p>
+                      <Icon
+                        name="right"
+                        className="event-chevron"
+                        width="15"
+                        height="15"
+                      />
+                    </summary>
+                    <div className="event-details">
+                      {language !== "en" &&
+                        event.name_en &&
+                        event.name_en !== event.name && (
+                          <p className="event-english">{event.name_en}</p>
+                        )}
+                      <p className="event-scope">
+                        {dataText(event.scope, language)}
+                      </p>
+                      {event.note && (
+                        <p className="event-note">
+                          {dataText(event.note, language)}
+                        </p>
                       )}
-                      <p className="event-scope">{event.scope}</p>
-                      {event.note && <p className="event-note">{event.note}</p>}
-                      <SourceLink url={event.source_url}>官方依据</SourceLink>
-                    </Card.Content>
-                  </Card>
+                      <SourceLink url={event.source_url}>
+                        {t("source")}
+                      </SourceLink>
+                    </div>
+                  </details>
                 ))}
               </section>
             ))}
           </div>
         </section>
       </div>
-      <section className="scope-note">
-        <Icon name="info" />
+      <details className="scope-note">
+        <summary>
+          <Icon name="info" />
+          <strong>{t("scopeTitle")}</strong>
+          <span>+</span>
+        </summary>
         <div>
-          <strong>为协作计划提供参考，不替代公司休假制度。</strong>
-          <p>
-            各地适用人群、邦州、补休规则可能不同；银行、政府机关与可选假期已单独标注。宗教节日及临时假期以当地政府最终公告为准。
-          </p>
-          <p>
-            可读取的官方接口自动获取；部分 PDF / 公告为人工核对快照，核对日期见下方来源说明。页面构建时间不代表所有公告已重新核对。
-          </p>
+          <strong>{t("scopeIntro")}</strong>
+          <p>{t("scopeBody")}</p>
+          <p>{t("snapshotBody")}</p>
         </div>
-      </section>
+      </details>
       <details className="sources">
         <summary>
           <span>
             <Icon name="globe" />
-            官方来源与收录范围
+            {t("sources")}
           </span>
           <span>
-            {active.length} 个地区 <span className="summary-plus">＋</span>
+            {t("sourceCount", { count: active.length })}
+            <span className="summary-plus">+</span>
           </span>
         </summary>
         <div className="source-grid">
@@ -579,31 +657,31 @@ function HolidayCalendar({ data }) {
                   className="region-dot"
                   style={{ "--region-color": region.color }}
                 />
-                {region.name}
-                <span>{region.name_en}</span>
+                {nameOf(region)}
               </h3>
-              <p>{region.scope}</p>
-              <p>收录年份：{region.years.join("、")}</p>
+              <p>{dataText(region.scope, language)}</p>
+              <p>{t("coverage", { years: region.years.join(", ") })}</p>
               {region.sources.map((source, i) => (
                 <SourceLink key={i} url={source.url}>
-                  {source.name} · {source.format}
+                  {dataText(source.name, language)} ·{" "}
+                  {dataText(source.format, language)}
                 </SourceLink>
               ))}
               <ul>
                 {(region.notes || []).map((note, i) => (
-                  <li key={i}>{note}</li>
+                  <li key={i}>{dataText(note, language)}</li>
                 ))}
               </ul>
             </section>
           ))}
         </div>
+        {language === "en" && (
+          <p className="source-translation">{t("sourceTranslation")}</p>
+        )}
       </details>
       <footer>
-        <span>
-          HOLIDAY ATLAS <span className="footer-divider">/</span> OFFICIAL
-          SOURCES ONLY
-        </span>
-        <span>页面构建 {updated} · UTC+8</span>
+        <span>{t("standalone")}</span>
+        <span>{t("built", { date: updated })}</span>
       </footer>
     </main>
   );
@@ -611,6 +689,21 @@ function HolidayCalendar({ data }) {
 
 function App() {
   const [state, setState] = useState({ data: null, error: null });
+  const [language, setLanguage] = useState(initialLanguage);
+  const t = (key) => copy(language, key);
+  useEffect(() => {
+    document.documentElement.lang = language;
+    document.title = t("title");
+    saveLanguage(language);
+    const url = new URL(window.location.href);
+    if (
+      url.searchParams.has("lang") &&
+      url.searchParams.get("lang") !== language
+    ) {
+      url.searchParams.set("lang", language);
+      window.history.replaceState(null, "", url.href);
+    }
+  }, [language]);
   useEffect(() => {
     const controller = new AbortController();
     fetch(`${import.meta.env.BASE_URL}data/holidays.json`, {
@@ -627,7 +720,7 @@ function App() {
           !data.regions.length ||
           !Number.isFinite(Date.parse(data.updated_at))
         )
-          throw new Error("官方假期数据格式异常");
+          throw new Error("DATA_FORMAT");
         setState({ data, error: null });
       })
       .catch((error) => {
@@ -638,24 +731,40 @@ function App() {
   }, []);
   if (state.error)
     return (
-      <main className="loading-screen">
-        <Card className="load-card">
-          <Icon name="info" width="30" height="30" />
-          <h1>暂时无法载入假期</h1>
-          <p>无法载入不代表没有假期，请稍后重试。</p>
-          <p className="muted">{state.error}</p>
-          <Button onPress={() => window.location.reload()}>重新载入</Button>
-        </Card>
+      <main className="app-shell">
+        <PageHeader language={language} onLanguageChange={setLanguage} />
+        <div className="loading-screen">
+          <Card className="load-card">
+            <Icon name="info" width="30" height="30" />
+            <h1>{t("loadTitle")}</h1>
+            <p>{t("loadBody")}</p>
+            <p className="muted">
+              {state.error === "DATA_FORMAT" ? t("formatError") : state.error}
+            </p>
+            <Button onPress={() => window.location.reload()}>
+              {t("reload")}
+            </Button>
+          </Card>
+        </div>
       </main>
     );
   if (!state.data)
     return (
-      <main className="loading-screen" role="status">
-        <Spinner />
-        <p>正在载入官方假期月历…</p>
+      <main className="app-shell">
+        <PageHeader language={language} onLanguageChange={setLanguage} />
+        <div className="loading-screen" role="status">
+          <Spinner />
+          <p>{t("loading")}</p>
+        </div>
       </main>
     );
-  return <HolidayCalendar data={state.data} />;
+  return (
+    <HolidayCalendar
+      data={state.data}
+      language={language}
+      onLanguageChange={setLanguage}
+    />
+  );
 }
 
 createRoot(document.getElementById("root")).render(<App />);
