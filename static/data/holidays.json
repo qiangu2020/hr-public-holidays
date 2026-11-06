@@ -1,0 +1,4461 @@
+{
+  "updated_at": "2026-11-06T08:51:40+00:00",
+  "regions": [
+    {
+      "id": "MY",
+      "name": "马来西亚",
+      "name_en": "Malaysia",
+      "timezone": "Asia/Kuala_Lumpur",
+      "scope": "马来西亚公共假期（以联邦表为主，州属适用范围见事件 scope）",
+      "years": [
+        2026,
+        2027
+      ],
+      "sources": [
+        {
+          "name": "马来西亚首相署（BKPP）— HKA 2026 联邦及州公共假期表",
+          "url": "https://www.kabinet.gov.my/storage/2025/08/HKA-2026.pdf",
+          "format": "PDF"
+        },
+        {
+          "name": "马来西亚首相署（BKPP）— HKA 2027 联邦及州公共假期表",
+          "url": "https://www.kabinet.gov.my/storage/2026/08/HKA_2027.pdf",
+          "format": "PDF"
+        }
+      ],
+      "events": [
+        {
+          "date": "2026-02-17",
+          "name": "农历新年（Tahun Baharu Cina）",
+          "scope": "马来西亚联邦",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2025/08/HKA-2026.pdf",
+          "name_en": "Chinese New Year"
+        },
+        {
+          "date": "2026-02-18",
+          "name": "农历新年第二天（Tahun Baharu Cina Hari Kedua）",
+          "scope": "马来西亚（全国；吉兰丹、登嘉楼依州表）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2025/08/HKA-2026.pdf",
+          "name_en": "Second Day of Chinese New Year",
+          "note": "联邦表列 14 州（吉兰丹、登嘉楼除外）；该两州由州表列为州假，合并后全国适用。"
+        },
+        {
+          "date": "2026-03-21",
+          "name": "开斋节（Hari Raya Puasa）",
+          "scope": "马来西亚联邦",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2025/08/HKA-2026.pdf",
+          "name_en": "Hari Raya Puasa (Eid al-Fitr)"
+        },
+        {
+          "date": "2026-03-22",
+          "name": "开斋节第二天（Hari Raya Puasa Hari Kedua）",
+          "scope": "马来西亚联邦",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2025/08/HKA-2026.pdf",
+          "name_en": "Second Day of Hari Raya Puasa"
+        },
+        {
+          "date": "2026-05-01",
+          "name": "劳动节（Hari Pekerja）",
+          "scope": "马来西亚联邦",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2025/08/HKA-2026.pdf",
+          "name_en": "Labour Day"
+        },
+        {
+          "date": "2026-05-27",
+          "name": "宰牲节（Hari Raya Qurban）",
+          "scope": "马来西亚联邦",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2025/08/HKA-2026.pdf",
+          "name_en": "Hari Raya Qurban (Eid al-Adha)"
+        },
+        {
+          "date": "2026-05-28",
+          "name": "宰牲节第二天（Hari Raya Qurban Hari Kedua）",
+          "scope": "马来西亚（吉兰丹、登嘉楼、吉打、玻璃市）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2025/08/HKA-2026.pdf",
+          "name_en": "Second Day of Hari Raya Qurban",
+          "note": "联邦表列吉兰丹、登嘉楼；州表列吉打、玻璃市。"
+        },
+        {
+          "date": "2026-05-31",
+          "name": "卫塞节（Hari Wesak）",
+          "scope": "马来西亚联邦",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2025/08/HKA-2026.pdf",
+          "name_en": "Wesak Day"
+        },
+        {
+          "date": "2026-06-01",
+          "name": "国家元首诞辰（Hari Keputeraan Rasmi Yang di-Pertuan Agong）",
+          "scope": "马来西亚联邦",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2025/08/HKA-2026.pdf",
+          "name_en": "Birthday of the Yang di-Pertuan Agong"
+        },
+        {
+          "date": "2026-06-17",
+          "name": "伊斯兰新年（Awal Muharam / Maal Hijrah）",
+          "scope": "马来西亚联邦",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2025/08/HKA-2026.pdf",
+          "name_en": "Awal Muharam (Islamic New Year)"
+        },
+        {
+          "date": "2026-08-25",
+          "name": "先知穆罕默德诞辰（Maulidur Rasul）",
+          "scope": "马来西亚联邦",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2025/08/HKA-2026.pdf",
+          "name_en": "Maulidur Rasul (Birthday of the Prophet Muhammad)"
+        },
+        {
+          "date": "2026-08-31",
+          "name": "国庆日（Hari Kebangsaan）",
+          "scope": "马来西亚联邦",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2025/08/HKA-2026.pdf",
+          "name_en": "National Day"
+        },
+        {
+          "date": "2026-09-16",
+          "name": "马来西亚日（Hari Malaysia）",
+          "scope": "马来西亚联邦",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2025/08/HKA-2026.pdf",
+          "name_en": "Malaysia Day"
+        },
+        {
+          "date": "2026-11-08",
+          "name": "屠妖节（Hari Deepavali）",
+          "scope": "马来西亚联邦（砂拉越除外）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2025/08/HKA-2026.pdf",
+          "name_en": "Deepavali",
+          "note": "官方表列明砂拉越不适用。"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "圣诞节（Hari Krismas）",
+          "scope": "马来西亚联邦",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2025/08/HKA-2026.pdf",
+          "name_en": "Christmas Day"
+        },
+        {
+          "date": "2027-02-06",
+          "name": "农历新年（Tahun Baharu Cina）",
+          "scope": "马来西亚联邦",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2026/08/HKA_2027.pdf",
+          "name_en": "Chinese New Year"
+        },
+        {
+          "date": "2027-02-07",
+          "name": "农历新年第二天（Tahun Baharu Cina Hari Kedua）",
+          "scope": "马来西亚联邦",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2026/08/HKA_2027.pdf",
+          "name_en": "Second Day of Chinese New Year",
+          "note": "联邦表列 14 州（吉兰丹、登嘉楼除外）；该两州由州表列为州假，合并后全国适用。"
+        },
+        {
+          "date": "2027-03-10",
+          "name": "开斋节（Hari Raya Puasa）",
+          "scope": "马来西亚联邦",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2026/08/HKA_2027.pdf",
+          "name_en": "Hari Raya Puasa (Eid al-Fitr)"
+        },
+        {
+          "date": "2027-03-11",
+          "name": "开斋节第二天（Hari Raya Puasa Hari Kedua）",
+          "scope": "马来西亚联邦",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2026/08/HKA_2027.pdf",
+          "name_en": "Second Day of Hari Raya Puasa"
+        },
+        {
+          "date": "2027-05-01",
+          "name": "劳动节（Hari Pekerja）",
+          "scope": "马来西亚联邦",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2026/08/HKA_2027.pdf",
+          "name_en": "Labour Day"
+        },
+        {
+          "date": "2027-05-17",
+          "name": "宰牲节（Hari Raya Qurban）",
+          "scope": "马来西亚联邦",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2026/08/HKA_2027.pdf",
+          "name_en": "Hari Raya Qurban (Eid al-Adha)"
+        },
+        {
+          "date": "2027-05-18",
+          "name": "宰牲节第二天（Hari Raya Qurban Hari Kedua）",
+          "scope": "马来西亚（吉兰丹、登嘉楼、吉打、玻璃市）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2026/08/HKA_2027.pdf",
+          "name_en": "Second Day of Hari Raya Qurban",
+          "note": "联邦表列吉兰丹、登嘉楼；州表列吉打、玻璃市。"
+        },
+        {
+          "date": "2027-05-20",
+          "name": "卫塞节（Hari Wesak）",
+          "scope": "马来西亚联邦",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2026/08/HKA_2027.pdf",
+          "name_en": "Wesak Day"
+        },
+        {
+          "date": "2027-06-06",
+          "name": "伊斯兰新年（Awal Muharam / Maal Hijrah）",
+          "scope": "马来西亚联邦",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2026/08/HKA_2027.pdf",
+          "name_en": "Awal Muharam (Islamic New Year)"
+        },
+        {
+          "date": "2027-06-07",
+          "name": "国家元首诞辰（Hari Keputeraan Rasmi Yang di-Pertuan Agong）",
+          "scope": "马来西亚联邦",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2026/08/HKA_2027.pdf",
+          "name_en": "Birthday of the Yang di-Pertuan Agong"
+        },
+        {
+          "date": "2027-08-15",
+          "name": "先知穆罕默德诞辰（Maulidur Rasul）",
+          "scope": "马来西亚联邦",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2026/08/HKA_2027.pdf",
+          "name_en": "Maulidur Rasul (Birthday of the Prophet Muhammad)"
+        },
+        {
+          "date": "2027-08-31",
+          "name": "国庆日（Hari Kebangsaan）",
+          "scope": "马来西亚联邦",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2026/08/HKA_2027.pdf",
+          "name_en": "National Day"
+        },
+        {
+          "date": "2027-09-16",
+          "name": "马来西亚日（Hari Malaysia）",
+          "scope": "马来西亚联邦",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2026/08/HKA_2027.pdf",
+          "name_en": "Malaysia Day"
+        },
+        {
+          "date": "2027-10-28",
+          "name": "屠妖节（Hari Deepavali）",
+          "scope": "马来西亚联邦（砂拉越除外）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2026/08/HKA_2027.pdf",
+          "name_en": "Deepavali",
+          "note": "官方表列明砂拉越不适用。"
+        },
+        {
+          "date": "2027-12-25",
+          "name": "圣诞节（Hari Krismas）",
+          "scope": "马来西亚联邦",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2026/08/HKA_2027.pdf",
+          "name_en": "Christmas Day"
+        }
+      ],
+      "notes": [
+        "日期取自马来西亚首相署（Bahagian Kabinet, Perundangan dan Perhubungan Antara Institusi）公布的 HKA 2026 与 HKA 2027 官方 PDF；不是第三方整理资料。",
+        "官方 PDF 的规范化快照，最近人工核对日期：2026-11-06。HKA 州属适用栏为图形勾选，后续修订需重新核对，不是实时接口；原始 PDF 链接保留供查核。",
+        "MY 以 HKA 联邦表为主；同一日期由联邦表与州表合并适用的条目（如吉兰丹、登嘉楼、吉打、玻璃市）以事件 scope 标注。其他州属未单独设区；吉隆坡适用假日见 MY-KUL。",
+        "官方表未列出的补假不自行推算；例如 2026 年 11 月 8 日屠妖节适逢星期日，HKA 未列翌日补假。",
+        "伊斯兰历及农历日期以官方表为准；官方以 * 标注者可能调整，若官方修订应更新本表。"
+      ]
+    },
+    {
+      "id": "MY-KUL",
+      "name": "吉隆坡",
+      "name_en": "Kuala Lumpur",
+      "timezone": "Asia/Kuala_Lumpur",
+      "scope": "吉隆坡联邦直辖区公共假期",
+      "years": [
+        2026,
+        2027
+      ],
+      "sources": [
+        {
+          "name": "马来西亚首相署（BKPP）— HKA 2026 联邦及州公共假期表（W.P. Kuala Lumpur 栏）",
+          "url": "https://www.kabinet.gov.my/storage/2025/08/HKA-2026.pdf",
+          "format": "PDF"
+        },
+        {
+          "name": "马来西亚首相署（BKPP）— HKA 2027 联邦及州公共假期表（W.P. Kuala Lumpur 栏）",
+          "url": "https://www.kabinet.gov.my/storage/2026/08/HKA_2027.pdf",
+          "format": "PDF"
+        }
+      ],
+      "events": [
+        {
+          "date": "2026-01-01",
+          "name": "元旦（Tahun Baharu）",
+          "scope": "吉隆坡联邦直辖区（W.P. Kuala Lumpur）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2025/08/HKA-2026.pdf",
+          "name_en": "New Year's Day"
+        },
+        {
+          "date": "2026-02-01",
+          "name": "联邦直辖区日暨大宝森节（Hari Wilayah Persekutuan / Hari Thaipusam）",
+          "scope": "吉隆坡联邦直辖区（W.P. Kuala Lumpur）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2025/08/HKA-2026.pdf",
+          "name_en": "Federal Territory Day and Thaipusam",
+          "note": "两个假日同日；官方表在吉隆坡栏均予勾选。"
+        },
+        {
+          "date": "2026-02-17",
+          "name": "农历新年（Tahun Baharu Cina）",
+          "scope": "吉隆坡联邦直辖区（W.P. Kuala Lumpur）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2025/08/HKA-2026.pdf",
+          "name_en": "Chinese New Year"
+        },
+        {
+          "date": "2026-02-18",
+          "name": "农历新年第二天（Tahun Baharu Cina Hari Kedua）",
+          "scope": "吉隆坡联邦直辖区（W.P. Kuala Lumpur）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2025/08/HKA-2026.pdf",
+          "name_en": "Second Day of Chinese New Year"
+        },
+        {
+          "date": "2026-03-07",
+          "name": "古兰经降示日（Hari Nuzul Al-Quran）",
+          "scope": "吉隆坡联邦直辖区（W.P. Kuala Lumpur）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2025/08/HKA-2026.pdf",
+          "name_en": "Nuzul Al-Quran Day"
+        },
+        {
+          "date": "2026-03-21",
+          "name": "开斋节（Hari Raya Puasa）",
+          "scope": "吉隆坡联邦直辖区（W.P. Kuala Lumpur）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2025/08/HKA-2026.pdf",
+          "name_en": "Hari Raya Puasa (Eid al-Fitr)"
+        },
+        {
+          "date": "2026-03-22",
+          "name": "开斋节第二天（Hari Raya Puasa Hari Kedua）",
+          "scope": "吉隆坡联邦直辖区（W.P. Kuala Lumpur）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2025/08/HKA-2026.pdf",
+          "name_en": "Second Day of Hari Raya Puasa"
+        },
+        {
+          "date": "2026-05-01",
+          "name": "劳动节（Hari Pekerja）",
+          "scope": "吉隆坡联邦直辖区（W.P. Kuala Lumpur）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2025/08/HKA-2026.pdf",
+          "name_en": "Labour Day"
+        },
+        {
+          "date": "2026-05-27",
+          "name": "宰牲节（Hari Raya Qurban）",
+          "scope": "吉隆坡联邦直辖区（W.P. Kuala Lumpur）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2025/08/HKA-2026.pdf",
+          "name_en": "Hari Raya Qurban (Eid al-Adha)"
+        },
+        {
+          "date": "2026-05-31",
+          "name": "卫塞节（Hari Wesak）",
+          "scope": "吉隆坡联邦直辖区（W.P. Kuala Lumpur）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2025/08/HKA-2026.pdf",
+          "name_en": "Wesak Day"
+        },
+        {
+          "date": "2026-06-01",
+          "name": "国家元首诞辰（Hari Keputeraan Rasmi Yang di-Pertuan Agong）",
+          "scope": "吉隆坡联邦直辖区（W.P. Kuala Lumpur）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2025/08/HKA-2026.pdf",
+          "name_en": "Birthday of the Yang di-Pertuan Agong"
+        },
+        {
+          "date": "2026-06-17",
+          "name": "伊斯兰新年（Awal Muharam / Maal Hijrah）",
+          "scope": "吉隆坡联邦直辖区（W.P. Kuala Lumpur）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2025/08/HKA-2026.pdf",
+          "name_en": "Awal Muharam (Islamic New Year)"
+        },
+        {
+          "date": "2026-08-25",
+          "name": "先知穆罕默德诞辰（Maulidur Rasul）",
+          "scope": "吉隆坡联邦直辖区（W.P. Kuala Lumpur）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2025/08/HKA-2026.pdf",
+          "name_en": "Maulidur Rasul (Birthday of the Prophet Muhammad)"
+        },
+        {
+          "date": "2026-08-31",
+          "name": "国庆日（Hari Kebangsaan）",
+          "scope": "吉隆坡联邦直辖区（W.P. Kuala Lumpur）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2025/08/HKA-2026.pdf",
+          "name_en": "National Day"
+        },
+        {
+          "date": "2026-09-16",
+          "name": "马来西亚日（Hari Malaysia）",
+          "scope": "吉隆坡联邦直辖区（W.P. Kuala Lumpur）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2025/08/HKA-2026.pdf",
+          "name_en": "Malaysia Day"
+        },
+        {
+          "date": "2026-11-08",
+          "name": "屠妖节（Hari Deepavali）",
+          "scope": "吉隆坡联邦直辖区（W.P. Kuala Lumpur）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2025/08/HKA-2026.pdf",
+          "name_en": "Deepavali"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "圣诞节（Hari Krismas）",
+          "scope": "吉隆坡联邦直辖区（W.P. Kuala Lumpur）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2025/08/HKA-2026.pdf",
+          "name_en": "Christmas Day"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "元旦（Tahun Baharu）",
+          "scope": "吉隆坡联邦直辖区（W.P. Kuala Lumpur）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2026/08/HKA_2027.pdf",
+          "name_en": "New Year's Day"
+        },
+        {
+          "date": "2027-01-22",
+          "name": "大宝森节（Hari Thaipusam）",
+          "scope": "吉隆坡联邦直辖区（W.P. Kuala Lumpur）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2026/08/HKA_2027.pdf",
+          "name_en": "Thaipusam"
+        },
+        {
+          "date": "2027-02-01",
+          "name": "联邦直辖区日（Hari Wilayah Persekutuan）",
+          "scope": "吉隆坡联邦直辖区（W.P. Kuala Lumpur）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2026/08/HKA_2027.pdf",
+          "name_en": "Federal Territory Day"
+        },
+        {
+          "date": "2027-02-06",
+          "name": "农历新年（Tahun Baharu Cina）",
+          "scope": "吉隆坡联邦直辖区（W.P. Kuala Lumpur）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2026/08/HKA_2027.pdf",
+          "name_en": "Chinese New Year"
+        },
+        {
+          "date": "2027-02-07",
+          "name": "农历新年第二天（Tahun Baharu Cina Hari Kedua）",
+          "scope": "吉隆坡联邦直辖区（W.P. Kuala Lumpur）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2026/08/HKA_2027.pdf",
+          "name_en": "Second Day of Chinese New Year"
+        },
+        {
+          "date": "2027-02-24",
+          "name": "古兰经降示日（Hari Nuzul Al-Quran）",
+          "scope": "吉隆坡联邦直辖区（W.P. Kuala Lumpur）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2026/08/HKA_2027.pdf",
+          "name_en": "Nuzul Al-Quran Day"
+        },
+        {
+          "date": "2027-03-10",
+          "name": "开斋节（Hari Raya Puasa）",
+          "scope": "吉隆坡联邦直辖区（W.P. Kuala Lumpur）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2026/08/HKA_2027.pdf",
+          "name_en": "Hari Raya Puasa (Eid al-Fitr)"
+        },
+        {
+          "date": "2027-03-11",
+          "name": "开斋节第二天（Hari Raya Puasa Hari Kedua）",
+          "scope": "吉隆坡联邦直辖区（W.P. Kuala Lumpur）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2026/08/HKA_2027.pdf",
+          "name_en": "Second Day of Hari Raya Puasa"
+        },
+        {
+          "date": "2027-05-01",
+          "name": "劳动节（Hari Pekerja）",
+          "scope": "吉隆坡联邦直辖区（W.P. Kuala Lumpur）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2026/08/HKA_2027.pdf",
+          "name_en": "Labour Day"
+        },
+        {
+          "date": "2027-05-17",
+          "name": "宰牲节（Hari Raya Qurban）",
+          "scope": "吉隆坡联邦直辖区（W.P. Kuala Lumpur）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2026/08/HKA_2027.pdf",
+          "name_en": "Hari Raya Qurban (Eid al-Adha)"
+        },
+        {
+          "date": "2027-05-20",
+          "name": "卫塞节（Hari Wesak）",
+          "scope": "吉隆坡联邦直辖区（W.P. Kuala Lumpur）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2026/08/HKA_2027.pdf",
+          "name_en": "Wesak Day"
+        },
+        {
+          "date": "2027-06-06",
+          "name": "伊斯兰新年（Awal Muharam / Maal Hijrah）",
+          "scope": "吉隆坡联邦直辖区（W.P. Kuala Lumpur）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2026/08/HKA_2027.pdf",
+          "name_en": "Awal Muharam (Islamic New Year)"
+        },
+        {
+          "date": "2027-06-07",
+          "name": "国家元首诞辰（Hari Keputeraan Rasmi Yang di-Pertuan Agong）",
+          "scope": "吉隆坡联邦直辖区（W.P. Kuala Lumpur）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2026/08/HKA_2027.pdf",
+          "name_en": "Birthday of the Yang di-Pertuan Agong"
+        },
+        {
+          "date": "2027-08-15",
+          "name": "先知穆罕默德诞辰（Maulidur Rasul）",
+          "scope": "吉隆坡联邦直辖区（W.P. Kuala Lumpur）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2026/08/HKA_2027.pdf",
+          "name_en": "Maulidur Rasul (Birthday of the Prophet Muhammad)"
+        },
+        {
+          "date": "2027-08-31",
+          "name": "国庆日（Hari Kebangsaan）",
+          "scope": "吉隆坡联邦直辖区（W.P. Kuala Lumpur）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2026/08/HKA_2027.pdf",
+          "name_en": "National Day"
+        },
+        {
+          "date": "2027-09-16",
+          "name": "马来西亚日（Hari Malaysia）",
+          "scope": "吉隆坡联邦直辖区（W.P. Kuala Lumpur）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2026/08/HKA_2027.pdf",
+          "name_en": "Malaysia Day"
+        },
+        {
+          "date": "2027-10-28",
+          "name": "屠妖节（Hari Deepavali）",
+          "scope": "吉隆坡联邦直辖区（W.P. Kuala Lumpur）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2026/08/HKA_2027.pdf",
+          "name_en": "Deepavali"
+        },
+        {
+          "date": "2027-12-25",
+          "name": "圣诞节（Hari Krismas）",
+          "scope": "吉隆坡联邦直辖区（W.P. Kuala Lumpur）",
+          "kind": "public",
+          "source_url": "https://www.kabinet.gov.my/storage/2026/08/HKA_2027.pdf",
+          "name_en": "Christmas Day"
+        }
+      ],
+      "notes": [
+        "只列 HKA 2026 / HKA 2027 中 W.P. KUALA LUMPUR（吉隆坡联邦直辖区）栏勾选的假日；不适用于吉隆坡的联邦或州假日已剔除。",
+        "2026 年 2 月 1 日同时为联邦直辖区日与大宝森节，合并为一笔事件。",
+        "官方 PDF 的规范化快照，最近人工核对日期：2026-11-06。HKA 州属适用栏为图形勾选，后续修订需重新核对，不是实时接口；原始 PDF 链接保留。",
+        "官方表未列出的补假不自行推算。",
+        "伊斯兰历及农历日期以官方表为准；官方以 * 标注者可能调整。"
+      ]
+    },
+    {
+      "id": "HK",
+      "name": "香港",
+      "name_en": "Hong Kong",
+      "timezone": "Asia/Hong_Kong",
+      "scope": "香港特別行政區公眾假期（《假期條例》一般假期；星期日為法定一般假期，未逐日列出）",
+      "years": [
+        2026,
+        2027
+      ],
+      "sources": [
+        {
+          "name": "1823 — 香港特別行政區政府公眾假期（簡體中文 iCal JSON）",
+          "url": "https://www.1823.gov.hk/common/ical/sc.json",
+          "format": "JSON (iCalendar)"
+        },
+        {
+          "name": "1823 — Hong Kong public holidays (English iCal JSON)",
+          "url": "https://www.1823.gov.hk/common/ical/en.json",
+          "format": "JSON (iCalendar)"
+        }
+      ],
+      "events": [
+        {
+          "date": "2026-01-01",
+          "name": "一月一日",
+          "scope": "香港",
+          "kind": "public",
+          "source_url": "https://www.1823.gov.hk/common/ical/sc.json",
+          "name_en": "The first day of January"
+        },
+        {
+          "date": "2026-02-17",
+          "name": "农历年初一",
+          "scope": "香港",
+          "kind": "public",
+          "source_url": "https://www.1823.gov.hk/common/ical/sc.json",
+          "name_en": "Lunar New Year’s Day"
+        },
+        {
+          "date": "2026-02-18",
+          "name": "农历年初二",
+          "scope": "香港",
+          "kind": "public",
+          "source_url": "https://www.1823.gov.hk/common/ical/sc.json",
+          "name_en": "The second day of Lunar New Year"
+        },
+        {
+          "date": "2026-02-19",
+          "name": "农历年初三",
+          "scope": "香港",
+          "kind": "public",
+          "source_url": "https://www.1823.gov.hk/common/ical/sc.json",
+          "name_en": "The third day of Lunar New Year"
+        },
+        {
+          "date": "2026-04-03",
+          "name": "耶稣受难节",
+          "scope": "香港",
+          "kind": "public",
+          "source_url": "https://www.1823.gov.hk/common/ical/sc.json",
+          "name_en": "Good Friday"
+        },
+        {
+          "date": "2026-04-04",
+          "name": "耶稣受难节翌日",
+          "scope": "香港",
+          "kind": "public",
+          "source_url": "https://www.1823.gov.hk/common/ical/sc.json",
+          "name_en": "The day following Good Friday"
+        },
+        {
+          "date": "2026-04-06",
+          "name": "清明节翌日",
+          "scope": "香港",
+          "kind": "public",
+          "source_url": "https://www.1823.gov.hk/common/ical/sc.json",
+          "name_en": "The day following Ching Ming Festival"
+        },
+        {
+          "date": "2026-04-07",
+          "name": "复活节星期一翌日",
+          "scope": "香港",
+          "kind": "public",
+          "source_url": "https://www.1823.gov.hk/common/ical/sc.json",
+          "name_en": "The day following Easter Monday"
+        },
+        {
+          "date": "2026-05-01",
+          "name": "劳动节",
+          "scope": "香港",
+          "kind": "public",
+          "source_url": "https://www.1823.gov.hk/common/ical/sc.json",
+          "name_en": "Labour Day"
+        },
+        {
+          "date": "2026-05-25",
+          "name": "佛诞翌日",
+          "scope": "香港",
+          "kind": "public",
+          "source_url": "https://www.1823.gov.hk/common/ical/sc.json",
+          "name_en": "The day following the Birthday of the Buddha"
+        },
+        {
+          "date": "2026-06-19",
+          "name": "端午节",
+          "scope": "香港",
+          "kind": "public",
+          "source_url": "https://www.1823.gov.hk/common/ical/sc.json",
+          "name_en": "Tuen Ng Festival"
+        },
+        {
+          "date": "2026-07-01",
+          "name": "香港特别行政区成立纪念日",
+          "scope": "香港",
+          "kind": "public",
+          "source_url": "https://www.1823.gov.hk/common/ical/sc.json",
+          "name_en": "Hong Kong Special Administrative Region Establishment Day"
+        },
+        {
+          "date": "2026-09-26",
+          "name": "中秋节翌日",
+          "scope": "香港",
+          "kind": "public",
+          "source_url": "https://www.1823.gov.hk/common/ical/sc.json",
+          "name_en": "The day following the Chinese Mid-Autumn Festival"
+        },
+        {
+          "date": "2026-10-01",
+          "name": "国庆日",
+          "scope": "香港",
+          "kind": "public",
+          "source_url": "https://www.1823.gov.hk/common/ical/sc.json",
+          "name_en": "National Day"
+        },
+        {
+          "date": "2026-10-19",
+          "name": "重阳节翌日",
+          "scope": "香港",
+          "kind": "public",
+          "source_url": "https://www.1823.gov.hk/common/ical/sc.json",
+          "name_en": "The day following Chung Yeung Festival"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "圣诞节",
+          "scope": "香港",
+          "kind": "public",
+          "source_url": "https://www.1823.gov.hk/common/ical/sc.json",
+          "name_en": "Christmas Day"
+        },
+        {
+          "date": "2026-12-26",
+          "name": "圣诞节后第一个周日",
+          "scope": "香港",
+          "kind": "public",
+          "source_url": "https://www.1823.gov.hk/common/ical/sc.json",
+          "name_en": "The first weekday after Christmas Day"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "一月一日",
+          "scope": "香港",
+          "kind": "public",
+          "source_url": "https://www.1823.gov.hk/common/ical/sc.json",
+          "name_en": "The first day of January"
+        },
+        {
+          "date": "2027-02-06",
+          "name": "农历年初一",
+          "scope": "香港",
+          "kind": "public",
+          "source_url": "https://www.1823.gov.hk/common/ical/sc.json",
+          "name_en": "Lunar New Year's Day"
+        },
+        {
+          "date": "2027-02-08",
+          "name": "农历年初三",
+          "scope": "香港",
+          "kind": "public",
+          "source_url": "https://www.1823.gov.hk/common/ical/sc.json",
+          "name_en": "The third day of Lunar New Year"
+        },
+        {
+          "date": "2027-02-09",
+          "name": "农历年初四",
+          "scope": "香港",
+          "kind": "public",
+          "source_url": "https://www.1823.gov.hk/common/ical/sc.json",
+          "name_en": "The fourth day of Lunar New Year"
+        },
+        {
+          "date": "2027-03-26",
+          "name": "耶稣受难节",
+          "scope": "香港",
+          "kind": "public",
+          "source_url": "https://www.1823.gov.hk/common/ical/sc.json",
+          "name_en": "Good Friday"
+        },
+        {
+          "date": "2027-03-27",
+          "name": "耶稣受难节翌日",
+          "scope": "香港",
+          "kind": "public",
+          "source_url": "https://www.1823.gov.hk/common/ical/sc.json",
+          "name_en": "The day following Good Friday"
+        },
+        {
+          "date": "2027-03-29",
+          "name": "复活节星期一",
+          "scope": "香港",
+          "kind": "public",
+          "source_url": "https://www.1823.gov.hk/common/ical/sc.json",
+          "name_en": "Easter Monday"
+        },
+        {
+          "date": "2027-04-05",
+          "name": "清明节",
+          "scope": "香港",
+          "kind": "public",
+          "source_url": "https://www.1823.gov.hk/common/ical/sc.json",
+          "name_en": "Ching Ming Festival"
+        },
+        {
+          "date": "2027-05-01",
+          "name": "劳动节",
+          "scope": "香港",
+          "kind": "public",
+          "source_url": "https://www.1823.gov.hk/common/ical/sc.json",
+          "name_en": "Labour Day"
+        },
+        {
+          "date": "2027-05-13",
+          "name": "佛诞",
+          "scope": "香港",
+          "kind": "public",
+          "source_url": "https://www.1823.gov.hk/common/ical/sc.json",
+          "name_en": "The Birthday of the Buddha"
+        },
+        {
+          "date": "2027-06-09",
+          "name": "端午节",
+          "scope": "香港",
+          "kind": "public",
+          "source_url": "https://www.1823.gov.hk/common/ical/sc.json",
+          "name_en": "Tuen Ng Festival"
+        },
+        {
+          "date": "2027-07-01",
+          "name": "香港特别行政区成立纪念日",
+          "scope": "香港",
+          "kind": "public",
+          "source_url": "https://www.1823.gov.hk/common/ical/sc.json",
+          "name_en": "Hong Kong Special Administrative Region Establishment Day"
+        },
+        {
+          "date": "2027-09-16",
+          "name": "中秋节翌日",
+          "scope": "香港",
+          "kind": "public",
+          "source_url": "https://www.1823.gov.hk/common/ical/sc.json",
+          "name_en": "The day following the Chinese Mid-Autumn Festival"
+        },
+        {
+          "date": "2027-10-01",
+          "name": "国庆日",
+          "scope": "香港",
+          "kind": "public",
+          "source_url": "https://www.1823.gov.hk/common/ical/sc.json",
+          "name_en": "National Day"
+        },
+        {
+          "date": "2027-10-08",
+          "name": "重阳节",
+          "scope": "香港",
+          "kind": "public",
+          "source_url": "https://www.1823.gov.hk/common/ical/sc.json",
+          "name_en": "Chung Yeung Festival"
+        },
+        {
+          "date": "2027-12-25",
+          "name": "圣诞节",
+          "scope": "香港",
+          "kind": "public",
+          "source_url": "https://www.1823.gov.hk/common/ical/sc.json",
+          "name_en": "Christmas Day"
+        },
+        {
+          "date": "2027-12-27",
+          "name": "圣诞节后第一个周日",
+          "scope": "香港",
+          "kind": "public",
+          "source_url": "https://www.1823.gov.hk/common/ical/sc.json",
+          "name_en": "The first weekday after Christmas Day"
+        }
+      ],
+      "notes": [
+        "1823 官方 iCal 於 2026 年列出 17 日、2027 年列出 17 日一般假期。",
+        "星期日同屬《假期條例》下的一般假期，但官方 iCal 不逐日列出，因此本資料不含每個星期日。",
+        "本資料為一般假期（general holidays），有別於法定假期（statutory holidays，勞工假期）；兩者日數及適用範圍不同。",
+        "2027 年日期來自同一官方 iCal；農曆日期為官方公布，非本程式推算，官方日曆仍可能更新。"
+      ]
+    },
+    {
+      "id": "TW",
+      "name": "台湾",
+      "name_en": "Taiwan",
+      "timezone": "Asia/Taipei",
+      "scope": "Government administrative office calendar (central and local government employees); private-sector observance may differ",
+      "years": [
+        2026,
+        2027
+      ],
+      "sources": [
+        {
+          "name": "data.gov.tw 資料集 14718 — 中華民國政府行政機關辦公日曆表（metadata API）",
+          "url": "https://data.gov.tw/api/v2/rest/dataset/14718",
+          "format": "JSON"
+        },
+        {
+          "name": "data.gov.tw 資料集 14718 — 政府行政機關辦公日曆表",
+          "url": "https://data.gov.tw/dataset/14718",
+          "format": "HTML"
+        },
+        {
+          "name": "115年（2026）政府行政機關辦公日曆表",
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202506/a52331bd-a189-466b-b0f0-cae3062bbf74.csv&nfix=&name=115%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8.csv",
+          "format": "CSV"
+        },
+        {
+          "name": "116年（2027）政府行政機關辦公日曆表",
+          "url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202607/f538b1ff-ba60-4c63-9477-10db8e6612d1.csv&nfix=&name=116%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8_utf8bom.csv",
+          "format": "CSV"
+        }
+      ],
+      "events": [
+        {
+          "date": "2026-01-01",
+          "name": "開國紀念日",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202506/a52331bd-a189-466b-b0f0-cae3062bbf74.csv&nfix=&name=115%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8.csv",
+          "name_en": "Founding Day of the Republic of China"
+        },
+        {
+          "date": "2026-02-15",
+          "name": "小年夜",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202506/a52331bd-a189-466b-b0f0-cae3062bbf74.csv&nfix=&name=115%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8.csv",
+          "name_en": "Little New Year's Eve"
+        },
+        {
+          "date": "2026-02-16",
+          "name": "農曆除夕",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202506/a52331bd-a189-466b-b0f0-cae3062bbf74.csv&nfix=&name=115%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8.csv",
+          "name_en": "Chinese New Year's Eve"
+        },
+        {
+          "date": "2026-02-17",
+          "name": "春節",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202506/a52331bd-a189-466b-b0f0-cae3062bbf74.csv&nfix=&name=115%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8.csv",
+          "name_en": "Spring Festival (Chinese New Year)"
+        },
+        {
+          "date": "2026-02-18",
+          "name": "春節",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202506/a52331bd-a189-466b-b0f0-cae3062bbf74.csv&nfix=&name=115%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8.csv",
+          "name_en": "Spring Festival (Chinese New Year)"
+        },
+        {
+          "date": "2026-02-19",
+          "name": "春節",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202506/a52331bd-a189-466b-b0f0-cae3062bbf74.csv&nfix=&name=115%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8.csv",
+          "name_en": "Spring Festival (Chinese New Year)"
+        },
+        {
+          "date": "2026-02-20",
+          "name": "補假",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202506/a52331bd-a189-466b-b0f0-cae3062bbf74.csv&nfix=&name=115%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8.csv",
+          "name_en": "Make-up holiday",
+          "note": "Official make-up holiday listed by the DGPA; the calendar does not name the compensated holiday."
+        },
+        {
+          "date": "2026-02-27",
+          "name": "補假",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202506/a52331bd-a189-466b-b0f0-cae3062bbf74.csv&nfix=&name=115%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8.csv",
+          "name_en": "Make-up holiday",
+          "note": "Official make-up holiday listed by the DGPA; the calendar does not name the compensated holiday."
+        },
+        {
+          "date": "2026-02-28",
+          "name": "和平紀念日",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202506/a52331bd-a189-466b-b0f0-cae3062bbf74.csv&nfix=&name=115%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8.csv",
+          "name_en": "Peace Memorial Day"
+        },
+        {
+          "date": "2026-04-03",
+          "name": "補假",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202506/a52331bd-a189-466b-b0f0-cae3062bbf74.csv&nfix=&name=115%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8.csv",
+          "name_en": "Make-up holiday",
+          "note": "Official make-up holiday listed by the DGPA; the calendar does not name the compensated holiday."
+        },
+        {
+          "date": "2026-04-04",
+          "name": "兒童節",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202506/a52331bd-a189-466b-b0f0-cae3062bbf74.csv&nfix=&name=115%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8.csv",
+          "name_en": "Children's Day"
+        },
+        {
+          "date": "2026-04-05",
+          "name": "清明節",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202506/a52331bd-a189-466b-b0f0-cae3062bbf74.csv&nfix=&name=115%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8.csv",
+          "name_en": "Tomb Sweeping Day"
+        },
+        {
+          "date": "2026-04-06",
+          "name": "補假",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202506/a52331bd-a189-466b-b0f0-cae3062bbf74.csv&nfix=&name=115%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8.csv",
+          "name_en": "Make-up holiday",
+          "note": "Official make-up holiday listed by the DGPA; the calendar does not name the compensated holiday."
+        },
+        {
+          "date": "2026-05-01",
+          "name": "勞動節",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202506/a52331bd-a189-466b-b0f0-cae3062bbf74.csv&nfix=&name=115%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8.csv",
+          "name_en": "Labour Day"
+        },
+        {
+          "date": "2026-06-19",
+          "name": "端午節",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202506/a52331bd-a189-466b-b0f0-cae3062bbf74.csv&nfix=&name=115%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8.csv",
+          "name_en": "Dragon Boat Festival"
+        },
+        {
+          "date": "2026-09-25",
+          "name": "中秋節",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202506/a52331bd-a189-466b-b0f0-cae3062bbf74.csv&nfix=&name=115%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8.csv",
+          "name_en": "Mid-Autumn Festival"
+        },
+        {
+          "date": "2026-09-28",
+          "name": "孔子誕辰紀念日/教師節",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202506/a52331bd-a189-466b-b0f0-cae3062bbf74.csv&nfix=&name=115%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8.csv",
+          "name_en": "Confucius' Birthday / Teachers' Day"
+        },
+        {
+          "date": "2026-10-09",
+          "name": "補假",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202506/a52331bd-a189-466b-b0f0-cae3062bbf74.csv&nfix=&name=115%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8.csv",
+          "name_en": "Make-up holiday",
+          "note": "Official make-up holiday listed by the DGPA; the calendar does not name the compensated holiday."
+        },
+        {
+          "date": "2026-10-10",
+          "name": "國慶日",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202506/a52331bd-a189-466b-b0f0-cae3062bbf74.csv&nfix=&name=115%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8.csv",
+          "name_en": "National Day"
+        },
+        {
+          "date": "2026-10-25",
+          "name": "臺灣光復暨金門古寧頭大捷紀念日",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202506/a52331bd-a189-466b-b0f0-cae3062bbf74.csv&nfix=&name=115%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8.csv",
+          "name_en": "Taiwan Retrocession Day and Kinmen Guningtou Victory Commemoration Day"
+        },
+        {
+          "date": "2026-10-26",
+          "name": "補假",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202506/a52331bd-a189-466b-b0f0-cae3062bbf74.csv&nfix=&name=115%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8.csv",
+          "name_en": "Make-up holiday",
+          "note": "Official make-up holiday listed by the DGPA; the calendar does not name the compensated holiday."
+        },
+        {
+          "date": "2026-12-25",
+          "name": "行憲紀念日",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202506/a52331bd-a189-466b-b0f0-cae3062bbf74.csv&nfix=&name=115%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8.csv",
+          "name_en": "Constitution Day"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "開國紀念日",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202607/f538b1ff-ba60-4c63-9477-10db8e6612d1.csv&nfix=&name=116%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8_utf8bom.csv",
+          "name_en": "Founding Day of the Republic of China"
+        },
+        {
+          "date": "2027-02-04",
+          "name": "小年夜",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202607/f538b1ff-ba60-4c63-9477-10db8e6612d1.csv&nfix=&name=116%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8_utf8bom.csv",
+          "name_en": "Little New Year's Eve"
+        },
+        {
+          "date": "2027-02-05",
+          "name": "農曆除夕",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202607/f538b1ff-ba60-4c63-9477-10db8e6612d1.csv&nfix=&name=116%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8_utf8bom.csv",
+          "name_en": "Chinese New Year's Eve"
+        },
+        {
+          "date": "2027-02-06",
+          "name": "春節",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202607/f538b1ff-ba60-4c63-9477-10db8e6612d1.csv&nfix=&name=116%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8_utf8bom.csv",
+          "name_en": "Spring Festival (Chinese New Year)"
+        },
+        {
+          "date": "2027-02-07",
+          "name": "春節",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202607/f538b1ff-ba60-4c63-9477-10db8e6612d1.csv&nfix=&name=116%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8_utf8bom.csv",
+          "name_en": "Spring Festival (Chinese New Year)"
+        },
+        {
+          "date": "2027-02-08",
+          "name": "春節",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202607/f538b1ff-ba60-4c63-9477-10db8e6612d1.csv&nfix=&name=116%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8_utf8bom.csv",
+          "name_en": "Spring Festival (Chinese New Year)"
+        },
+        {
+          "date": "2027-02-09",
+          "name": "補假",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202607/f538b1ff-ba60-4c63-9477-10db8e6612d1.csv&nfix=&name=116%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8_utf8bom.csv",
+          "name_en": "Make-up holiday",
+          "note": "Official make-up holiday listed by the DGPA; the calendar does not name the compensated holiday."
+        },
+        {
+          "date": "2027-02-10",
+          "name": "補假",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202607/f538b1ff-ba60-4c63-9477-10db8e6612d1.csv&nfix=&name=116%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8_utf8bom.csv",
+          "name_en": "Make-up holiday",
+          "note": "Official make-up holiday listed by the DGPA; the calendar does not name the compensated holiday."
+        },
+        {
+          "date": "2027-02-28",
+          "name": "和平紀念日",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202607/f538b1ff-ba60-4c63-9477-10db8e6612d1.csv&nfix=&name=116%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8_utf8bom.csv",
+          "name_en": "Peace Memorial Day"
+        },
+        {
+          "date": "2027-03-01",
+          "name": "補假",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202607/f538b1ff-ba60-4c63-9477-10db8e6612d1.csv&nfix=&name=116%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8_utf8bom.csv",
+          "name_en": "Make-up holiday",
+          "note": "Official make-up holiday listed by the DGPA; the calendar does not name the compensated holiday."
+        },
+        {
+          "date": "2027-04-04",
+          "name": "兒童節",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202607/f538b1ff-ba60-4c63-9477-10db8e6612d1.csv&nfix=&name=116%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8_utf8bom.csv",
+          "name_en": "Children's Day"
+        },
+        {
+          "date": "2027-04-05",
+          "name": "清明節",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202607/f538b1ff-ba60-4c63-9477-10db8e6612d1.csv&nfix=&name=116%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8_utf8bom.csv",
+          "name_en": "Tomb Sweeping Day"
+        },
+        {
+          "date": "2027-04-06",
+          "name": "補假",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202607/f538b1ff-ba60-4c63-9477-10db8e6612d1.csv&nfix=&name=116%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8_utf8bom.csv",
+          "name_en": "Make-up holiday",
+          "note": "Official make-up holiday listed by the DGPA; the calendar does not name the compensated holiday."
+        },
+        {
+          "date": "2027-04-30",
+          "name": "補假",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202607/f538b1ff-ba60-4c63-9477-10db8e6612d1.csv&nfix=&name=116%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8_utf8bom.csv",
+          "name_en": "Make-up holiday",
+          "note": "Official make-up holiday listed by the DGPA; the calendar does not name the compensated holiday."
+        },
+        {
+          "date": "2027-05-01",
+          "name": "勞動節",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202607/f538b1ff-ba60-4c63-9477-10db8e6612d1.csv&nfix=&name=116%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8_utf8bom.csv",
+          "name_en": "Labour Day"
+        },
+        {
+          "date": "2027-06-09",
+          "name": "端午節",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202607/f538b1ff-ba60-4c63-9477-10db8e6612d1.csv&nfix=&name=116%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8_utf8bom.csv",
+          "name_en": "Dragon Boat Festival"
+        },
+        {
+          "date": "2027-09-15",
+          "name": "中秋節",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202607/f538b1ff-ba60-4c63-9477-10db8e6612d1.csv&nfix=&name=116%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8_utf8bom.csv",
+          "name_en": "Mid-Autumn Festival"
+        },
+        {
+          "date": "2027-09-28",
+          "name": "孔子誕辰紀念日/教師節",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202607/f538b1ff-ba60-4c63-9477-10db8e6612d1.csv&nfix=&name=116%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8_utf8bom.csv",
+          "name_en": "Confucius' Birthday / Teachers' Day"
+        },
+        {
+          "date": "2027-10-10",
+          "name": "國慶日",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202607/f538b1ff-ba60-4c63-9477-10db8e6612d1.csv&nfix=&name=116%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8_utf8bom.csv",
+          "name_en": "National Day"
+        },
+        {
+          "date": "2027-10-11",
+          "name": "補假",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202607/f538b1ff-ba60-4c63-9477-10db8e6612d1.csv&nfix=&name=116%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8_utf8bom.csv",
+          "name_en": "Make-up holiday",
+          "note": "Official make-up holiday listed by the DGPA; the calendar does not name the compensated holiday."
+        },
+        {
+          "date": "2027-10-25",
+          "name": "臺灣光復暨金門古寧頭大捷紀念日",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202607/f538b1ff-ba60-4c63-9477-10db8e6612d1.csv&nfix=&name=116%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8_utf8bom.csv",
+          "name_en": "Taiwan Retrocession Day and Kinmen Guningtou Victory Commemoration Day"
+        },
+        {
+          "date": "2027-12-24",
+          "name": "補假",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202607/f538b1ff-ba60-4c63-9477-10db8e6612d1.csv&nfix=&name=116%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8_utf8bom.csv",
+          "name_en": "Make-up holiday",
+          "note": "Official make-up holiday listed by the DGPA; the calendar does not name the compensated holiday."
+        },
+        {
+          "date": "2027-12-25",
+          "name": "行憲紀念日",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202607/f538b1ff-ba60-4c63-9477-10db8e6612d1.csv&nfix=&name=116%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8_utf8bom.csv",
+          "name_en": "Constitution Day"
+        },
+        {
+          "date": "2027-12-31",
+          "name": "補假",
+          "scope": "Government offices",
+          "kind": "government",
+          "source_url": "https://www.dgpa.gov.tw/FileConversion?filename=dgpa/files/202607/f538b1ff-ba60-4c63-9477-10db8e6612d1.csv&nfix=&name=116%e5%b9%b4%e4%b8%ad%e8%8f%af%e6%b0%91%e5%9c%8b%e6%94%bf%e5%ba%9c%e8%a1%8c%e6%94%bf%e6%a9%9f%e9%97%9c%e8%be%a6%e5%85%ac%e6%97%a5%e6%9b%86%e8%a1%a8_utf8bom.csv",
+          "name_en": "Make-up holiday",
+          "note": "Official make-up holiday listed by the DGPA; the calendar does not name the compensated holiday."
+        }
+      ],
+      "notes": [
+        "2026（民國115年）與 2027（民國116年）取自 DGPA 官方「政府行政機關辦公日曆表」。",
+        "僅收錄官方表中 `是否放假=2` 且 `備註` 有名稱的日期；一般週末不逐日列出。",
+        "`補假` 為官方明列之補假；官方表未逐字標明所補節日，本程式不作推測。",
+        "此為政府行政機關辦公日曆，民間企業放假未必相同。",
+        "2026/2027 農曆日期為官方日曆公布，非本程式推算；官方日曆仍可能更新。"
+      ]
+    },
+    {
+      "id": "SG",
+      "name": "新加坡",
+      "name_en": "Singapore",
+      "timezone": "Asia/Singapore",
+      "scope": "Nationwide public holidays designated by the Ministry of Manpower (MOM), including official observed days",
+      "years": [
+        2026,
+        2027
+      ],
+      "sources": [
+        {
+          "name": "data.gov.sg — MOM consolidated public holidays dataset",
+          "url": "https://data.gov.sg/datasets/d_8ef23381f9417e4d4254ee8b4dcdb176/view",
+          "format": "HTML"
+        },
+        {
+          "name": "data.gov.sg datastore API — MOM public holidays",
+          "url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_8ef23381f9417e4d4254ee8b4dcdb176&limit=1000",
+          "format": "JSON"
+        },
+        {
+          "name": "Ministry of Manpower — Public holidays",
+          "url": "https://www.mom.gov.sg/employment-practices/public-holidays",
+          "format": "HTML"
+        }
+      ],
+      "events": [
+        {
+          "date": "2026-01-01",
+          "name": "New Year’s Day",
+          "scope": "Singapore",
+          "kind": "public",
+          "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_8ef23381f9417e4d4254ee8b4dcdb176&limit=1000"
+        },
+        {
+          "date": "2026-02-17",
+          "name": "Chinese New Year",
+          "scope": "Singapore",
+          "kind": "public",
+          "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_8ef23381f9417e4d4254ee8b4dcdb176&limit=1000"
+        },
+        {
+          "date": "2026-02-18",
+          "name": "Chinese New Year",
+          "scope": "Singapore",
+          "kind": "public",
+          "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_8ef23381f9417e4d4254ee8b4dcdb176&limit=1000"
+        },
+        {
+          "date": "2026-03-21",
+          "name": "Hari Raya Puasa",
+          "scope": "Singapore",
+          "kind": "public",
+          "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_8ef23381f9417e4d4254ee8b4dcdb176&limit=1000"
+        },
+        {
+          "date": "2026-04-03",
+          "name": "Good Friday",
+          "scope": "Singapore",
+          "kind": "public",
+          "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_8ef23381f9417e4d4254ee8b4dcdb176&limit=1000"
+        },
+        {
+          "date": "2026-05-01",
+          "name": "Labour Day",
+          "scope": "Singapore",
+          "kind": "public",
+          "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_8ef23381f9417e4d4254ee8b4dcdb176&limit=1000"
+        },
+        {
+          "date": "2026-05-27",
+          "name": "Hari Raya Haji",
+          "scope": "Singapore",
+          "kind": "public",
+          "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_8ef23381f9417e4d4254ee8b4dcdb176&limit=1000"
+        },
+        {
+          "date": "2026-05-31",
+          "name": "Vesak Day",
+          "scope": "Singapore",
+          "kind": "public",
+          "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_8ef23381f9417e4d4254ee8b4dcdb176&limit=1000"
+        },
+        {
+          "date": "2026-06-01",
+          "name": "Vesak Day (Observed)",
+          "scope": "Singapore",
+          "kind": "public",
+          "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_8ef23381f9417e4d4254ee8b4dcdb176&limit=1000",
+          "note": "Official observed day published by MOM."
+        },
+        {
+          "date": "2026-08-09",
+          "name": "National Day",
+          "scope": "Singapore",
+          "kind": "public",
+          "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_8ef23381f9417e4d4254ee8b4dcdb176&limit=1000"
+        },
+        {
+          "date": "2026-08-10",
+          "name": "National Day (Observed)",
+          "scope": "Singapore",
+          "kind": "public",
+          "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_8ef23381f9417e4d4254ee8b4dcdb176&limit=1000",
+          "note": "Official observed day published by MOM."
+        },
+        {
+          "date": "2026-11-08",
+          "name": "Deepavali",
+          "scope": "Singapore",
+          "kind": "public",
+          "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_8ef23381f9417e4d4254ee8b4dcdb176&limit=1000"
+        },
+        {
+          "date": "2026-11-09",
+          "name": "Deepavali (Observed)",
+          "scope": "Singapore",
+          "kind": "public",
+          "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_8ef23381f9417e4d4254ee8b4dcdb176&limit=1000",
+          "note": "Official observed day published by MOM."
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "scope": "Singapore",
+          "kind": "public",
+          "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_8ef23381f9417e4d4254ee8b4dcdb176&limit=1000"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year’s Day",
+          "scope": "Singapore",
+          "kind": "public",
+          "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_8ef23381f9417e4d4254ee8b4dcdb176&limit=1000"
+        },
+        {
+          "date": "2027-02-06",
+          "name": "Chinese New Year",
+          "scope": "Singapore",
+          "kind": "public",
+          "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_8ef23381f9417e4d4254ee8b4dcdb176&limit=1000"
+        },
+        {
+          "date": "2027-02-07",
+          "name": "Chinese New Year",
+          "scope": "Singapore",
+          "kind": "public",
+          "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_8ef23381f9417e4d4254ee8b4dcdb176&limit=1000"
+        },
+        {
+          "date": "2027-02-08",
+          "name": "Chinese New Year (Observed)",
+          "scope": "Singapore",
+          "kind": "public",
+          "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_8ef23381f9417e4d4254ee8b4dcdb176&limit=1000",
+          "note": "Official observed day published by MOM."
+        },
+        {
+          "date": "2027-03-10",
+          "name": "Hari Raya Puasa",
+          "scope": "Singapore",
+          "kind": "public",
+          "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_8ef23381f9417e4d4254ee8b4dcdb176&limit=1000"
+        },
+        {
+          "date": "2027-03-26",
+          "name": "Good Friday",
+          "scope": "Singapore",
+          "kind": "public",
+          "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_8ef23381f9417e4d4254ee8b4dcdb176&limit=1000"
+        },
+        {
+          "date": "2027-05-01",
+          "name": "Labour Day",
+          "scope": "Singapore",
+          "kind": "public",
+          "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_8ef23381f9417e4d4254ee8b4dcdb176&limit=1000"
+        },
+        {
+          "date": "2027-05-17",
+          "name": "Hari Raya Haji",
+          "scope": "Singapore",
+          "kind": "public",
+          "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_8ef23381f9417e4d4254ee8b4dcdb176&limit=1000"
+        },
+        {
+          "date": "2027-05-20",
+          "name": "Vesak Day",
+          "scope": "Singapore",
+          "kind": "public",
+          "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_8ef23381f9417e4d4254ee8b4dcdb176&limit=1000"
+        },
+        {
+          "date": "2027-08-09",
+          "name": "National Day",
+          "scope": "Singapore",
+          "kind": "public",
+          "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_8ef23381f9417e4d4254ee8b4dcdb176&limit=1000"
+        },
+        {
+          "date": "2027-10-28",
+          "name": "Deepavali",
+          "scope": "Singapore",
+          "kind": "public",
+          "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_8ef23381f9417e4d4254ee8b4dcdb176&limit=1000"
+        },
+        {
+          "date": "2027-12-25",
+          "name": "Christmas Day",
+          "scope": "Singapore",
+          "kind": "public",
+          "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_8ef23381f9417e4d4254ee8b4dcdb176&limit=1000"
+        }
+      ],
+      "notes": [
+        "2026 年 14 日、2027 年 12 日，取自 data.gov.sg 的 MOM 全國公共假期合併資料集。",
+        "星期日適逢公眾假期時，翌日星期一為官方補假；星期六假期不補假。",
+        "Hari Raya Puasa、Hari Raya Haji 及 Vesak Day 日期以 MOM 官方公布為準，非本程式推算；2027 年日期仍可能官方修訂。"
+      ]
+    },
+    {
+      "id": "KR",
+      "name": "韩国",
+      "name_en": "South Korea",
+      "timezone": "Asia/Seoul",
+      "scope": "National public holidays for government offices (관공서 공휴일), including official substitute holidays; private-sector observance may differ",
+      "years": [
+        2026,
+        2027
+      ],
+      "sources": [
+        {
+          "name": "KASI 2026 달력자료 (calendar data, generated 2024-07-25)",
+          "url": "https://astro.kasi.re.kr/file/1785891552343_1.txt",
+          "format": "TXT"
+        },
+        {
+          "name": "KASI 2027 달력자료 (calendar data, generated 2026-06-30)",
+          "url": "https://astro.kasi.re.kr/file/1785891930084_1.txt",
+          "format": "TXT"
+        },
+        {
+          "name": "우주항공청 — 2026년 월력요항 발표 (2025-06-30)",
+          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156738544",
+          "format": "HTML"
+        },
+        {
+          "name": "인사혁신처 — 노동절·제헌절 공휴일 지정 (2026-04-28 의결)",
+          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156758983",
+          "format": "HTML"
+        },
+        {
+          "name": "우주항공청 — 2027년 월력요항 발표 (2026-06-29)",
+          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156768474",
+          "format": "HTML"
+        }
+      ],
+      "events": [
+        {
+          "date": "2026-01-01",
+          "name": "1월 1일",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891552343_1.txt",
+          "name_en": "New Year's Day"
+        },
+        {
+          "date": "2026-02-16",
+          "name": "설날",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891552343_1.txt",
+          "name_en": "Seollal (Korean New Year)"
+        },
+        {
+          "date": "2026-02-17",
+          "name": "설날",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891552343_1.txt",
+          "name_en": "Seollal (Korean New Year)"
+        },
+        {
+          "date": "2026-02-18",
+          "name": "설날",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891552343_1.txt",
+          "name_en": "Seollal (Korean New Year)"
+        },
+        {
+          "date": "2026-03-01",
+          "name": "3.1절",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891552343_1.txt",
+          "name_en": "Independence Movement Day"
+        },
+        {
+          "date": "2026-03-02",
+          "name": "대체공휴일(3.1절)",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891552343_1.txt",
+          "name_en": "Substitute Holiday for Independence Movement Day"
+        },
+        {
+          "date": "2026-05-01",
+          "name": "노동절",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156758983",
+          "name_en": "Labour Day",
+          "note": "2026-04-30 公布、2026-05-01 施行之《관공서의 공휴일에 관한 규정》修正（대통령령 제36290호）新增 노동절為公休日；KASI 2026 檔（2024-07-25 生成）尚未反映。"
+        },
+        {
+          "date": "2026-05-05",
+          "name": "어린이날",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891552343_1.txt",
+          "name_en": "Children's Day"
+        },
+        {
+          "date": "2026-05-24",
+          "name": "부처님오신날",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891552343_1.txt",
+          "name_en": "Buddha's Birthday"
+        },
+        {
+          "date": "2026-05-25",
+          "name": "대체공휴일(부처님오신날)",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891552343_1.txt",
+          "name_en": "Substitute Holiday for Buddha's Birthday"
+        },
+        {
+          "date": "2026-06-03",
+          "name": "전국동시지방선거",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891552343_1.txt",
+          "name_en": "Nationwide Local Election Day"
+        },
+        {
+          "date": "2026-06-06",
+          "name": "현충일",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891552343_1.txt",
+          "name_en": "Memorial Day"
+        },
+        {
+          "date": "2026-07-17",
+          "name": "제헌절",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156758983",
+          "name_en": "Constitution Day",
+          "note": "2026-04-30 公布、2026-05-01 施行之《관공서의 공휴일에 관한 규정》修正（대통령령 제36290호）指定 제헌절為公休日；KASI 2026 檔將制憲節標為國慶日但非公休日（**），本資料依官方修正補入。"
+        },
+        {
+          "date": "2026-08-15",
+          "name": "광복절",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891552343_1.txt",
+          "name_en": "Liberation Day"
+        },
+        {
+          "date": "2026-08-17",
+          "name": "대체공휴일(광복절)",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891552343_1.txt",
+          "name_en": "Substitute Holiday for Liberation Day"
+        },
+        {
+          "date": "2026-09-24",
+          "name": "추석",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891552343_1.txt",
+          "name_en": "Chuseok (Korean Thanksgiving)"
+        },
+        {
+          "date": "2026-09-25",
+          "name": "추석",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891552343_1.txt",
+          "name_en": "Chuseok (Korean Thanksgiving)"
+        },
+        {
+          "date": "2026-09-26",
+          "name": "추석",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891552343_1.txt",
+          "name_en": "Chuseok (Korean Thanksgiving)"
+        },
+        {
+          "date": "2026-10-03",
+          "name": "개천절",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891552343_1.txt",
+          "name_en": "National Foundation Day"
+        },
+        {
+          "date": "2026-10-05",
+          "name": "대체공휴일(개천절)",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891552343_1.txt",
+          "name_en": "Substitute Holiday for National Foundation Day"
+        },
+        {
+          "date": "2026-10-09",
+          "name": "한글날",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891552343_1.txt",
+          "name_en": "Hangeul Day"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "기독탄신일",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891552343_1.txt",
+          "name_en": "Christmas Day"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "1월 1일",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891930084_1.txt",
+          "name_en": "New Year's Day"
+        },
+        {
+          "date": "2027-02-06",
+          "name": "설날",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891930084_1.txt",
+          "name_en": "Seollal (Korean New Year)"
+        },
+        {
+          "date": "2027-02-07",
+          "name": "설날",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891930084_1.txt",
+          "name_en": "Seollal (Korean New Year)"
+        },
+        {
+          "date": "2027-02-08",
+          "name": "설날",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891930084_1.txt",
+          "name_en": "Seollal (Korean New Year)"
+        },
+        {
+          "date": "2027-02-09",
+          "name": "대체공휴일(설날)",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891930084_1.txt",
+          "name_en": "Substitute Holiday for Seollal (Korean New Year)"
+        },
+        {
+          "date": "2027-03-01",
+          "name": "3.1절",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891930084_1.txt",
+          "name_en": "Independence Movement Day"
+        },
+        {
+          "date": "2027-05-01",
+          "name": "노동절",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891930084_1.txt",
+          "name_en": "Labour Day"
+        },
+        {
+          "date": "2027-05-03",
+          "name": "대체공휴일(노동절)",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891930084_1.txt",
+          "name_en": "Substitute Holiday for Labour Day"
+        },
+        {
+          "date": "2027-05-05",
+          "name": "어린이날",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891930084_1.txt",
+          "name_en": "Children's Day"
+        },
+        {
+          "date": "2027-05-13",
+          "name": "부처님오신날",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891930084_1.txt",
+          "name_en": "Buddha's Birthday"
+        },
+        {
+          "date": "2027-06-06",
+          "name": "현충일",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891930084_1.txt",
+          "name_en": "Memorial Day"
+        },
+        {
+          "date": "2027-07-17",
+          "name": "제헌절",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891930084_1.txt",
+          "name_en": "Constitution Day"
+        },
+        {
+          "date": "2027-07-19",
+          "name": "대체공휴일(제헌절)",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891930084_1.txt",
+          "name_en": "Substitute Holiday for Constitution Day"
+        },
+        {
+          "date": "2027-08-15",
+          "name": "광복절",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891930084_1.txt",
+          "name_en": "Liberation Day"
+        },
+        {
+          "date": "2027-08-16",
+          "name": "대체공휴일(광복절)",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891930084_1.txt",
+          "name_en": "Substitute Holiday for Liberation Day"
+        },
+        {
+          "date": "2027-09-14",
+          "name": "추석",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891930084_1.txt",
+          "name_en": "Chuseok (Korean Thanksgiving)"
+        },
+        {
+          "date": "2027-09-15",
+          "name": "추석",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891930084_1.txt",
+          "name_en": "Chuseok (Korean Thanksgiving)"
+        },
+        {
+          "date": "2027-09-16",
+          "name": "추석",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891930084_1.txt",
+          "name_en": "Chuseok (Korean Thanksgiving)"
+        },
+        {
+          "date": "2027-10-03",
+          "name": "개천절",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891930084_1.txt",
+          "name_en": "National Foundation Day"
+        },
+        {
+          "date": "2027-10-04",
+          "name": "대체공휴일(개천절)",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891930084_1.txt",
+          "name_en": "Substitute Holiday for National Foundation Day"
+        },
+        {
+          "date": "2027-10-09",
+          "name": "한글날",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891930084_1.txt",
+          "name_en": "Hangeul Day"
+        },
+        {
+          "date": "2027-10-11",
+          "name": "대체공휴일(한글날)",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891930084_1.txt",
+          "name_en": "Substitute Holiday for Hangeul Day"
+        },
+        {
+          "date": "2027-12-25",
+          "name": "기독탄신일",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891930084_1.txt",
+          "name_en": "Christmas Day"
+        },
+        {
+          "date": "2027-12-27",
+          "name": "대체공휴일(기독탄신일)",
+          "scope": "대한민국",
+          "kind": "public",
+          "source_url": "https://astro.kasi.re.kr/file/1785891930084_1.txt",
+          "name_en": "Substitute Holiday for Christmas Day"
+        }
+      ],
+      "notes": [
+        "2026 年基本日曆取自 KASI 달력자료（2024-07-25 生成）。KASI 頁面標明該檔非官方發表資料；2026 年官方 월력요항 於 2025-06-30 公布。",
+        "KASI 2026 檔所列 20 個公休日與 2025-06-30 官方 월력요항 一致；差異僅在 2026 年 4 月修正新增之 2 日。",
+        "2026-04-30 公布、2026-05-01 施行之《관공서의 공휴일에 관한 규정》修正（대통령령 제36290호）新增 노동절（5/1），並將 제헌절（7/17）指定為公休日；本資料依 인사혁신처 說明補入，KASI 2026 檔尚未反映。",
+        "관공서 공휴일（含 대체공휴일）為準；民間部門實際休假可能不同。",
+        "官方發表可能日後修正。",
+        "2027 年取自 KASI 달력자료（2026-06-30 生成）與 우주항공청 2027 年 월력요항 發表（2026-06-29）；農曆日期為官方發表值，非本程式計算。"
+      ]
+    },
+    {
+      "id": "TH",
+      "name": "泰国",
+      "name_en": "Thailand",
+      "timezone": "Asia/Bangkok",
+      "scope": "泰国金融机构/银行假日（泰国银行 BOT 公布；非公务员统一假期）",
+      "years": [
+        2026,
+        2027
+      ],
+      "sources": [
+        {
+          "name": "泰国银行（BOT）— Financial Institutions Holiday 说明页",
+          "url": "https://www.bot.or.th/en/financial-institutions-holiday.html",
+          "format": "HTML"
+        },
+        {
+          "name": "泰国银行（BOT）— 2026 年金融机构假日（JSON）",
+          "url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2026.json",
+          "format": "JSON"
+        },
+        {
+          "name": "泰国银行（BOT）— 2027 年金融机构假日（JSON）",
+          "url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2027.json",
+          "format": "JSON"
+        }
+      ],
+      "events": [
+        {
+          "date": "2026-01-01",
+          "name": "元旦",
+          "scope": "泰国（金融机构）",
+          "kind": "bank",
+          "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2026.json",
+          "name_en": "New Year’s Day"
+        },
+        {
+          "date": "2026-01-02",
+          "name": "额外特别假日",
+          "scope": "泰国（金融机构）",
+          "kind": "bank",
+          "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2026.json",
+          "name_en": "Additional special holiday",
+          "note": "BOT 公布之金融机构额外特别假日。"
+        },
+        {
+          "date": "2026-03-03",
+          "name": "万佛节",
+          "scope": "泰国（金融机构）",
+          "kind": "bank",
+          "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2026.json",
+          "name_en": "Makha Bucha Day"
+        },
+        {
+          "date": "2026-04-06",
+          "name": "却克里王朝纪念日",
+          "scope": "泰国（金融机构）",
+          "kind": "bank",
+          "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2026.json",
+          "name_en": "Chakri Memorial Day"
+        },
+        {
+          "date": "2026-04-13",
+          "name": "宋干节",
+          "scope": "泰国（金融机构）",
+          "kind": "bank",
+          "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2026.json",
+          "name_en": "Songkran Festival"
+        },
+        {
+          "date": "2026-04-14",
+          "name": "宋干节",
+          "scope": "泰国（金融机构）",
+          "kind": "bank",
+          "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2026.json",
+          "name_en": "Songkran Festival"
+        },
+        {
+          "date": "2026-04-15",
+          "name": "宋干节",
+          "scope": "泰国（金融机构）",
+          "kind": "bank",
+          "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2026.json",
+          "name_en": "Songkran Festival"
+        },
+        {
+          "date": "2026-05-01",
+          "name": "国家劳动节",
+          "scope": "泰国（金融机构）",
+          "kind": "bank",
+          "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2026.json",
+          "name_en": "National Labor Day"
+        },
+        {
+          "date": "2026-05-04",
+          "name": "国王加冕纪念日",
+          "scope": "泰国（金融机构）",
+          "kind": "bank",
+          "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2026.json",
+          "name_en": "Coronation Day"
+        },
+        {
+          "date": "2026-06-01",
+          "name": "卫塞节补假",
+          "scope": "泰国（金融机构）",
+          "kind": "bank",
+          "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2026.json",
+          "name_en": "Substitution for Visakha Bucha Day (Sunday 31st May 2026)",
+          "note": "BOT 列为补假；原假日：Sunday 31st May 2026"
+        },
+        {
+          "date": "2026-06-03",
+          "name": "素提达王后诞辰",
+          "scope": "泰国（金融机构）",
+          "kind": "bank",
+          "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2026.json",
+          "name_en": "H.M. Queen Suthida Bajrasudhabimalalakshana’s Birthday"
+        },
+        {
+          "date": "2026-07-28",
+          "name": "国王玛哈·哇集拉隆功诞辰",
+          "scope": "泰国（金融机构）",
+          "kind": "bank",
+          "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2026.json",
+          "name_en": "H.M. King Maha Vajiralongkorn Phra Vajiraklaochaoyuhua’s Birthday"
+        },
+        {
+          "date": "2026-07-29",
+          "name": "三宝佛节",
+          "scope": "泰国（金融机构）",
+          "kind": "bank",
+          "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2026.json",
+          "name_en": "Asarnha Bucha Day"
+        },
+        {
+          "date": "2026-08-12",
+          "name": "诗丽吉王太后诞辰暨母亲节",
+          "scope": "泰国（金融机构）",
+          "kind": "bank",
+          "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2026.json",
+          "name_en": "H.M. Queen Sirikit the Queen Mother’s Birthday and Mother’s Day"
+        },
+        {
+          "date": "2026-10-13",
+          "name": "普密蓬国王逝世纪念日",
+          "scope": "泰国（金融机构）",
+          "kind": "bank",
+          "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2026.json",
+          "name_en": "H.M. King Bhumibol Adulyadej the Great Memorial Day"
+        },
+        {
+          "date": "2026-10-16",
+          "name": "曼谷额外特别假日",
+          "scope": "泰国（曼谷金融机构）",
+          "kind": "bank",
+          "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2026.json",
+          "name_en": "Additional special holiday in Bangkok",
+          "note": "BOT 公布之额外特别假日，仅适用于曼谷地区金融机构。"
+        },
+        {
+          "date": "2026-10-23",
+          "name": "朱拉隆功国王纪念日",
+          "scope": "泰国（金融机构）",
+          "kind": "bank",
+          "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2026.json",
+          "name_en": "H.M. King Chulalongkorn the Great Memorial Day"
+        },
+        {
+          "date": "2026-12-07",
+          "name": "普密蓬国王诞辰、国庆日暨父亲节补假",
+          "scope": "泰国（金融机构）",
+          "kind": "bank",
+          "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2026.json",
+          "name_en": "Substitution for H.M. King Bhumibol Adulyadej the Great’s Birthday, National Day and Father’s Day (Saturday 5th December 2026)",
+          "note": "BOT 列为补假；原假日：Saturday 5th December 2026"
+        },
+        {
+          "date": "2026-12-10",
+          "name": "宪法日",
+          "scope": "泰国（金融机构）",
+          "kind": "bank",
+          "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2026.json",
+          "name_en": "Constitution Day"
+        },
+        {
+          "date": "2026-12-31",
+          "name": "除夕",
+          "scope": "泰国（金融机构）",
+          "kind": "bank",
+          "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2026.json",
+          "name_en": "New Year’s Eve"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "元旦",
+          "scope": "泰国（金融机构）",
+          "kind": "bank",
+          "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2027.json",
+          "name_en": "New Year’s Day"
+        },
+        {
+          "date": "2027-02-22",
+          "name": "万佛节补假",
+          "scope": "泰国（金融机构）",
+          "kind": "bank",
+          "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2027.json",
+          "name_en": "Substitution for Makha Bucha Day (Sunday 21st February 2027)",
+          "note": "BOT 列为补假；原假日：Sunday 21st February 2027"
+        },
+        {
+          "date": "2027-04-06",
+          "name": "却克里王朝纪念日",
+          "scope": "泰国（金融机构）",
+          "kind": "bank",
+          "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2027.json",
+          "name_en": "Chakri Memorial Day"
+        },
+        {
+          "date": "2027-04-13",
+          "name": "宋干节",
+          "scope": "泰国（金融机构）",
+          "kind": "bank",
+          "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2027.json",
+          "name_en": "Songkran Festival"
+        },
+        {
+          "date": "2027-04-14",
+          "name": "宋干节",
+          "scope": "泰国（金融机构）",
+          "kind": "bank",
+          "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2027.json",
+          "name_en": "Songkran Festival"
+        },
+        {
+          "date": "2027-04-15",
+          "name": "宋干节",
+          "scope": "泰国（金融机构）",
+          "kind": "bank",
+          "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2027.json",
+          "name_en": "Songkran Festival"
+        },
+        {
+          "date": "2027-05-03",
+          "name": "国家劳动节补假",
+          "scope": "泰国（金融机构）",
+          "kind": "bank",
+          "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2027.json",
+          "name_en": "Substitution for National Labor Day (Saturday 1st May 2027)",
+          "note": "BOT 列为补假；原假日：Saturday 1st May 2027"
+        },
+        {
+          "date": "2027-05-04",
+          "name": "国王加冕纪念日",
+          "scope": "泰国（金融机构）",
+          "kind": "bank",
+          "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2027.json",
+          "name_en": "Coronation Day"
+        },
+        {
+          "date": "2027-05-20",
+          "name": "卫塞节",
+          "scope": "泰国（金融机构）",
+          "kind": "bank",
+          "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2027.json",
+          "name_en": "Visakha Bucha Day"
+        },
+        {
+          "date": "2027-06-03",
+          "name": "素提达王后诞辰",
+          "scope": "泰国（金融机构）",
+          "kind": "bank",
+          "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2027.json",
+          "name_en": "H.M. Queen Suthida Bajrasudhabimalalakshana’s Birthday"
+        },
+        {
+          "date": "2027-07-19",
+          "name": "三宝佛节补假",
+          "scope": "泰国（金融机构）",
+          "kind": "bank",
+          "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2027.json",
+          "name_en": "Substitution for Asarnha Bucha Day (Sunday 18th July 2027)",
+          "note": "BOT 列为补假；原假日：Sunday 18th July 2027"
+        },
+        {
+          "date": "2027-07-28",
+          "name": "国王玛哈·哇集拉隆功诞辰",
+          "scope": "泰国（金融机构）",
+          "kind": "bank",
+          "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2027.json",
+          "name_en": "H.M. King Maha Vajiralongkorn Phra Vajiraklaochaoyuhua’s Birthday"
+        },
+        {
+          "date": "2027-08-12",
+          "name": "诗丽吉王太后诞辰暨母亲节",
+          "scope": "泰国（金融机构）",
+          "kind": "bank",
+          "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2027.json",
+          "name_en": "H.M. Queen Sirikit the Queen Mother’s Birthday Anniversary and National Mother’s Day"
+        },
+        {
+          "date": "2027-10-13",
+          "name": "普密蓬国王逝世纪念日",
+          "scope": "泰国（金融机构）",
+          "kind": "bank",
+          "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2027.json",
+          "name_en": "H.M. King Bhumibol Adulyadej the Great Memorial Day"
+        },
+        {
+          "date": "2027-10-25",
+          "name": "朱拉隆功国王纪念日补假",
+          "scope": "泰国（金融机构）",
+          "kind": "bank",
+          "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2027.json",
+          "name_en": "Substitution for H.M. King Chulalongkorn the Great Memorial Day (Saturday 23rd October 2027)",
+          "note": "BOT 列为补假；原假日：Saturday 23rd October 2027"
+        },
+        {
+          "date": "2027-12-06",
+          "name": "普密蓬国王诞辰、国庆日暨父亲节补假",
+          "scope": "泰国（金融机构）",
+          "kind": "bank",
+          "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2027.json",
+          "name_en": "Substitution for H.M. King Bhumibol Adulyadej the Great’s Birthday, National Day and Father’s Day (Sunday 5th December 2027)",
+          "note": "BOT 列为补假；原假日：Sunday 5th December 2027"
+        },
+        {
+          "date": "2027-12-10",
+          "name": "宪法日",
+          "scope": "泰国（金融机构）",
+          "kind": "bank",
+          "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2027.json",
+          "name_en": "Constitution Day"
+        },
+        {
+          "date": "2027-12-31",
+          "name": "除夕",
+          "scope": "泰国（金融机构）",
+          "kind": "bank",
+          "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2027.json",
+          "name_en": "New Year’s Eve"
+        }
+      ],
+      "notes": [
+        "BOT 公布的是金融机构及专门金融机构（银行）假日，不等同于泰国公务员/政府机关或所有私营企业的统一假期。",
+        "5 月 1 日国家劳动节属劳动假日，BOT 亦将其列入金融机构休假日；其法律性质与一般银行假日不同。2027 年 5 月 1 日为星期六，BOT 列 5 月 3 日为补假。",
+        "2026 年 1 月 2 日为金融机构额外特别假日；2026 年 10 月 16 日额外特别假日仅适用于曼谷。",
+        "BOT 日历说明：伊斯兰银行及南部边境府（那拉提瓦、北大年、也拉、沙敦、宋卡）可能另有开斋节、宰牲节及农历新年假日；未列入本表。",
+        "补假及特别假日均以 BOT 公布的年度 JSON 为准，本程序不自行推算。",
+        "2027 年资料已由 BOT 同日历端点提供，故一并纳入。"
+      ]
+    },
+    {
+      "id": "ID",
+      "name": "印度尼西亚",
+      "name_en": "Indonesia",
+      "timezone": "Asia/Jakarta",
+      "scope": "印度尼西亚全国公共假日及政府机关共同休假（SKB 3 Menteri）",
+      "years": [
+        2026,
+        2027
+      ],
+      "sources": [
+        {
+          "name": "印度尼西亚人类发展与文化统筹部 — SKB Libur Nasional dan Cuti Bersama Tahun 2026（SKB 1497/2025、2/2025、5/2025）",
+          "url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2025-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202026.pdf",
+          "format": "PDF（扫描件）"
+        },
+        {
+          "name": "印度尼西亚人类发展与文化统筹部 — SKB Libur Nasional dan Cuti Bersama Tahun 2027（SKB 1205/2026、3/2026、2/2026）",
+          "url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2026-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202027.pdf",
+          "format": "PDF（扫描件）"
+        }
+      ],
+      "events": [
+        {
+          "date": "2026-01-01",
+          "name": "元旦（Tahun Baru 2026 Masehi）",
+          "scope": "印度尼西亚（全国）",
+          "kind": "public",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2025-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202026.pdf",
+          "name_en": "New Year's Day 2026",
+          "note": "SKB 2026 全国公共假日（libur nasional）。"
+        },
+        {
+          "date": "2026-01-16",
+          "name": "先知登霄日（Isra Mikraj Nabi Muhammad SAW）",
+          "scope": "印度尼西亚（全国）",
+          "kind": "public",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2025-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202026.pdf",
+          "name_en": "Isra Mikraj (Ascension of the Prophet)",
+          "note": "SKB 2026 全国公共假日（libur nasional）。"
+        },
+        {
+          "date": "2026-02-16",
+          "name": "农历新年共同休假（Cuti Bersama Tahun Baru Imlek）",
+          "scope": "印度尼西亚（政府机关）",
+          "kind": "government",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2025-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202026.pdf",
+          "name_en": "Joint Leave for Chinese New Year",
+          "note": "SKB 2026 共同休假（cuti bersama）；适用于政府机关，私营部门可选择执行。"
+        },
+        {
+          "date": "2026-02-17",
+          "name": "农历新年（Tahun Baru Imlek 2577 Kongzili）",
+          "scope": "印度尼西亚（全国）",
+          "kind": "public",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2025-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202026.pdf",
+          "name_en": "Chinese New Year 2577",
+          "note": "SKB 2026 全国公共假日（libur nasional）。"
+        },
+        {
+          "date": "2026-03-18",
+          "name": "静居日共同休假（Cuti Bersama Hari Suci Nyepi）",
+          "scope": "印度尼西亚（政府机关）",
+          "kind": "government",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2025-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202026.pdf",
+          "name_en": "Joint Leave for Nyepi",
+          "note": "SKB 2026 共同休假（cuti bersama）；适用于政府机关，私营部门可选择执行。"
+        },
+        {
+          "date": "2026-03-19",
+          "name": "静居日（Hari Suci Nyepi，Saka 1948）",
+          "scope": "印度尼西亚（全国）",
+          "kind": "public",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2025-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202026.pdf",
+          "name_en": "Nyepi (Balinese Day of Silence)",
+          "note": "SKB 2026 全国公共假日（libur nasional）。"
+        },
+        {
+          "date": "2026-03-20",
+          "name": "开斋节共同休假（Cuti Bersama Idul Fitri）",
+          "scope": "印度尼西亚（政府机关）",
+          "kind": "government",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2025-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202026.pdf",
+          "name_en": "Joint Leave for Eid al-Fitr",
+          "note": "SKB 2026 共同休假（cuti bersama）；适用于政府机关，私营部门可选择执行。"
+        },
+        {
+          "date": "2026-03-21",
+          "name": "开斋节第 1 天（Hari Raya Idul Fitri 1447 Hijriah）",
+          "scope": "印度尼西亚（全国）",
+          "kind": "public",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2025-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202026.pdf",
+          "name_en": "Eid al-Fitr 1447 AH (Day 1)",
+          "note": "SKB 2026 全国公共假日（libur nasional）。"
+        },
+        {
+          "date": "2026-03-22",
+          "name": "开斋节第 2 天（Hari Raya Idul Fitri 1447 Hijriah）",
+          "scope": "印度尼西亚（全国）",
+          "kind": "public",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2025-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202026.pdf",
+          "name_en": "Eid al-Fitr 1447 AH (Day 2)",
+          "note": "SKB 2026 全国公共假日（libur nasional）。"
+        },
+        {
+          "date": "2026-03-23",
+          "name": "开斋节共同休假（Cuti Bersama Idul Fitri）",
+          "scope": "印度尼西亚（政府机关）",
+          "kind": "government",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2025-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202026.pdf",
+          "name_en": "Joint Leave for Eid al-Fitr",
+          "note": "SKB 2026 共同休假（cuti bersama）；适用于政府机关，私营部门可选择执行。"
+        },
+        {
+          "date": "2026-03-24",
+          "name": "开斋节共同休假（Cuti Bersama Idul Fitri）",
+          "scope": "印度尼西亚（政府机关）",
+          "kind": "government",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2025-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202026.pdf",
+          "name_en": "Joint Leave for Eid al-Fitr",
+          "note": "SKB 2026 共同休假（cuti bersama）；适用于政府机关，私营部门可选择执行。"
+        },
+        {
+          "date": "2026-04-03",
+          "name": "耶稣受难日（Wafat Isa Al Masih）",
+          "scope": "印度尼西亚（全国）",
+          "kind": "public",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2025-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202026.pdf",
+          "name_en": "Good Friday (Death of Jesus Christ)",
+          "note": "SKB 2026 全国公共假日（libur nasional）。"
+        },
+        {
+          "date": "2026-04-05",
+          "name": "复活节（Paskah）",
+          "scope": "印度尼西亚（全国）",
+          "kind": "public",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2025-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202026.pdf",
+          "name_en": "Easter Sunday",
+          "note": "SKB 2026 全国公共假日（libur nasional）。"
+        },
+        {
+          "date": "2026-05-01",
+          "name": "国际劳动节（Hari Buruh Internasional）",
+          "scope": "印度尼西亚（全国）",
+          "kind": "public",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2025-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202026.pdf",
+          "name_en": "International Labour Day",
+          "note": "SKB 2026 全国公共假日（libur nasional）。"
+        },
+        {
+          "date": "2026-05-14",
+          "name": "耶稣升天节（Kenaikan Isa Al Masih）",
+          "scope": "印度尼西亚（全国）",
+          "kind": "public",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2025-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202026.pdf",
+          "name_en": "Ascension Day of Jesus Christ",
+          "note": "SKB 2026 全国公共假日（libur nasional）。"
+        },
+        {
+          "date": "2026-05-15",
+          "name": "耶稣升天节共同休假（Cuti Bersama Kenaikan Isa Al Masih）",
+          "scope": "印度尼西亚（政府机关）",
+          "kind": "government",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2025-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202026.pdf",
+          "name_en": "Joint Leave for Ascension Day",
+          "note": "SKB 2026 共同休假（cuti bersama）；适用于政府机关，私营部门可选择执行。"
+        },
+        {
+          "date": "2026-05-27",
+          "name": "宰牲节（Hari Raya Idul Adha 1447 Hijriah）",
+          "scope": "印度尼西亚（全国）",
+          "kind": "public",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2025-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202026.pdf",
+          "name_en": "Eid al-Adha 1447 AH",
+          "note": "SKB 2026 全国公共假日（libur nasional）。"
+        },
+        {
+          "date": "2026-05-28",
+          "name": "宰牲节共同休假（Cuti Bersama Idul Adha）",
+          "scope": "印度尼西亚（政府机关）",
+          "kind": "government",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2025-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202026.pdf",
+          "name_en": "Joint Leave for Eid al-Adha",
+          "note": "SKB 2026 共同休假（cuti bersama）；适用于政府机关，私营部门可选择执行。"
+        },
+        {
+          "date": "2026-05-31",
+          "name": "卫塞节（Hari Raya Waisak 2570 BE）",
+          "scope": "印度尼西亚（全国）",
+          "kind": "public",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2025-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202026.pdf",
+          "name_en": "Vesak Day 2570 BE",
+          "note": "SKB 2026 全国公共假日（libur nasional）。"
+        },
+        {
+          "date": "2026-06-01",
+          "name": "建国五原则日（Hari Lahir Pancasila）",
+          "scope": "印度尼西亚（全国）",
+          "kind": "public",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2025-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202026.pdf",
+          "name_en": "Pancasila Day",
+          "note": "SKB 2026 全国公共假日（libur nasional）。"
+        },
+        {
+          "date": "2026-06-16",
+          "name": "伊斯兰新年（Tahun Baru Islam 1448 Hijriah）",
+          "scope": "印度尼西亚（全国）",
+          "kind": "public",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2025-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202026.pdf",
+          "name_en": "Islamic New Year 1448 AH",
+          "note": "SKB 2026 全国公共假日（libur nasional）。"
+        },
+        {
+          "date": "2026-08-17",
+          "name": "印度尼西亚独立日（Hari Kemerdekaan Republik Indonesia）",
+          "scope": "印度尼西亚（全国）",
+          "kind": "public",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2025-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202026.pdf",
+          "name_en": "Independence Day of Indonesia",
+          "note": "SKB 2026 全国公共假日（libur nasional）。"
+        },
+        {
+          "date": "2026-08-25",
+          "name": "先知穆罕默德诞辰（Maulid Nabi Muhammad SAW）",
+          "scope": "印度尼西亚（全国）",
+          "kind": "public",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2025-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202026.pdf",
+          "name_en": "Birthday of the Prophet Muhammad",
+          "note": "SKB 2026 全国公共假日（libur nasional）。"
+        },
+        {
+          "date": "2026-12-24",
+          "name": "圣诞节共同休假（Cuti Bersama Hari Raya Natal）",
+          "scope": "印度尼西亚（政府机关）",
+          "kind": "government",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2025-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202026.pdf",
+          "name_en": "Joint Leave for Christmas",
+          "note": "SKB 2026 共同休假（cuti bersama）；适用于政府机关，私营部门可选择执行。"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "圣诞节（Hari Raya Natal）",
+          "scope": "印度尼西亚（全国）",
+          "kind": "public",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2025-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202026.pdf",
+          "name_en": "Christmas Day",
+          "note": "SKB 2026 全国公共假日（libur nasional）。"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "元旦（Tahun Baru 2027 Masehi）",
+          "scope": "印度尼西亚（全国）",
+          "kind": "public",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2026-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202027.pdf",
+          "name_en": "New Year's Day 2027",
+          "note": "SKB 2027 全国公共假日（libur nasional）。"
+        },
+        {
+          "date": "2027-01-05",
+          "name": "先知登霄日（Isra Mikraj Nabi Muhammad SAW 1448 Hijriah）",
+          "scope": "印度尼西亚（全国）",
+          "kind": "public",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2026-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202027.pdf",
+          "name_en": "Isra Mikraj 1448 AH",
+          "note": "SKB 2027 全国公共假日（libur nasional）。"
+        },
+        {
+          "date": "2027-02-05",
+          "name": "农历新年共同休假（Cuti Bersama Tahun Baru Imlek）",
+          "scope": "印度尼西亚（政府机关）",
+          "kind": "government",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2026-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202027.pdf",
+          "name_en": "Joint Leave for Chinese New Year",
+          "note": "SKB 2027 共同休假（cuti bersama）；适用于政府机关，私营部门可选择执行。"
+        },
+        {
+          "date": "2027-02-06",
+          "name": "农历新年（Tahun Baru Imlek 2578 Kongzili）",
+          "scope": "印度尼西亚（全国）",
+          "kind": "public",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2026-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202027.pdf",
+          "name_en": "Chinese New Year 2578",
+          "note": "SKB 2027 全国公共假日（libur nasional）。"
+        },
+        {
+          "date": "2027-03-08",
+          "name": "静居日（Hari Suci Nyepi，Saka 1949）",
+          "scope": "印度尼西亚（全国）",
+          "kind": "public",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2026-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202027.pdf",
+          "name_en": "Nyepi (Balinese Day of Silence)",
+          "note": "SKB 2027 全国公共假日（libur nasional）。"
+        },
+        {
+          "date": "2027-03-09",
+          "name": "开斋节共同休假（Cuti Bersama Idul Fitri）",
+          "scope": "印度尼西亚（政府机关）",
+          "kind": "government",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2026-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202027.pdf",
+          "name_en": "Joint Leave for Eid al-Fitr",
+          "note": "SKB 2027 共同休假（cuti bersama）；适用于政府机关，私营部门可选择执行。"
+        },
+        {
+          "date": "2027-03-10",
+          "name": "开斋节第 1 天（Hari Raya Idul Fitri 1448 Hijriah）",
+          "scope": "印度尼西亚（全国）",
+          "kind": "public",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2026-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202027.pdf",
+          "name_en": "Eid al-Fitr 1448 AH (Day 1)",
+          "note": "SKB 2027 全国公共假日（libur nasional）。"
+        },
+        {
+          "date": "2027-03-11",
+          "name": "开斋节第 2 天（Hari Raya Idul Fitri 1448 Hijriah）",
+          "scope": "印度尼西亚（全国）",
+          "kind": "public",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2026-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202027.pdf",
+          "name_en": "Eid al-Fitr 1448 AH (Day 2)",
+          "note": "SKB 2027 全国公共假日（libur nasional）。"
+        },
+        {
+          "date": "2027-03-12",
+          "name": "开斋节共同休假（Cuti Bersama Idul Fitri）",
+          "scope": "印度尼西亚（政府机关）",
+          "kind": "government",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2026-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202027.pdf",
+          "name_en": "Joint Leave for Eid al-Fitr",
+          "note": "SKB 2027 共同休假（cuti bersama）；适用于政府机关，私营部门可选择执行。"
+        },
+        {
+          "date": "2027-03-15",
+          "name": "开斋节共同休假（Cuti Bersama Idul Fitri）",
+          "scope": "印度尼西亚（政府机关）",
+          "kind": "government",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2026-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202027.pdf",
+          "name_en": "Joint Leave for Eid al-Fitr",
+          "note": "SKB 2027 共同休假（cuti bersama）；适用于政府机关，私营部门可选择执行。"
+        },
+        {
+          "date": "2027-03-25",
+          "name": "耶稣受难日共同休假（Cuti Bersama Wafat Isa Al Masih）",
+          "scope": "印度尼西亚（政府机关）",
+          "kind": "government",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2026-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202027.pdf",
+          "name_en": "Joint Leave for Good Friday",
+          "note": "SKB 2027 共同休假（cuti bersama）；适用于政府机关，私营部门可选择执行。"
+        },
+        {
+          "date": "2027-03-26",
+          "name": "耶稣受难日（Wafat Isa Al Masih）",
+          "scope": "印度尼西亚（全国）",
+          "kind": "public",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2026-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202027.pdf",
+          "name_en": "Good Friday (Death of Jesus Christ)",
+          "note": "SKB 2027 全国公共假日（libur nasional）。"
+        },
+        {
+          "date": "2027-03-28",
+          "name": "复活节（Paskah）",
+          "scope": "印度尼西亚（全国）",
+          "kind": "public",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2026-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202027.pdf",
+          "name_en": "Easter Sunday",
+          "note": "SKB 2027 全国公共假日（libur nasional）。"
+        },
+        {
+          "date": "2027-05-01",
+          "name": "国际劳动节（Hari Buruh Internasional）",
+          "scope": "印度尼西亚（全国）",
+          "kind": "public",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2026-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202027.pdf",
+          "name_en": "International Labour Day",
+          "note": "SKB 2027 全国公共假日（libur nasional）。"
+        },
+        {
+          "date": "2027-05-06",
+          "name": "耶稣升天节（Kenaikan Isa Al Masih）",
+          "scope": "印度尼西亚（全国）",
+          "kind": "public",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2026-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202027.pdf",
+          "name_en": "Ascension Day of Jesus Christ",
+          "note": "SKB 2027 全国公共假日（libur nasional）。"
+        },
+        {
+          "date": "2027-05-17",
+          "name": "宰牲节（Hari Raya Idul Adha 1448 Hijriah）",
+          "scope": "印度尼西亚（全国）",
+          "kind": "public",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2026-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202027.pdf",
+          "name_en": "Eid al-Adha 1448 AH",
+          "note": "SKB 2027 全国公共假日（libur nasional）。"
+        },
+        {
+          "date": "2027-05-18",
+          "name": "宰牲节共同休假（Cuti Bersama Idul Adha）",
+          "scope": "印度尼西亚（政府机关）",
+          "kind": "government",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2026-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202027.pdf",
+          "name_en": "Joint Leave for Eid al-Adha",
+          "note": "SKB 2027 共同休假（cuti bersama）；适用于政府机关，私营部门可选择执行。"
+        },
+        {
+          "date": "2027-05-19",
+          "name": "卫塞节共同休假（Cuti Bersama Waisak）",
+          "scope": "印度尼西亚（政府机关）",
+          "kind": "government",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2026-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202027.pdf",
+          "name_en": "Joint Leave for Vesak",
+          "note": "SKB 2027 共同休假（cuti bersama）；适用于政府机关，私营部门可选择执行。"
+        },
+        {
+          "date": "2027-05-20",
+          "name": "卫塞节（Hari Raya Waisak 2571 BE）",
+          "scope": "印度尼西亚（全国）",
+          "kind": "public",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2026-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202027.pdf",
+          "name_en": "Vesak Day 2571 BE",
+          "note": "SKB 2027 全国公共假日（libur nasional）。"
+        },
+        {
+          "date": "2027-06-01",
+          "name": "建国五原则日（Hari Lahir Pancasila）",
+          "scope": "印度尼西亚（全国）",
+          "kind": "public",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2026-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202027.pdf",
+          "name_en": "Pancasila Day",
+          "note": "SKB 2027 全国公共假日（libur nasional）。"
+        },
+        {
+          "date": "2027-06-06",
+          "name": "伊斯兰新年（Tahun Baru Islam 1449 Hijriah）",
+          "scope": "印度尼西亚（全国）",
+          "kind": "public",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2026-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202027.pdf",
+          "name_en": "Islamic New Year 1449 AH",
+          "note": "SKB 2027 全国公共假日（libur nasional）。"
+        },
+        {
+          "date": "2027-08-15",
+          "name": "先知穆罕默德诞辰（Maulid Nabi Muhammad SAW）",
+          "scope": "印度尼西亚（全国）",
+          "kind": "public",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2026-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202027.pdf",
+          "name_en": "Birthday of the Prophet Muhammad",
+          "note": "SKB 2027 全国公共假日（libur nasional）。"
+        },
+        {
+          "date": "2027-08-17",
+          "name": "印度尼西亚独立日（Hari Kemerdekaan Republik Indonesia）",
+          "scope": "印度尼西亚（全国）",
+          "kind": "public",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2026-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202027.pdf",
+          "name_en": "Independence Day of Indonesia",
+          "note": "SKB 2027 全国公共假日（libur nasional）。"
+        },
+        {
+          "date": "2027-12-24",
+          "name": "圣诞节共同休假（Cuti Bersama Hari Raya Natal）",
+          "scope": "印度尼西亚（政府机关）",
+          "kind": "government",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2026-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202027.pdf",
+          "name_en": "Joint Leave for Christmas",
+          "note": "SKB 2027 共同休假（cuti bersama）；适用于政府机关，私营部门可选择执行。"
+        },
+        {
+          "date": "2027-12-25",
+          "name": "圣诞节（Hari Raya Natal）",
+          "scope": "印度尼西亚（全国）",
+          "kind": "public",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2026-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202027.pdf",
+          "name_en": "Christmas Day",
+          "note": "SKB 2027 全国公共假日（libur nasional）。"
+        },
+        {
+          "date": "2027-12-26",
+          "name": "先知登霄日（Isra Mikraj Nabi Muhammad SAW 1449 Hijriah）",
+          "scope": "印度尼西亚（全国）",
+          "kind": "public",
+          "source_url": "https://www.kemenkopmk.go.id/sites/default/files/pengumuman/2026-09/SKB%20Libur%20Nasional%20dan%20Cuti%20Bersama%20Tahun%202027.pdf",
+          "name_en": "Isra Mikraj 1449 AH",
+          "note": "SKB 2027 全国公共假日（libur nasional）。"
+        }
+      ],
+      "notes": [
+        "日期取自印度尼西亚人类发展与文化统筹部官网公布的 SKB 3 Menteri：2026 年 SKB 编号 1497/2025、2/2025、5/2025；2027 年 SKB 编号 1205/2026、3/2026、2/2026（2026-09-15 签署）。",
+        "官方扫描 PDF 的规范化快照，最近人工核对日期：2026-11-06。后续修订需重新核对，不是实时接口；原始 PDF 链接保留供查核。",
+        "libur nasional（kind=public）适用于全国；SKB 未列地方性假日。",
+        "cuti bersama（kind=government）为政府机关共同休假，私营部门可依 SKB 建议执行，故单独标注。",
+        "宗教节日日期以 SKB 公布为准；若宗教部 itsbat 结果导致调整，应由政府发布新 SKB，本程序不自行推算。"
+      ]
+    },
+    {
+      "id": "VN",
+      "name": "越南",
+      "name_en": "Vietnam",
+      "timezone": "Asia/Ho_Chi_Minh",
+      "scope": "越南全国法定公共假日；政府机关调休日另列",
+      "years": [
+        2026,
+        2027
+      ],
+      "sources": [
+        {
+          "name": "越南政府门户 — 内务部公布 2026 年公共假期安排（2025-10-17）",
+          "url": "https://en.baochinhphu.vn/ministry-of-home-affairs-announces-2026-holiday-schedule-111251017163421877.htm",
+          "format": "HTML"
+        },
+        {
+          "name": "越南政府门户 — 政府批准 2026 年元旦连休 4 天（2025-12-25）",
+          "url": "https://en.baochinhphu.vn/govt-approves-4-day-break-for-2026-new-year-holiday-111251225145321864.htm",
+          "format": "HTML"
+        },
+        {
+          "name": "越南政府政策门户 — 2026 年元旦调休安排（2025-12-25）",
+          "url": "https://xaydungchinhsach.chinhphu.vn/cong-chuc-vien-chuc-nghi-tet-duong-lich-2026-lien-tuc-4-ngay-119251225092146478.htm",
+          "format": "HTML"
+        },
+        {
+          "name": "河静省政府门户 — 2026 年丙午春节及全年假期通知",
+          "url": "https://hatinh.gov.vn/vi/bai-viet/lich-nghi-tet-nguyen-dan-binh-ngo-2026-va-cac-chi-dao-to-chuc-vui-xuan-don-tet-072633939",
+          "format": "HTML"
+        },
+        {
+          "name": "越南政府门户 — 2026 年国庆连休 5 天（2026-07-28）",
+          "url": "https://en.baochinhphu.vn/public-employees-to-enjoy-five-day-break-for-national-day-holiday-111260728204115825.htm",
+          "format": "HTML"
+        },
+        {
+          "name": "越南政府门户 — 雄王纪念日及 4/30–5/1 假期通知（2026-04-10）",
+          "url": "https://baochinhphu.vn/chinh-thuc-bo-noi-vu-ra-thong-bao-lich-nghi-gio-to-hung-vuong-le-30-4-1-5-102260410213402453.htm",
+          "format": "HTML"
+        },
+        {
+          "name": "越南政府门户 — 国会将 11 月 24 日列为公共假日（2026-04-24）",
+          "url": "https://en.baochinhphu.vn/november-24-recognized-as-viet-nams-public-holiday-111260424130923489.htm",
+          "format": "HTML"
+        },
+        {
+          "name": "越南政府门户 — 2027 年公共假期安排（2026-10-12）",
+          "url": "https://en.baochinhphu.vn/viet-nam-announces-2027-public-holiday-schedule-111261012155048477.htm",
+          "format": "HTML"
+        },
+        {
+          "name": "越南政府政策门户 — 内务部第 11483/TB-BNV 号通知的 2027 年春节及国庆方案报道（2026-11-05）",
+          "url": "https://xaydungchinhsach.chinhphu.vn/de-xuat-2-phuong-an-nghi-tet-nguyen-dan-2027-tet-dinh-mui-11926080513033257.htm",
+          "format": "HTML"
+        }
+      ],
+      "events": [
+        {
+          "date": "2026-01-01",
+          "name": "元旦（Tết Dương lịch）",
+          "scope": "越南（全国法定假日）",
+          "kind": "public",
+          "source_url": "https://en.baochinhphu.vn/govt-approves-4-day-break-for-2026-new-year-holiday-111251225145321864.htm",
+          "name_en": "New Year's Day",
+          "note": "法定 1 天；政府机关连休 1/1–1/4（1/2 为调休，补班 1/10）。"
+        },
+        {
+          "date": "2026-01-02",
+          "name": "元旦调休（政府机关）",
+          "scope": "越南（政府机关调休）",
+          "kind": "government",
+          "source_url": "https://xaydungchinhsach.chinhphu.vn/cong-chuc-vien-chuc-nghi-tet-duong-lich-2026-lien-tuc-4-ngay-119251225092146478.htm",
+          "name_en": "New Year holiday swap day (public employees)",
+          "note": "政府机关 1/1–1/4 连休中的调休日；补班 1/10（星期六）。私营部门仅 1/1 为法定假日。"
+        },
+        {
+          "date": "2026-02-16",
+          "name": "春节（Tết Nguyên đán，除夕）",
+          "scope": "越南（全国法定假日）",
+          "kind": "public",
+          "source_url": "https://hatinh.gov.vn/vi/bai-viet/lich-nghi-tet-nguyen-dan-binh-ngo-2026-va-cac-chi-dao-to-chuc-vui-xuan-don-tet-072633939",
+          "name_en": "Tet Nguyen Dan (Lunar New Year's Eve)",
+          "note": "法定春节 5 天（2/16–2/20）的第 1 天；政府机关连休 2/14–2/22。"
+        },
+        {
+          "date": "2026-02-17",
+          "name": "春节（Tết Nguyên đán，正月初一）",
+          "scope": "越南（全国法定假日）",
+          "kind": "public",
+          "source_url": "https://hatinh.gov.vn/vi/bai-viet/lich-nghi-tet-nguyen-dan-binh-ngo-2026-va-cac-chi-dao-to-chuc-vui-xuan-don-tet-072633939",
+          "name_en": "Tet Nguyen Dan (Lunar New Year, Day 1)",
+          "note": "法定春节 5 天的第 2 天。"
+        },
+        {
+          "date": "2026-02-18",
+          "name": "春节（Tết Nguyên đán，正月初二）",
+          "scope": "越南（全国法定假日）",
+          "kind": "public",
+          "source_url": "https://hatinh.gov.vn/vi/bai-viet/lich-nghi-tet-nguyen-dan-binh-ngo-2026-va-cac-chi-dao-to-chuc-vui-xuan-don-tet-072633939",
+          "name_en": "Tet Nguyen Dan (Lunar New Year, Day 2)",
+          "note": "法定春节 5 天的第 3 天。"
+        },
+        {
+          "date": "2026-02-19",
+          "name": "春节（Tết Nguyên đán，正月初三）",
+          "scope": "越南（全国法定假日）",
+          "kind": "public",
+          "source_url": "https://hatinh.gov.vn/vi/bai-viet/lich-nghi-tet-nguyen-dan-binh-ngo-2026-va-cac-chi-dao-to-chuc-vui-xuan-don-tet-072633939",
+          "name_en": "Tet Nguyen Dan (Lunar New Year, Day 3)",
+          "note": "法定春节 5 天的第 4 天。"
+        },
+        {
+          "date": "2026-02-20",
+          "name": "春节（Tết Nguyên đán，正月初四）",
+          "scope": "越南（全国法定假日）",
+          "kind": "public",
+          "source_url": "https://hatinh.gov.vn/vi/bai-viet/lich-nghi-tet-nguyen-dan-binh-ngo-2026-va-cac-chi-dao-to-chuc-vui-xuan-don-tet-072633939",
+          "name_en": "Tet Nguyen Dan (Lunar New Year, Day 4)",
+          "note": "法定春节 5 天的第 5 天。"
+        },
+        {
+          "date": "2026-04-26",
+          "name": "雄王纪念日（Giỗ Tổ Hùng Vương）",
+          "scope": "越南（全国法定假日）",
+          "kind": "public",
+          "source_url": "https://baochinhphu.vn/chinh-thuc-bo-noi-vu-ra-thong-bao-lich-nghi-gio-to-hung-vuong-le-30-4-1-5-102260410213402453.htm",
+          "name_en": "Hung Kings Commemoration Day",
+          "note": "农历三月初十，适逢星期日；政府通知未另列补假日，依《劳动法》2019 员工享有补偿休假权利。"
+        },
+        {
+          "date": "2026-04-30",
+          "name": "南方解放日（Ngày Giải phóng miền Nam）",
+          "scope": "越南（全国法定假日）",
+          "kind": "public",
+          "source_url": "https://baochinhphu.vn/chinh-thuc-bo-noi-vu-ra-thong-bao-lich-nghi-gio-to-hung-vuong-le-30-4-1-5-102260410213402453.htm",
+          "name_en": "Reunification Day"
+        },
+        {
+          "date": "2026-05-01",
+          "name": "国际劳动节（Ngày Quốc tế Lao động）",
+          "scope": "越南（全国法定假日）",
+          "kind": "public",
+          "source_url": "https://baochinhphu.vn/chinh-thuc-bo-noi-vu-ra-thong-bao-lich-nghi-gio-to-hung-vuong-le-30-4-1-5-102260410213402453.htm",
+          "name_en": "International Labour Day"
+        },
+        {
+          "date": "2026-08-31",
+          "name": "国庆调休（政府机关）",
+          "scope": "越南（政府机关调休）",
+          "kind": "government",
+          "source_url": "https://en.baochinhphu.vn/public-employees-to-enjoy-five-day-break-for-national-day-holiday-111260728204115825.htm",
+          "name_en": "National Day swap day (public employees)",
+          "note": "政府机关 8/29–9/2 连休中的调休日；补班 8/22（星期六）。"
+        },
+        {
+          "date": "2026-09-01",
+          "name": "国庆日第 1 天（Quốc khánh）",
+          "scope": "越南（全国法定假日）",
+          "kind": "public",
+          "source_url": "https://en.baochinhphu.vn/public-employees-to-enjoy-five-day-break-for-national-day-holiday-111260728204115825.htm",
+          "name_en": "National Day (Day 1)",
+          "note": "法定国庆 2 天（9/1–9/2）；政府机关连休 8/29–9/2。"
+        },
+        {
+          "date": "2026-09-02",
+          "name": "国庆日第 2 天（Quốc khánh）",
+          "scope": "越南（全国法定假日）",
+          "kind": "public",
+          "source_url": "https://en.baochinhphu.vn/public-employees-to-enjoy-five-day-break-for-national-day-holiday-111260728204115825.htm",
+          "name_en": "National Day (Day 2)",
+          "note": "法定国庆 2 天的第 2 天。"
+        },
+        {
+          "date": "2026-11-24",
+          "name": "越南文化日（Ngày Văn hóa Việt Nam）",
+          "scope": "越南（全国法定假日）",
+          "kind": "public",
+          "source_url": "https://en.baochinhphu.vn/november-24-recognized-as-viet-nams-public-holiday-111260424130923489.htm",
+          "name_en": "Vietnam Culture Day",
+          "note": "依国会第 28/2026/QH16 号决议列为带薪公共假日；2026 年为星期二，法定 1 天。"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "元旦（Tết Dương lịch）",
+          "scope": "越南（全国法定假日）",
+          "kind": "public",
+          "source_url": "https://en.baochinhphu.vn/viet-nam-announces-2027-public-holiday-schedule-111261012155048477.htm",
+          "name_en": "New Year's Day",
+          "note": "政府机关连休 1/1–1/3（1/2–1/3 为周末）。"
+        },
+        {
+          "date": "2027-02-04",
+          "name": "春节（Tết Nguyên đán，春节前第 2 天）",
+          "scope": "越南（全国法定假日）",
+          "kind": "public",
+          "source_url": "https://xaydungchinhsach.chinhphu.vn/de-xuat-2-phuong-an-nghi-tet-nguyen-dan-2027-tet-dinh-mui-11926080513033257.htm",
+          "name_en": "Tet Nguyen Dan (2 days before Tet)",
+          "note": "2027 年法定春节 5 天（2/4–2/8）的第 1 天；政府机关连休 2/4–2/10。"
+        },
+        {
+          "date": "2027-02-05",
+          "name": "春节（Tết Nguyên đán，春节前第 1 天）",
+          "scope": "越南（全国法定假日）",
+          "kind": "public",
+          "source_url": "https://xaydungchinhsach.chinhphu.vn/de-xuat-2-phuong-an-nghi-tet-nguyen-dan-2027-tet-dinh-mui-11926080513033257.htm",
+          "name_en": "Tet Nguyen Dan (1 day before Tet)",
+          "note": "法定春节 5 天的第 2 天。"
+        },
+        {
+          "date": "2027-02-06",
+          "name": "春节（Tết Nguyên đán，正月初一）",
+          "scope": "越南（全国法定假日）",
+          "kind": "public",
+          "source_url": "https://xaydungchinhsach.chinhphu.vn/de-xuat-2-phuong-an-nghi-tet-nguyen-dan-2027-tet-dinh-mui-11926080513033257.htm",
+          "name_en": "Tet Nguyen Dan (Lunar New Year, Day 1)",
+          "note": "法定春节 5 天的第 3 天。"
+        },
+        {
+          "date": "2027-02-07",
+          "name": "春节（Tết Nguyên đán，正月初二）",
+          "scope": "越南（全国法定假日）",
+          "kind": "public",
+          "source_url": "https://xaydungchinhsach.chinhphu.vn/de-xuat-2-phuong-an-nghi-tet-nguyen-dan-2027-tet-dinh-mui-11926080513033257.htm",
+          "name_en": "Tet Nguyen Dan (Lunar New Year, Day 2)",
+          "note": "法定春节 5 天的第 4 天。"
+        },
+        {
+          "date": "2027-02-08",
+          "name": "春节（Tết Nguyên đán，正月初三）",
+          "scope": "越南（全国法定假日）",
+          "kind": "public",
+          "source_url": "https://xaydungchinhsach.chinhphu.vn/de-xuat-2-phuong-an-nghi-tet-nguyen-dan-2027-tet-dinh-mui-11926080513033257.htm",
+          "name_en": "Tet Nguyen Dan (Lunar New Year, Day 3)",
+          "note": "法定春节 5 天的第 5 天。"
+        },
+        {
+          "date": "2027-02-09",
+          "name": "春节补偿假（政府机关）",
+          "scope": "越南（政府机关调休）",
+          "kind": "government",
+          "source_url": "https://xaydungchinhsach.chinhphu.vn/de-xuat-2-phuong-an-nghi-tet-nguyen-dan-2027-tet-dinh-mui-11926080513033257.htm",
+          "name_en": "Tet compensatory day (public employees)",
+          "note": "因 2/6–2/7 周休与春节重叠，政府机关按官方安排于 2/9–2/10 补休。"
+        },
+        {
+          "date": "2027-02-10",
+          "name": "春节补偿假（政府机关）",
+          "scope": "越南（政府机关调休）",
+          "kind": "government",
+          "source_url": "https://xaydungchinhsach.chinhphu.vn/de-xuat-2-phuong-an-nghi-tet-nguyen-dan-2027-tet-dinh-mui-11926080513033257.htm",
+          "name_en": "Tet compensatory day (public employees)",
+          "note": "官方 2/4–2/10 连休中的第 2 个补偿日。"
+        },
+        {
+          "date": "2027-04-16",
+          "name": "雄王纪念日（Giỗ Tổ Hùng Vương）",
+          "scope": "越南（全国法定假日）",
+          "kind": "public",
+          "source_url": "https://en.baochinhphu.vn/viet-nam-announces-2027-public-holiday-schedule-111261012155048477.htm",
+          "name_en": "Hung Kings Commemoration Day",
+          "note": "农历三月初十；政府机关连休 4/16–4/18。"
+        },
+        {
+          "date": "2027-04-30",
+          "name": "南方解放日（Ngày Giải phóng miền Nam）",
+          "scope": "越南（全国法定假日）",
+          "kind": "public",
+          "source_url": "https://en.baochinhphu.vn/viet-nam-announces-2027-public-holiday-schedule-111261012155048477.htm",
+          "name_en": "Reunification Day"
+        },
+        {
+          "date": "2027-05-01",
+          "name": "国际劳动节（Ngày Quốc tế Lao động）",
+          "scope": "越南（全国法定假日）",
+          "kind": "public",
+          "source_url": "https://en.baochinhphu.vn/viet-nam-announces-2027-public-holiday-schedule-111261012155048477.htm",
+          "name_en": "International Labour Day"
+        },
+        {
+          "date": "2027-05-03",
+          "name": "劳动节补偿假（政府机关）",
+          "scope": "越南（政府机关调休）",
+          "kind": "government",
+          "source_url": "https://en.baochinhphu.vn/viet-nam-announces-2027-public-holiday-schedule-111261012155048477.htm",
+          "name_en": "Labour Day compensatory day (public employees)",
+          "note": "因 5/1 适逢星期六，政府机关按官方安排于 5/3 补休。"
+        },
+        {
+          "date": "2027-09-02",
+          "name": "国庆日第 1 天（Quốc khánh）",
+          "scope": "越南（全国法定假日）",
+          "kind": "public",
+          "source_url": "https://xaydungchinhsach.chinhphu.vn/de-xuat-2-phuong-an-nghi-tet-nguyen-dan-2027-tet-dinh-mui-11926080513033257.htm",
+          "name_en": "National Day (Day 1)",
+          "note": "法定国庆 2 天（9/2–9/3）；政府机关连休 9/2–9/5。"
+        },
+        {
+          "date": "2027-09-03",
+          "name": "国庆日第 2 天（Quốc khánh）",
+          "scope": "越南（全国法定假日）",
+          "kind": "public",
+          "source_url": "https://xaydungchinhsach.chinhphu.vn/de-xuat-2-phuong-an-nghi-tet-nguyen-dan-2027-tet-dinh-mui-11926080513033257.htm",
+          "name_en": "National Day (Day 2)",
+          "note": "2027 年法定国庆第 2 天；私营部门可选择 9/1 或 9/3。"
+        },
+        {
+          "date": "2027-11-24",
+          "name": "越南文化日（Ngày Văn hóa Việt Nam）",
+          "scope": "越南（全国法定假日）",
+          "kind": "public",
+          "source_url": "https://en.baochinhphu.vn/viet-nam-announces-2027-public-holiday-schedule-111261012155048477.htm",
+          "name_en": "Vietnam Culture Day",
+          "note": "法定带薪公共假日 1 天。"
+        }
+      ],
+      "notes": [
+        "越南法定公共假日适用于所有雇主；kind=government 的调休/补偿日是全国政府机关及公立单位的统一安排，私营部门可自行协商，但须至少提前 30 天通知员工。",
+        "2026 年春节：政府机关连休 2/14–2/22（含周末），法定 5 天为 2/16–2/20（春节前 1 天、春节后 4 天）。",
+        "2027 年春节：政府机关连休 2/4–2/10，法定 5 天为 2/4–2/8（春节前 2 天、春节后 3 天），2/9–2/10 为周休重叠产生的补偿日。",
+        "2026 年国庆：政府机关连休 8/29–9/2，法定 2 天为 9/1–9/2；8/31 为调休，补班 8/22。2027 年国庆：政府机关连休 9/2–9/5，法定 2 天为 9/2–9/3。",
+        "2026 年元旦：政府机关连休 1/1–1/4，1/2 为调休，补班 1/10；2027 年元旦政府机关连休 1/1–1/3，其中 1/2–1/3 为周末。",
+        "2026 年雄王纪念日为 4/26（星期日）；官方通知未另列补假日，本表不自行推算；依《劳动法》2019，员工享有补偿休假的法定权利。",
+        "越南文化日 11/24 依国会第 28/2026/QH16 号决议成为带薪公共假日；2026 年为星期二，法定 1 天。",
+        "官方公告的规范化快照，最近人工核对日期：2026-11-06。后续修订需重新核对，不是实时接口；越南政府及官方政策门户的原始链接保留供查核。"
+      ]
+    },
+    {
+      "id": "TR",
+      "name": "土耳其",
+      "name_en": "Türkiye",
+      "timezone": "Europe/Istanbul",
+      "scope": "Nationwide (Law No. 2429)",
+      "years": [
+        2026,
+        2027
+      ],
+      "sources": [
+        {
+          "name": "Law No. 2429 on National Holidays and General Holidays (official text)",
+          "url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2429.pdf",
+          "format": "PDF"
+        },
+        {
+          "name": "Diyanet İşleri Başkanlığı — 2026 religious days",
+          "url": "https://vakithesaplama.diyanet.gov.tr/dinigunler.php?yil=2026",
+          "format": "HTML"
+        },
+        {
+          "name": "Diyanet İşleri Başkanlığı — 2027 religious days",
+          "url": "https://vakithesaplama.diyanet.gov.tr/icerik.php?icerik=154",
+          "format": "HTML"
+        }
+      ],
+      "events": [
+        {
+          "date": "2026-01-01",
+          "name": "Yılbaşı",
+          "scope": "Türkiye",
+          "kind": "public",
+          "source_url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2429.pdf",
+          "name_en": "New Year's Day"
+        },
+        {
+          "date": "2026-03-19",
+          "name": "Ramazan Bayramı Arifesi",
+          "scope": "Türkiye",
+          "kind": "public",
+          "source_url": "https://vakithesaplama.diyanet.gov.tr/dinigunler.php?yil=2026",
+          "name_en": "Ramadan Bayram Eve",
+          "note": "Half-day holiday from 13:00 under Law No. 2429."
+        },
+        {
+          "date": "2026-03-20",
+          "name": "Ramazan Bayramı 1. Gün",
+          "scope": "Türkiye",
+          "kind": "public",
+          "source_url": "https://vakithesaplama.diyanet.gov.tr/dinigunler.php?yil=2026",
+          "name_en": "Ramadan Bayram, Day 1"
+        },
+        {
+          "date": "2026-03-21",
+          "name": "Ramazan Bayramı 2. Gün",
+          "scope": "Türkiye",
+          "kind": "public",
+          "source_url": "https://vakithesaplama.diyanet.gov.tr/dinigunler.php?yil=2026",
+          "name_en": "Ramadan Bayram, Day 2"
+        },
+        {
+          "date": "2026-03-22",
+          "name": "Ramazan Bayramı 3. Gün",
+          "scope": "Türkiye",
+          "kind": "public",
+          "source_url": "https://vakithesaplama.diyanet.gov.tr/dinigunler.php?yil=2026",
+          "name_en": "Ramadan Bayram, Day 3"
+        },
+        {
+          "date": "2026-04-23",
+          "name": "Ulusal Egemenlik ve Çocuk Bayramı",
+          "scope": "Türkiye",
+          "kind": "public",
+          "source_url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2429.pdf",
+          "name_en": "National Sovereignty and Children's Day"
+        },
+        {
+          "date": "2026-05-01",
+          "name": "Emek ve Dayanışma Günü",
+          "scope": "Türkiye",
+          "kind": "public",
+          "source_url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2429.pdf",
+          "name_en": "Labour and Solidarity Day"
+        },
+        {
+          "date": "2026-05-19",
+          "name": "Atatürk'ü Anma, Gençlik ve Spor Bayramı",
+          "scope": "Türkiye",
+          "kind": "public",
+          "source_url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2429.pdf",
+          "name_en": "Commemoration of Atatürk, Youth and Sports Day"
+        },
+        {
+          "date": "2026-05-26",
+          "name": "Kurban Bayramı Arifesi",
+          "scope": "Türkiye",
+          "kind": "public",
+          "source_url": "https://vakithesaplama.diyanet.gov.tr/dinigunler.php?yil=2026",
+          "name_en": "Sacrifice Bayram Eve",
+          "note": "Half-day holiday from 13:00 under Law No. 2429."
+        },
+        {
+          "date": "2026-05-27",
+          "name": "Kurban Bayramı 1. Gün",
+          "scope": "Türkiye",
+          "kind": "public",
+          "source_url": "https://vakithesaplama.diyanet.gov.tr/dinigunler.php?yil=2026",
+          "name_en": "Sacrifice Bayram, Day 1"
+        },
+        {
+          "date": "2026-05-28",
+          "name": "Kurban Bayramı 2. Gün",
+          "scope": "Türkiye",
+          "kind": "public",
+          "source_url": "https://vakithesaplama.diyanet.gov.tr/dinigunler.php?yil=2026",
+          "name_en": "Sacrifice Bayram, Day 2"
+        },
+        {
+          "date": "2026-05-29",
+          "name": "Kurban Bayramı 3. Gün",
+          "scope": "Türkiye",
+          "kind": "public",
+          "source_url": "https://vakithesaplama.diyanet.gov.tr/dinigunler.php?yil=2026",
+          "name_en": "Sacrifice Bayram, Day 3"
+        },
+        {
+          "date": "2026-05-30",
+          "name": "Kurban Bayramı 4. Gün",
+          "scope": "Türkiye",
+          "kind": "public",
+          "source_url": "https://vakithesaplama.diyanet.gov.tr/dinigunler.php?yil=2026",
+          "name_en": "Sacrifice Bayram, Day 4"
+        },
+        {
+          "date": "2026-07-15",
+          "name": "Demokrasi ve Millî Birlik Günü",
+          "scope": "Türkiye",
+          "kind": "public",
+          "source_url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2429.pdf",
+          "name_en": "Democracy and National Unity Day"
+        },
+        {
+          "date": "2026-08-30",
+          "name": "Zafer Bayramı",
+          "scope": "Türkiye",
+          "kind": "public",
+          "source_url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2429.pdf",
+          "name_en": "Victory Day"
+        },
+        {
+          "date": "2026-10-28",
+          "name": "Cumhuriyet Bayramı Arifesi",
+          "scope": "Türkiye",
+          "kind": "public",
+          "source_url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2429.pdf",
+          "name_en": "Republic Day Eve",
+          "note": "Half-day holiday from 13:00 under Law No. 2429."
+        },
+        {
+          "date": "2026-10-29",
+          "name": "Cumhuriyet Bayramı",
+          "scope": "Türkiye",
+          "kind": "public",
+          "source_url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2429.pdf",
+          "name_en": "Republic Day"
+        },
+        {
+          "date": "2027-01-01",
+          "name": "Yılbaşı",
+          "scope": "Türkiye",
+          "kind": "public",
+          "source_url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2429.pdf",
+          "name_en": "New Year's Day"
+        },
+        {
+          "date": "2027-03-08",
+          "name": "Ramazan Bayramı Arifesi",
+          "scope": "Türkiye",
+          "kind": "public",
+          "source_url": "https://vakithesaplama.diyanet.gov.tr/icerik.php?icerik=154",
+          "name_en": "Ramadan Bayram Eve",
+          "note": "Half-day holiday from 13:00 under Law No. 2429."
+        },
+        {
+          "date": "2027-03-09",
+          "name": "Ramazan Bayramı 1. Gün",
+          "scope": "Türkiye",
+          "kind": "public",
+          "source_url": "https://vakithesaplama.diyanet.gov.tr/icerik.php?icerik=154",
+          "name_en": "Ramadan Bayram, Day 1"
+        },
+        {
+          "date": "2027-03-10",
+          "name": "Ramazan Bayramı 2. Gün",
+          "scope": "Türkiye",
+          "kind": "public",
+          "source_url": "https://vakithesaplama.diyanet.gov.tr/icerik.php?icerik=154",
+          "name_en": "Ramadan Bayram, Day 2"
+        },
+        {
+          "date": "2027-03-11",
+          "name": "Ramazan Bayramı 3. Gün",
+          "scope": "Türkiye",
+          "kind": "public",
+          "source_url": "https://vakithesaplama.diyanet.gov.tr/icerik.php?icerik=154",
+          "name_en": "Ramadan Bayram, Day 3"
+        },
+        {
+          "date": "2027-04-23",
+          "name": "Ulusal Egemenlik ve Çocuk Bayramı",
+          "scope": "Türkiye",
+          "kind": "public",
+          "source_url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2429.pdf",
+          "name_en": "National Sovereignty and Children's Day"
+        },
+        {
+          "date": "2027-05-01",
+          "name": "Emek ve Dayanışma Günü",
+          "scope": "Türkiye",
+          "kind": "public",
+          "source_url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2429.pdf",
+          "name_en": "Labour and Solidarity Day",
+          "note": "Falls on Saturday; no substitute holiday is granted."
+        },
+        {
+          "date": "2027-05-15",
+          "name": "Kurban Bayramı Arifesi",
+          "scope": "Türkiye",
+          "kind": "public",
+          "source_url": "https://vakithesaplama.diyanet.gov.tr/icerik.php?icerik=154",
+          "name_en": "Sacrifice Bayram Eve",
+          "note": "Half-day holiday from 13:00 under Law No. 2429."
+        },
+        {
+          "date": "2027-05-16",
+          "name": "Kurban Bayramı 1. Gün",
+          "scope": "Türkiye",
+          "kind": "public",
+          "source_url": "https://vakithesaplama.diyanet.gov.tr/icerik.php?icerik=154",
+          "name_en": "Sacrifice Bayram, Day 1"
+        },
+        {
+          "date": "2027-05-17",
+          "name": "Kurban Bayramı 2. Gün",
+          "scope": "Türkiye",
+          "kind": "public",
+          "source_url": "https://vakithesaplama.diyanet.gov.tr/icerik.php?icerik=154",
+          "name_en": "Sacrifice Bayram, Day 2"
+        },
+        {
+          "date": "2027-05-18",
+          "name": "Kurban Bayramı 3. Gün",
+          "scope": "Türkiye",
+          "kind": "public",
+          "source_url": "https://vakithesaplama.diyanet.gov.tr/icerik.php?icerik=154",
+          "name_en": "Sacrifice Bayram, Day 3"
+        },
+        {
+          "date": "2027-05-19",
+          "name": "Kurban Bayramı 4. Gün / Atatürk'ü Anma, Gençlik ve Spor Bayramı",
+          "scope": "Türkiye",
+          "kind": "public",
+          "source_url": "https://vakithesaplama.diyanet.gov.tr/icerik.php?icerik=154",
+          "name_en": "Sacrifice Bayram Day 4 / Commemoration of Atatürk, Youth and Sports Day",
+          "note": "Both official holidays fall on 19 May 2027; Law No. 2429 provides no substitute holiday."
+        },
+        {
+          "date": "2027-07-15",
+          "name": "Demokrasi ve Millî Birlik Günü",
+          "scope": "Türkiye",
+          "kind": "public",
+          "source_url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2429.pdf",
+          "name_en": "Democracy and National Unity Day"
+        },
+        {
+          "date": "2027-08-30",
+          "name": "Zafer Bayramı",
+          "scope": "Türkiye",
+          "kind": "public",
+          "source_url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2429.pdf",
+          "name_en": "Victory Day"
+        },
+        {
+          "date": "2027-10-28",
+          "name": "Cumhuriyet Bayramı Arifesi",
+          "scope": "Türkiye",
+          "kind": "public",
+          "source_url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2429.pdf",
+          "name_en": "Republic Day Eve",
+          "note": "Half-day holiday from 13:00 under Law No. 2429."
+        },
+        {
+          "date": "2027-10-29",
+          "name": "Cumhuriyet Bayramı",
+          "scope": "Türkiye",
+          "kind": "public",
+          "source_url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2429.pdf",
+          "name_en": "Republic Day"
+        }
+      ],
+      "notes": [
+        "Fixed-date holidays are taken from Law No. 2429; 2026 and 2027 Ramadan and Sacrifice Bayram dates are taken from the Presidency of Religious Affairs (Diyanet) official calendars.",
+        "Ramazan Bayramı is three days and Kurban Bayramı is four days; their eves are half-day holidays from 13:00 under Law No. 2429.",
+        "No substitute holiday is granted when a holiday falls on a weekend or on another holiday; this follows from the absence of a substitute-day rule in Law No. 2429.",
+        "1 May 2027 falls on Saturday, and 19 May 2027 is both the fourth day of Kurban Bayramı and Atatürk'ü Anma, Gençlik ve Spor Bayramı; the latter is represented as one combined event.",
+        "最近人工核对日期：2026-11-06；非实时接口，后续修订需重新核对。"
+      ]
+    },
+    {
+      "id": "VU",
+      "name": "瓦努阿图",
+      "name_en": "Vanuatu",
+      "timezone": "Pacific/Efate",
+      "scope": "National (Public Holidays Act)",
+      "years": [
+        2026
+      ],
+      "sources": [
+        {
+          "name": "Prime Minister's Office — Public Holidays 2026 notice",
+          "url": "https://pmo.gov.vu/images/Public_Holidays/Public%20Holidays%202026.pdf",
+          "format": "PDF"
+        }
+      ],
+      "events": [
+        {
+          "date": "2026-01-01",
+          "name": "New Year's Day",
+          "scope": "Vanuatu",
+          "kind": "public",
+          "source_url": "https://pmo.gov.vu/images/Public_Holidays/Public%20Holidays%202026.pdf"
+        },
+        {
+          "date": "2026-02-21",
+          "name": "Father Lini Day",
+          "scope": "Vanuatu",
+          "kind": "public",
+          "source_url": "https://pmo.gov.vu/images/Public_Holidays/Public%20Holidays%202026.pdf"
+        },
+        {
+          "date": "2026-03-05",
+          "name": "Custom Chiefs' Day",
+          "scope": "Vanuatu",
+          "kind": "public",
+          "source_url": "https://pmo.gov.vu/images/Public_Holidays/Public%20Holidays%202026.pdf"
+        },
+        {
+          "date": "2026-04-03",
+          "name": "Good Friday",
+          "scope": "Vanuatu",
+          "kind": "public",
+          "source_url": "https://pmo.gov.vu/images/Public_Holidays/Public%20Holidays%202026.pdf"
+        },
+        {
+          "date": "2026-04-06",
+          "name": "Easter Monday",
+          "scope": "Vanuatu",
+          "kind": "public",
+          "source_url": "https://pmo.gov.vu/images/Public_Holidays/Public%20Holidays%202026.pdf"
+        },
+        {
+          "date": "2026-05-01",
+          "name": "Labour Day",
+          "scope": "Vanuatu",
+          "kind": "public",
+          "source_url": "https://pmo.gov.vu/images/Public_Holidays/Public%20Holidays%202026.pdf"
+        },
+        {
+          "date": "2026-05-14",
+          "name": "Ascension Day",
+          "scope": "Vanuatu",
+          "kind": "public",
+          "source_url": "https://pmo.gov.vu/images/Public_Holidays/Public%20Holidays%202026.pdf"
+        },
+        {
+          "date": "2026-07-24",
+          "name": "Children's Day",
+          "scope": "Vanuatu",
+          "kind": "public",
+          "source_url": "https://pmo.gov.vu/images/Public_Holidays/Public%20Holidays%202026.pdf"
+        },
+        {
+          "date": "2026-07-30",
+          "name": "Independence Day",
+          "scope": "Vanuatu",
+          "kind": "public",
+          "source_url": "https://pmo.gov.vu/images/Public_Holidays/Public%20Holidays%202026.pdf"
+        },
+        {
+          "date": "2026-08-15",
+          "name": "Assumption Day",
+          "scope": "Vanuatu",
+          "kind": "public",
+          "source_url": "https://pmo.gov.vu/images/Public_Holidays/Public%20Holidays%202026.pdf"
+        },
+        {
+          "date": "2026-10-05",
+          "name": "Constitution Day",
+          "scope": "Vanuatu",
+          "kind": "public",
+          "source_url": "https://pmo.gov.vu/images/Public_Holidays/Public%20Holidays%202026.pdf"
+        },
+        {
+          "date": "2026-11-29",
+          "name": "National Unity Day",
+          "scope": "Vanuatu",
+          "kind": "public",
+          "source_url": "https://pmo.gov.vu/images/Public_Holidays/Public%20Holidays%202026.pdf"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "scope": "Vanuatu",
+          "kind": "public",
+          "source_url": "https://pmo.gov.vu/images/Public_Holidays/Public%20Holidays%202026.pdf"
+        },
+        {
+          "date": "2026-12-26",
+          "name": "Family Day",
+          "scope": "Vanuatu",
+          "kind": "public",
+          "source_url": "https://pmo.gov.vu/images/Public_Holidays/Public%20Holidays%202026.pdf"
+        }
+      ],
+      "notes": [
+        "Only 2026 is represented: the Prime Minister's Office had not published an official 2027 public-holiday notice as of 6 November 2026.",
+        "Dates are transcribed from the official PMO 2026 notice; no substitute holidays are inferred.",
+        "The PMO notice is a scanned one-page PDF; its dates are transcribed directly.",
+        "最近人工核对日期：2026-11-06；非实时接口，后续修订需重新核对。"
+      ]
+    },
+    {
+      "id": "AE",
+      "name": "阿联酋",
+      "name_en": "United Arab Emirates",
+      "timezone": "Asia/Dubai",
+      "scope": "Public and private sectors (Cabinet Resolution No. 27/2024; sector-specific 2026 announcements noted)",
+      "years": [
+        2026
+      ],
+      "sources": [
+        {
+          "name": "UAE Government Portal — Public holidays (Cabinet Resolution No. 27/2024)",
+          "url": "https://u.ae/en/information-and-services/public-holidays-and-religious-affairs/public-holidays",
+          "format": "HTML"
+        },
+        {
+          "name": "FAHR — Eid Al Fitr holiday in the federal government, 19–22 March 2026",
+          "url": "https://www.fahr.gov.ae/en/news/eid-al-fitr-holiday-in-the-federal-government-from-19-to-22-march-2026/",
+          "format": "HTML"
+        },
+        {
+          "name": "FAHR — Arafat Day and Eid Al Adha holiday in the federal government, 25–29 May 2026",
+          "url": "https://www.fahr.gov.ae/en/news/the-federal-authority-for-human-resources-announces-the-eid-al-adha-holiday-for-the-federal-government-from-may-25-29-2026/",
+          "format": "HTML"
+        },
+        {
+          "name": "FAHR Circular No. 11 of 2026 — Prophet Mohammed's Birthday 1448 AH",
+          "url": "https://www.fahr.gov.ae/wp-content/uploads/2026/08/Circular-No.-11-of-2026-Regarding-The-Holiday-of-the-Prophet-Mohammads-Birthday-1448-AH.pdf",
+          "format": "PDF"
+        },
+        {
+          "name": "UAE Capital Market Authority — Hijri New Year 1448 market closure",
+          "url": "https://www.uaecma.gov.ae/en/media-center/news/12/6/2026/%D8%B9%D8%B7%D9%84%D8%A9-%D8%B1%D8%A3%D8%B3-%D8%A7%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D9%87%D8%AC%D8%B1%D9%8A%D8%A9",
+          "format": "HTML"
+        }
+      ],
+      "events": [
+        {
+          "date": "2026-01-01",
+          "name": "Gregorian New Year",
+          "scope": "UAE public and private sectors",
+          "kind": "public",
+          "source_url": "https://u.ae/en/information-and-services/public-holidays-and-religious-affairs/public-holidays"
+        },
+        {
+          "date": "2026-03-19",
+          "name": "Eid Al Fitr holiday — 30 Ramadan",
+          "scope": "UAE public and private sectors",
+          "kind": "public",
+          "source_url": "https://www.fahr.gov.ae/en/news/eid-al-fitr-holiday-in-the-federal-government-from-19-to-22-march-2026/",
+          "note": "The 30th day of Ramadan was an official holiday because Ramadan lasted 30 days; the private-sector conditional day was confirmed."
+        },
+        {
+          "date": "2026-03-20",
+          "name": "Eid Al Fitr — 1 Shawwal",
+          "scope": "UAE public and private sectors",
+          "kind": "public",
+          "source_url": "https://www.fahr.gov.ae/en/news/eid-al-fitr-holiday-in-the-federal-government-from-19-to-22-march-2026/"
+        },
+        {
+          "date": "2026-03-21",
+          "name": "Eid Al Fitr — 2 Shawwal",
+          "scope": "UAE public and private sectors",
+          "kind": "public",
+          "source_url": "https://www.fahr.gov.ae/en/news/eid-al-fitr-holiday-in-the-federal-government-from-19-to-22-march-2026/"
+        },
+        {
+          "date": "2026-03-22",
+          "name": "Eid Al Fitr — 3 Shawwal",
+          "scope": "UAE public and private sectors",
+          "kind": "public",
+          "source_url": "https://www.fahr.gov.ae/en/news/eid-al-fitr-holiday-in-the-federal-government-from-19-to-22-march-2026/"
+        },
+        {
+          "date": "2026-05-25",
+          "name": "Eid Al Adha holiday — federal government",
+          "scope": "UAE federal government",
+          "kind": "government",
+          "source_url": "https://www.fahr.gov.ae/en/news/the-federal-authority-for-human-resources-announces-the-eid-al-adha-holiday-for-the-federal-government-from-may-25-29-2026/",
+          "note": "Federal holiday window 25–29 May 2026; the private-sector holiday begins on 26 May."
+        },
+        {
+          "date": "2026-05-26",
+          "name": "Arafah Day",
+          "scope": "UAE public and private sectors",
+          "kind": "public",
+          "source_url": "https://www.fahr.gov.ae/en/news/the-federal-authority-for-human-resources-announces-the-eid-al-adha-holiday-for-the-federal-government-from-may-25-29-2026/",
+          "note": "9 Dhul Hijjah; the private-sector holiday runs 26–29 May 2026."
+        },
+        {
+          "date": "2026-05-27",
+          "name": "Eid Al Adha — 10 Dhul Hijjah",
+          "scope": "UAE public and private sectors",
+          "kind": "public",
+          "source_url": "https://www.fahr.gov.ae/en/news/the-federal-authority-for-human-resources-announces-the-eid-al-adha-holiday-for-the-federal-government-from-may-25-29-2026/"
+        },
+        {
+          "date": "2026-05-28",
+          "name": "Eid Al Adha — 11 Dhul Hijjah",
+          "scope": "UAE public and private sectors",
+          "kind": "public",
+          "source_url": "https://www.fahr.gov.ae/en/news/the-federal-authority-for-human-resources-announces-the-eid-al-adha-holiday-for-the-federal-government-from-may-25-29-2026/"
+        },
+        {
+          "date": "2026-05-29",
+          "name": "Eid Al Adha — 12 Dhul Hijjah",
+          "scope": "UAE public and private sectors",
+          "kind": "public",
+          "source_url": "https://www.fahr.gov.ae/en/news/the-federal-authority-for-human-resources-announces-the-eid-al-adha-holiday-for-the-federal-government-from-may-25-29-2026/"
+        },
+        {
+          "date": "2026-06-15",
+          "name": "Hijri New Year holiday (1448 AH)",
+          "scope": "UAE public and private sectors",
+          "kind": "public",
+          "source_url": "https://www.uaecma.gov.ae/en/media-center/news/12/6/2026/%D8%B9%D8%B7%D9%84%D8%A9-%D8%B1%D8%A3%D8%B3-%D8%A7%D9%84%D8%B3%D9%86%D8%A9-%D8%A7%D9%84%D9%87%D8%AC%D8%B1%D9%8A%D8%A9",
+          "note": "FAHR and MoHRE announced 15 June 2026 as the holiday for the federal government and private sector; the CMA closed financial markets that day. The UAE Fatwa Council separately declared 1 Muharram on 16 June 2026, so the religious date and the public-holiday date differ in official announcements."
+        },
+        {
+          "date": "2026-08-28",
+          "name": "Prophet Mohammed's Birthday — 12 Rabi' Awwal 1448",
+          "scope": "UAE public and private sectors",
+          "kind": "public",
+          "source_url": "https://www.fahr.gov.ae/wp-content/uploads/2026/08/Circular-No.-11-of-2026-Regarding-The-Holiday-of-the-Prophet-Mohammads-Birthday-1448-AH.pdf"
+        },
+        {
+          "date": "2026-12-02",
+          "name": "UAE National Day — Day 1",
+          "scope": "UAE public and private sectors",
+          "kind": "public",
+          "source_url": "https://u.ae/en/information-and-services/public-holidays-and-religious-affairs/public-holidays"
+        },
+        {
+          "date": "2026-12-03",
+          "name": "UAE National Day — Day 2",
+          "scope": "UAE public and private sectors",
+          "kind": "public",
+          "source_url": "https://u.ae/en/information-and-services/public-holidays-and-religious-affairs/public-holidays"
+        }
+      ],
+      "notes": [
+        "Only 2026 is represented: no official 2027 holiday dates had been published as of 6 November 2026; the u.ae list gives categories, not Gregorian dates.",
+        "Islamic holidays are subject to moon sighting. The dates shown are the officially announced 2026 dates; this provider does not calculate them.",
+        "Eid Al Fitr: federal government 19–22 March 2026 (30 Ramadan and 1–3 Shawwal); private sector 19–21 March plus 22 March when Ramadan lasts 30 days, which occurred in 2026.",
+        "Eid Al Adha: federal government 25–29 May 2026; private sector 26–29 May 2026.",
+        "Hijri New Year: the federal and private-sector holiday was 15 June 2026; the UAE Fatwa Council separately declared 1 Muharram on 16 June 2026.",
+        "Cabinet Resolution No. 27/2024 does not allow a public holiday to be moved when it coincides with a weekend or another public holiday.",
+        "Commemoration Day (30 November) is not listed as a public holiday in Cabinet Resolution No. 27/2024 and is not included.",
+        "最近人工核对日期：2026-11-06；非实时接口，后续修订需重新核对。"
+      ]
+    },
+    {
+      "id": "IN",
+      "name": "印度",
+      "name_en": "India",
+      "timezone": "Asia/Kolkata",
+      "scope": "Central government offices (Delhi/New Delhi gazetted list; restricted and state/local holidays excluded)",
+      "years": [
+        2026,
+        2027
+      ],
+      "sources": [
+        {
+          "name": "DoPT OM No. 12/2/2023-JCA dated 03.07.2025 — Annexure-I (official CMS copy)",
+          "url": "https://d1jmc0u14z2tmp.cloudfront.net/uploads/cms_pages_files/Holidays-to-be-observed-in-Central-Government-Offices-during-the-year-20265vgBs-069edfd4d1e7876-49382262.pdf",
+          "format": "PDF"
+        },
+        {
+          "name": "DoPT OM No. 12/2/2023-JCA dated 16.07.2026 — Annexure-I (Railway Board official copy)",
+          "url": "https://rb.indianrailways.gov.in/uploads/directorate/establishment/E(LR)/Letter_20260723_HolidaysList2027.pdf",
+          "format": "PDF"
+        }
+      ],
+      "events": [
+        {
+          "date": "2026-01-26",
+          "name": "Republic Day",
+          "scope": "Central government offices (Delhi/New Delhi)",
+          "kind": "government",
+          "source_url": "https://d1jmc0u14z2tmp.cloudfront.net/uploads/cms_pages_files/Holidays-to-be-observed-in-Central-Government-Offices-during-the-year-20265vgBs-069edfd4d1e7876-49382262.pdf"
+        },
+        {
+          "date": "2026-03-04",
+          "name": "Holi",
+          "scope": "Central government offices (Delhi/New Delhi)",
+          "kind": "government",
+          "source_url": "https://d1jmc0u14z2tmp.cloudfront.net/uploads/cms_pages_files/Holidays-to-be-observed-in-Central-Government-Offices-during-the-year-20265vgBs-069edfd4d1e7876-49382262.pdf"
+        },
+        {
+          "date": "2026-03-21",
+          "name": "Id-ul-Fitr",
+          "scope": "Central government offices (Delhi/New Delhi)",
+          "kind": "government",
+          "source_url": "https://d1jmc0u14z2tmp.cloudfront.net/uploads/cms_pages_files/Holidays-to-be-observed-in-Central-Government-Offices-during-the-year-20265vgBs-069edfd4d1e7876-49382262.pdf",
+          "note": "Date subject to official moon-sighting change under DoPT OM paras 5.1/5.2."
+        },
+        {
+          "date": "2026-03-26",
+          "name": "Ram Navami",
+          "scope": "Central government offices (Delhi/New Delhi)",
+          "kind": "government",
+          "source_url": "https://d1jmc0u14z2tmp.cloudfront.net/uploads/cms_pages_files/Holidays-to-be-observed-in-Central-Government-Offices-during-the-year-20265vgBs-069edfd4d1e7876-49382262.pdf"
+        },
+        {
+          "date": "2026-03-31",
+          "name": "Mahavir Jayanti",
+          "scope": "Central government offices (Delhi/New Delhi)",
+          "kind": "government",
+          "source_url": "https://d1jmc0u14z2tmp.cloudfront.net/uploads/cms_pages_files/Holidays-to-be-observed-in-Central-Government-Offices-during-the-year-20265vgBs-069edfd4d1e7876-49382262.pdf"
+        },
+        {
+          "date": "2026-04-03",
+          "name": "Good Friday",
+          "scope": "Central government offices (Delhi/New Delhi)",
+          "kind": "government",
+          "source_url": "https://d1jmc0u14z2tmp.cloudfront.net/uploads/cms_pages_files/Holidays-to-be-observed-in-Central-Government-Offices-during-the-year-20265vgBs-069edfd4d1e7876-49382262.pdf"
+        },
+        {
+          "date": "2026-05-01",
+          "name": "Buddha Purnima",
+          "scope": "Central government offices (Delhi/New Delhi)",
+          "kind": "government",
+          "source_url": "https://d1jmc0u14z2tmp.cloudfront.net/uploads/cms_pages_files/Holidays-to-be-observed-in-Central-Government-Offices-during-the-year-20265vgBs-069edfd4d1e7876-49382262.pdf"
+        },
+        {
+          "date": "2026-05-27",
+          "name": "Id-ul-Zuha (Bakrid)",
+          "scope": "Central government offices (Delhi/New Delhi)",
+          "kind": "government",
+          "source_url": "https://d1jmc0u14z2tmp.cloudfront.net/uploads/cms_pages_files/Holidays-to-be-observed-in-Central-Government-Offices-during-the-year-20265vgBs-069edfd4d1e7876-49382262.pdf",
+          "note": "Date subject to official moon-sighting change under DoPT OM paras 5.1/5.2."
+        },
+        {
+          "date": "2026-06-26",
+          "name": "Muharram",
+          "scope": "Central government offices (Delhi/New Delhi)",
+          "kind": "government",
+          "source_url": "https://d1jmc0u14z2tmp.cloudfront.net/uploads/cms_pages_files/Holidays-to-be-observed-in-Central-Government-Offices-during-the-year-20265vgBs-069edfd4d1e7876-49382262.pdf",
+          "note": "Date subject to official moon-sighting change under DoPT OM paras 5.1/5.2."
+        },
+        {
+          "date": "2026-08-15",
+          "name": "Independence Day",
+          "scope": "Central government offices (Delhi/New Delhi)",
+          "kind": "government",
+          "source_url": "https://d1jmc0u14z2tmp.cloudfront.net/uploads/cms_pages_files/Holidays-to-be-observed-in-Central-Government-Offices-during-the-year-20265vgBs-069edfd4d1e7876-49382262.pdf"
+        },
+        {
+          "date": "2026-08-26",
+          "name": "Milad-un-Nabi (Id-e-Milad)",
+          "scope": "Central government offices (Delhi/New Delhi)",
+          "kind": "government",
+          "source_url": "https://d1jmc0u14z2tmp.cloudfront.net/uploads/cms_pages_files/Holidays-to-be-observed-in-Central-Government-Offices-during-the-year-20265vgBs-069edfd4d1e7876-49382262.pdf",
+          "note": "Date subject to official moon-sighting change under DoPT OM paras 5.1/5.2."
+        },
+        {
+          "date": "2026-09-04",
+          "name": "Janmashtami",
+          "scope": "Central government offices (Delhi/New Delhi)",
+          "kind": "government",
+          "source_url": "https://d1jmc0u14z2tmp.cloudfront.net/uploads/cms_pages_files/Holidays-to-be-observed-in-Central-Government-Offices-during-the-year-20265vgBs-069edfd4d1e7876-49382262.pdf"
+        },
+        {
+          "date": "2026-10-02",
+          "name": "Mahatma Gandhi's Birthday",
+          "scope": "Central government offices (Delhi/New Delhi)",
+          "kind": "government",
+          "source_url": "https://d1jmc0u14z2tmp.cloudfront.net/uploads/cms_pages_files/Holidays-to-be-observed-in-Central-Government-Offices-during-the-year-20265vgBs-069edfd4d1e7876-49382262.pdf"
+        },
+        {
+          "date": "2026-10-20",
+          "name": "Dussehra (Vijaya Dashmi)",
+          "scope": "Central government offices (Delhi/New Delhi)",
+          "kind": "government",
+          "source_url": "https://d1jmc0u14z2tmp.cloudfront.net/uploads/cms_pages_files/Holidays-to-be-observed-in-Central-Government-Offices-during-the-year-20265vgBs-069edfd4d1e7876-49382262.pdf"
+        },
+        {
+          "date": "2026-11-08",
+          "name": "Diwali (Deepavali)",
+          "scope": "Central government offices (Delhi/New Delhi)",
+          "kind": "government",
+          "source_url": "https://d1jmc0u14z2tmp.cloudfront.net/uploads/cms_pages_files/Holidays-to-be-observed-in-Central-Government-Offices-during-the-year-20265vgBs-069edfd4d1e7876-49382262.pdf"
+        },
+        {
+          "date": "2026-11-24",
+          "name": "Guru Nanak's Birthday",
+          "scope": "Central government offices (Delhi/New Delhi)",
+          "kind": "government",
+          "source_url": "https://d1jmc0u14z2tmp.cloudfront.net/uploads/cms_pages_files/Holidays-to-be-observed-in-Central-Government-Offices-during-the-year-20265vgBs-069edfd4d1e7876-49382262.pdf"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "scope": "Central government offices (Delhi/New Delhi)",
+          "kind": "government",
+          "source_url": "https://d1jmc0u14z2tmp.cloudfront.net/uploads/cms_pages_files/Holidays-to-be-observed-in-Central-Government-Offices-during-the-year-20265vgBs-069edfd4d1e7876-49382262.pdf"
+        },
+        {
+          "date": "2027-01-26",
+          "name": "Republic Day",
+          "scope": "Central government offices (Delhi/New Delhi)",
+          "kind": "government",
+          "source_url": "https://rb.indianrailways.gov.in/uploads/directorate/establishment/E(LR)/Letter_20260723_HolidaysList2027.pdf"
+        },
+        {
+          "date": "2027-03-10",
+          "name": "Id-ul-Fitr",
+          "scope": "Central government offices (Delhi/New Delhi)",
+          "kind": "government",
+          "source_url": "https://rb.indianrailways.gov.in/uploads/directorate/establishment/E(LR)/Letter_20260723_HolidaysList2027.pdf",
+          "note": "Date subject to official moon-sighting change under DoPT OM paras 5.1/5.2."
+        },
+        {
+          "date": "2027-03-23",
+          "name": "Holi",
+          "scope": "Central government offices (Delhi/New Delhi)",
+          "kind": "government",
+          "source_url": "https://rb.indianrailways.gov.in/uploads/directorate/establishment/E(LR)/Letter_20260723_HolidaysList2027.pdf"
+        },
+        {
+          "date": "2027-03-26",
+          "name": "Good Friday",
+          "scope": "Central government offices (Delhi/New Delhi)",
+          "kind": "government",
+          "source_url": "https://rb.indianrailways.gov.in/uploads/directorate/establishment/E(LR)/Letter_20260723_HolidaysList2027.pdf"
+        },
+        {
+          "date": "2027-04-15",
+          "name": "Ram Navami",
+          "scope": "Central government offices (Delhi/New Delhi)",
+          "kind": "government",
+          "source_url": "https://rb.indianrailways.gov.in/uploads/directorate/establishment/E(LR)/Letter_20260723_HolidaysList2027.pdf"
+        },
+        {
+          "date": "2027-04-19",
+          "name": "Mahavir Jayanti",
+          "scope": "Central government offices (Delhi/New Delhi)",
+          "kind": "government",
+          "source_url": "https://rb.indianrailways.gov.in/uploads/directorate/establishment/E(LR)/Letter_20260723_HolidaysList2027.pdf"
+        },
+        {
+          "date": "2027-05-17",
+          "name": "Id-ul-Zuha (Bakrid)",
+          "scope": "Central government offices (Delhi/New Delhi)",
+          "kind": "government",
+          "source_url": "https://rb.indianrailways.gov.in/uploads/directorate/establishment/E(LR)/Letter_20260723_HolidaysList2027.pdf",
+          "note": "Date subject to official moon-sighting change under DoPT OM paras 5.1/5.2."
+        },
+        {
+          "date": "2027-05-20",
+          "name": "Buddha Purnima",
+          "scope": "Central government offices (Delhi/New Delhi)",
+          "kind": "government",
+          "source_url": "https://rb.indianrailways.gov.in/uploads/directorate/establishment/E(LR)/Letter_20260723_HolidaysList2027.pdf"
+        },
+        {
+          "date": "2027-06-16",
+          "name": "Muharram",
+          "scope": "Central government offices (Delhi/New Delhi)",
+          "kind": "government",
+          "source_url": "https://rb.indianrailways.gov.in/uploads/directorate/establishment/E(LR)/Letter_20260723_HolidaysList2027.pdf",
+          "note": "Date subject to official moon-sighting change under DoPT OM paras 5.1/5.2."
+        },
+        {
+          "date": "2027-08-15",
+          "name": "Independence Day / Milad-un-Nabi (Id-e-Milad)",
+          "scope": "Central government offices (Delhi/New Delhi)",
+          "kind": "government",
+          "source_url": "https://rb.indianrailways.gov.in/uploads/directorate/establishment/E(LR)/Letter_20260723_HolidaysList2027.pdf",
+          "note": "Both gazetted holidays fall on 15 August 2027; the DoPT OM lists both and provides no substitute holiday."
+        },
+        {
+          "date": "2027-08-25",
+          "name": "Janmashtami",
+          "scope": "Central government offices (Delhi/New Delhi)",
+          "kind": "government",
+          "source_url": "https://rb.indianrailways.gov.in/uploads/directorate/establishment/E(LR)/Letter_20260723_HolidaysList2027.pdf"
+        },
+        {
+          "date": "2027-10-02",
+          "name": "Mahatma Gandhi's Birthday",
+          "scope": "Central government offices (Delhi/New Delhi)",
+          "kind": "government",
+          "source_url": "https://rb.indianrailways.gov.in/uploads/directorate/establishment/E(LR)/Letter_20260723_HolidaysList2027.pdf"
+        },
+        {
+          "date": "2027-10-09",
+          "name": "Dussehra (Vijaya Dashmi)",
+          "scope": "Central government offices (Delhi/New Delhi)",
+          "kind": "government",
+          "source_url": "https://rb.indianrailways.gov.in/uploads/directorate/establishment/E(LR)/Letter_20260723_HolidaysList2027.pdf"
+        },
+        {
+          "date": "2027-10-29",
+          "name": "Diwali (Deepavali)",
+          "scope": "Central government offices (Delhi/New Delhi)",
+          "kind": "government",
+          "source_url": "https://rb.indianrailways.gov.in/uploads/directorate/establishment/E(LR)/Letter_20260723_HolidaysList2027.pdf",
+          "note": "The DoPT OM para 6 confirms Diwali on Friday 29 October 2027 (Kartika 7)."
+        },
+        {
+          "date": "2027-11-14",
+          "name": "Guru Nanak's Birthday",
+          "scope": "Central government offices (Delhi/New Delhi)",
+          "kind": "government",
+          "source_url": "https://rb.indianrailways.gov.in/uploads/directorate/establishment/E(LR)/Letter_20260723_HolidaysList2027.pdf"
+        },
+        {
+          "date": "2027-12-25",
+          "name": "Christmas Day",
+          "scope": "Central government offices (Delhi/New Delhi)",
+          "kind": "government",
+          "source_url": "https://rb.indianrailways.gov.in/uploads/directorate/establishment/E(LR)/Letter_20260723_HolidaysList2027.pdf"
+        }
+      ],
+      "notes": [
+        "2026 and 2027 Annexure-I each list 17 gazetted holidays for Central Government offices at Delhi/New Delhi; the 2027 OM is dated 16.07.2026.",
+        "Outside Delhi/New Delhi, 14 holidays are compulsory and three further holidays are chosen from 12 optional holidays by the Central Government Employees Welfare Coordination Committee in each State capital; state governments and private employers publish separate lists.",
+        "Only gazetted holidays in Annexure-I are included; Annexure-II restricted holidays are optional and excluded.",
+        "Islamic holiday dates (Id-ul-Fitr, Id-ul-Zuha, Muharram and Milad-un-Nabi) may be changed by official moon-sighting announcements under OM paras 5.1/5.2.",
+        "No substitute holiday is allowed when a holiday falls on a weekend or another holiday (OM para 3.2).",
+        "In 2027, Independence Day and Milad-un-Nabi both fall on 15 August; the OM lists both and allows no substitute.",
+        "The canonical DoPT URLs were unreachable from the build environment; the cited PDFs are official DoPT CMS and Railway Board copies of the same Office Memoranda.",
+        "最近人工核对日期：2026-11-06；非实时接口，后续修订需重新核对。"
+      ]
+    },
+    {
+      "id": "AU",
+      "name": "澳大利亚",
+      "name_en": "Australia",
+      "timezone": "Australia/Sydney",
+      "scope": "National common holidays plus explicitly scoped state exceptions; other state/territory holidays excluded",
+      "years": [
+        2026,
+        2027
+      ],
+      "sources": [
+        {
+          "name": "Fair Work Ombudsman — 2026 public holidays",
+          "url": "https://www.fairwork.gov.au/employment-conditions/public-holidays/2026-public-holidays",
+          "format": "HTML"
+        },
+        {
+          "name": "Fair Work Ombudsman — 2027 public holidays",
+          "url": "https://www.fairwork.gov.au/employment-conditions/public-holidays/2027-public-holidays",
+          "format": "HTML"
+        },
+        {
+          "name": "NSW Government — Public holidays",
+          "url": "https://www.nsw.gov.au/about-nsw/public-holidays",
+          "format": "HTML"
+        },
+        {
+          "name": "ACT Government — Public Holidays 2027",
+          "url": "https://www.act.gov.au/__data/assets/pdf_file/0018/2327004/ACT-Public-Holidays-2027.pdf",
+          "format": "PDF"
+        },
+        {
+          "name": "Western Australia — Public holidays",
+          "url": "https://www.wa.gov.au/service/employment/workplace-arrangements/public-holidays-western-australia",
+          "format": "HTML"
+        },
+        {
+          "name": "Business Victoria — Victorian public holidays 2027",
+          "url": "https://business.vic.gov.au/business-information/public-holidays/victorian-public-holidays-2027",
+          "format": "HTML"
+        },
+        {
+          "name": "Queensland Government — Public holidays",
+          "url": "https://www.qld.gov.au/recreation/travel/holidays/public",
+          "format": "HTML"
+        },
+        {
+          "name": "SafeWork SA — Public holidays",
+          "url": "https://www.safework.sa.gov.au/resources/public-holidays",
+          "format": "HTML"
+        },
+        {
+          "name": "Northern Territory Government — Public and regional holidays",
+          "url": "https://nt.gov.au/nt-public-holidays",
+          "format": "HTML"
+        },
+        {
+          "name": "Tasmania — Statutory Holidays Act 2000 (current authorised version)",
+          "url": "https://www.legislation.tas.gov.au/view/html/authorised/2026-10-09%202026-10-14/act-2000-096",
+          "format": "HTML"
+        }
+      ],
+      "events": [
+        {
+          "date": "2026-01-01",
+          "name": "New Year's Day",
+          "scope": "All states and territories",
+          "kind": "public",
+          "source_url": "https://www.fairwork.gov.au/employment-conditions/public-holidays/2026-public-holidays"
+        },
+        {
+          "date": "2026-01-26",
+          "name": "Australia Day",
+          "scope": "All states and territories",
+          "kind": "public",
+          "source_url": "https://www.fairwork.gov.au/employment-conditions/public-holidays/2026-public-holidays"
+        },
+        {
+          "date": "2026-04-03",
+          "name": "Good Friday",
+          "scope": "All states and territories",
+          "kind": "public",
+          "source_url": "https://www.fairwork.gov.au/employment-conditions/public-holidays/2026-public-holidays"
+        },
+        {
+          "date": "2026-04-06",
+          "name": "Easter Monday",
+          "scope": "All states and territories",
+          "kind": "public",
+          "source_url": "https://www.fairwork.gov.au/employment-conditions/public-holidays/2026-public-holidays"
+        },
+        {
+          "date": "2026-04-25",
+          "name": "Anzac Day",
+          "scope": "All states and territories",
+          "kind": "public",
+          "source_url": "https://www.fairwork.gov.au/employment-conditions/public-holidays/2026-public-holidays",
+          "note": "Falls on Saturday. NSW, ACT and WA observe Monday 27 April as an additional public holiday; see the separate state-scoped event."
+        },
+        {
+          "date": "2026-04-27",
+          "name": "Anzac Day (observed)",
+          "scope": "NSW, ACT and WA",
+          "kind": "public",
+          "source_url": "https://www.fairwork.gov.au/employment-conditions/public-holidays/2026-public-holidays",
+          "note": "State-specific additional holiday for Anzac Day falling on Saturday. Not observed in QLD, VIC, SA, TAS or NT."
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "scope": "All states and territories",
+          "kind": "public",
+          "source_url": "https://www.fairwork.gov.au/employment-conditions/public-holidays/2026-public-holidays"
+        },
+        {
+          "date": "2026-12-26",
+          "name": "Boxing Day",
+          "scope": "All states and territories except Tasmania",
+          "kind": "public",
+          "source_url": "https://www.fairwork.gov.au/employment-conditions/public-holidays/2026-public-holidays",
+          "note": "South Australia calls 26 December Proclamation Day. Tasmania observes the Boxing Day holiday on Monday 28 December instead when 26 December falls on a Saturday."
+        },
+        {
+          "date": "2026-12-28",
+          "name": "Additional public holiday",
+          "scope": "All states and territories",
+          "kind": "public",
+          "source_url": "https://www.fairwork.gov.au/employment-conditions/public-holidays/2026-public-holidays",
+          "note": "Additional day for Boxing Day in most states and territories; Tasmania observes its Boxing Day holiday on this date."
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "scope": "All states and territories",
+          "kind": "public",
+          "source_url": "https://www.fairwork.gov.au/employment-conditions/public-holidays/2027-public-holidays"
+        },
+        {
+          "date": "2027-01-26",
+          "name": "Australia Day",
+          "scope": "All states and territories",
+          "kind": "public",
+          "source_url": "https://www.fairwork.gov.au/employment-conditions/public-holidays/2027-public-holidays"
+        },
+        {
+          "date": "2027-03-26",
+          "name": "Good Friday",
+          "scope": "All states and territories",
+          "kind": "public",
+          "source_url": "https://www.fairwork.gov.au/employment-conditions/public-holidays/2027-public-holidays"
+        },
+        {
+          "date": "2027-03-29",
+          "name": "Easter Monday",
+          "scope": "All states and territories",
+          "kind": "public",
+          "source_url": "https://www.fairwork.gov.au/employment-conditions/public-holidays/2027-public-holidays"
+        },
+        {
+          "date": "2027-04-25",
+          "name": "Anzac Day",
+          "scope": "NSW, VIC, WA, SA, TAS and ACT",
+          "kind": "public",
+          "source_url": "https://www.fairwork.gov.au/employment-conditions/public-holidays/2027-public-holidays",
+          "note": "Falls on Sunday. QLD and NT observe Monday 26 April only; NSW, ACT and WA observe both dates; VIC, SA and TAS observe 25 April only."
+        },
+        {
+          "date": "2027-04-26",
+          "name": "Anzac Day (observed)",
+          "scope": "NSW, ACT, WA, QLD and NT",
+          "kind": "public",
+          "source_url": "https://www.fairwork.gov.au/employment-conditions/public-holidays/2027-public-holidays",
+          "note": "State-specific substitute for Anzac Day falling on Sunday. Not a public holiday in Victoria, South Australia or Tasmania."
+        },
+        {
+          "date": "2027-12-25",
+          "name": "Christmas Day",
+          "scope": "All states and territories",
+          "kind": "public",
+          "source_url": "https://www.fairwork.gov.au/employment-conditions/public-holidays/2027-public-holidays"
+        },
+        {
+          "date": "2027-12-26",
+          "name": "Boxing Day",
+          "scope": "All states and territories except Tasmania",
+          "kind": "public",
+          "source_url": "https://www.fairwork.gov.au/employment-conditions/public-holidays/2027-public-holidays",
+          "note": "South Australia calls 26 December Proclamation Day. Tasmania observes the Boxing Day holiday on Tuesday 28 December instead when 26 December falls on a Sunday."
+        },
+        {
+          "date": "2027-12-27",
+          "name": "Additional public holiday",
+          "scope": "All states and territories",
+          "kind": "public",
+          "source_url": "https://www.fairwork.gov.au/employment-conditions/public-holidays/2027-public-holidays",
+          "note": "Additional day for Christmas Day, which falls on Saturday."
+        },
+        {
+          "date": "2027-12-28",
+          "name": "Additional public holiday",
+          "scope": "All states and territories",
+          "kind": "public",
+          "source_url": "https://www.fairwork.gov.au/employment-conditions/public-holidays/2027-public-holidays",
+          "note": "Additional day for Boxing Day in most states and territories; Tasmania observes its Boxing Day holiday on this date."
+        }
+      ],
+      "notes": [
+        "Australia has no single nationwide public-holiday statute; dates are set by state and territory. This region contains the common base plus explicitly state-scoped Anzac Day substitutes.",
+        "King's Birthday, Labour Day, Easter Saturday/Sunday, show days, bank holidays and part-day Christmas Eve are state/territory-specific and excluded.",
+        "The Fair Work Ombudsman pages were not reachable from the build environment; dates were cross-checked against official state/territory tables for NSW, ACT, WA, VIC, QLD, SA, NT and TAS.",
+        "Some official state/territory pages block automated requests (HTTP 403); their published tables were transcribed and cross-checked against accessible official pages.",
+        "Additional public holidays are included for 28 December 2026 and 27–28 December 2027, when Christmas Day and Boxing Day fall on weekends.",
+        "Tasmania's Statutory Holidays Act 2000 moves Boxing Day to the following Monday or Tuesday when 26 December falls on a weekend, so 26 December is not a Tasmanian public holiday in 2026 or 2027; the 28 December event covers Tasmania's Boxing Day holiday.",
+        "Anzac Day is national, but weekend substitutes vary. The 27 April 2026 substitute is included with scope limited to NSW, ACT and WA. The 26 April 2027 substitute is included with scope limited to NSW, ACT, WA, QLD and NT because QLD and NT observe it instead of 25 April; other state-specific substitutes are noted only.",
+        "最近人工核对日期：2026-11-06；非实时接口，后续修订需重新核对。"
+      ]
+    },
+    {
+      "id": "CY",
+      "name": "塞浦路斯",
+      "name_en": "Cyprus",
+      "timezone": "Asia/Nicosia",
+      "scope": "Public sector and banks (Central Bank of Cyprus bank-holiday schedule); private-sector observance may differ",
+      "years": [
+        2026,
+        2027
+      ],
+      "sources": [
+        {
+          "name": "Central Bank of Cyprus — Working hours and bank holidays",
+          "url": "https://www.centralbank.cy/en/the-bank/working-hours-bank-holidays",
+          "format": "HTML"
+        },
+        {
+          "name": "Central Bank of Cyprus — Bank holidays 2026",
+          "url": "https://www.centralbank.cy/images/media/pdf/Bank-Holidays-%202026-ENG.pdf",
+          "format": "PDF"
+        },
+        {
+          "name": "Central Bank of Cyprus — Bank holidays 2027",
+          "url": "https://www.centralbank.cy/images/media/pdf/Bank-Holidays-2027-English.pdf",
+          "format": "PDF"
+        }
+      ],
+      "events": [
+        {
+          "date": "2026-01-01",
+          "name": "New Year's Day",
+          "scope": "Public sector and banks",
+          "kind": "public",
+          "source_url": "https://www.centralbank.cy/images/media/pdf/Bank-Holidays-%202026-ENG.pdf"
+        },
+        {
+          "date": "2026-01-06",
+          "name": "Epiphany",
+          "scope": "Public sector and banks",
+          "kind": "public",
+          "source_url": "https://www.centralbank.cy/images/media/pdf/Bank-Holidays-%202026-ENG.pdf"
+        },
+        {
+          "date": "2026-02-23",
+          "name": "Green Monday",
+          "scope": "Public sector and banks",
+          "kind": "public",
+          "source_url": "https://www.centralbank.cy/images/media/pdf/Bank-Holidays-%202026-ENG.pdf"
+        },
+        {
+          "date": "2026-03-25",
+          "name": "Greek Independence Day",
+          "scope": "Public sector and banks",
+          "kind": "public",
+          "source_url": "https://www.centralbank.cy/images/media/pdf/Bank-Holidays-%202026-ENG.pdf"
+        },
+        {
+          "date": "2026-04-01",
+          "name": "Cyprus National Day",
+          "scope": "Public sector and banks",
+          "kind": "public",
+          "source_url": "https://www.centralbank.cy/images/media/pdf/Bank-Holidays-%202026-ENG.pdf"
+        },
+        {
+          "date": "2026-04-10",
+          "name": "Good Friday (Orthodox)",
+          "scope": "Public sector and banks",
+          "kind": "public",
+          "source_url": "https://www.centralbank.cy/images/media/pdf/Bank-Holidays-%202026-ENG.pdf"
+        },
+        {
+          "date": "2026-04-13",
+          "name": "Easter Monday",
+          "scope": "Public sector and banks",
+          "kind": "public",
+          "source_url": "https://www.centralbank.cy/images/media/pdf/Bank-Holidays-%202026-ENG.pdf"
+        },
+        {
+          "date": "2026-04-14",
+          "name": "Easter Tuesday (bank holiday)",
+          "scope": "Banks",
+          "kind": "bank",
+          "source_url": "https://www.centralbank.cy/images/media/pdf/Bank-Holidays-%202026-ENG.pdf"
+        },
+        {
+          "date": "2026-05-01",
+          "name": "Labour Day",
+          "scope": "Public sector and banks",
+          "kind": "public",
+          "source_url": "https://www.centralbank.cy/images/media/pdf/Bank-Holidays-%202026-ENG.pdf"
+        },
+        {
+          "date": "2026-06-01",
+          "name": "Pentecost (bank holiday)",
+          "scope": "Banks",
+          "kind": "bank",
+          "source_url": "https://www.centralbank.cy/images/media/pdf/Bank-Holidays-%202026-ENG.pdf"
+        },
+        {
+          "date": "2026-08-15",
+          "name": "Assumption Day",
+          "scope": "Public sector and banks",
+          "kind": "public",
+          "source_url": "https://www.centralbank.cy/images/media/pdf/Bank-Holidays-%202026-ENG.pdf",
+          "note": "Falls on Saturday; the CBC schedule notes it as a public holiday."
+        },
+        {
+          "date": "2026-10-01",
+          "name": "Cyprus Independence Day",
+          "scope": "Public sector and banks",
+          "kind": "public",
+          "source_url": "https://www.centralbank.cy/images/media/pdf/Bank-Holidays-%202026-ENG.pdf"
+        },
+        {
+          "date": "2026-10-28",
+          "name": "Greek National Day (Ochi Day)",
+          "scope": "Public sector and banks",
+          "kind": "public",
+          "source_url": "https://www.centralbank.cy/images/media/pdf/Bank-Holidays-%202026-ENG.pdf"
+        },
+        {
+          "date": "2026-12-25",
+          "name": "Christmas Day",
+          "scope": "Public sector and banks",
+          "kind": "public",
+          "source_url": "https://www.centralbank.cy/images/media/pdf/Bank-Holidays-%202026-ENG.pdf"
+        },
+        {
+          "date": "2026-12-26",
+          "name": "Boxing Day",
+          "scope": "Public sector and banks",
+          "kind": "public",
+          "source_url": "https://www.centralbank.cy/images/media/pdf/Bank-Holidays-%202026-ENG.pdf",
+          "note": "Falls on Saturday; the CBC schedule notes it as a public holiday."
+        },
+        {
+          "date": "2027-01-01",
+          "name": "New Year's Day",
+          "scope": "Public sector and banks",
+          "kind": "public",
+          "source_url": "https://www.centralbank.cy/images/media/pdf/Bank-Holidays-2027-English.pdf"
+        },
+        {
+          "date": "2027-01-06",
+          "name": "Epiphany",
+          "scope": "Public sector and banks",
+          "kind": "public",
+          "source_url": "https://www.centralbank.cy/images/media/pdf/Bank-Holidays-2027-English.pdf"
+        },
+        {
+          "date": "2027-03-15",
+          "name": "Green Monday",
+          "scope": "Public sector and banks",
+          "kind": "public",
+          "source_url": "https://www.centralbank.cy/images/media/pdf/Bank-Holidays-2027-English.pdf"
+        },
+        {
+          "date": "2027-03-25",
+          "name": "Greek Independence Day",
+          "scope": "Public sector and banks",
+          "kind": "public",
+          "source_url": "https://www.centralbank.cy/images/media/pdf/Bank-Holidays-2027-English.pdf"
+        },
+        {
+          "date": "2027-04-01",
+          "name": "Cyprus National Day",
+          "scope": "Public sector and banks",
+          "kind": "public",
+          "source_url": "https://www.centralbank.cy/images/media/pdf/Bank-Holidays-2027-English.pdf"
+        },
+        {
+          "date": "2027-04-30",
+          "name": "Good Friday (Orthodox)",
+          "scope": "Public sector and banks",
+          "kind": "public",
+          "source_url": "https://www.centralbank.cy/images/media/pdf/Bank-Holidays-2027-English.pdf"
+        },
+        {
+          "date": "2027-05-01",
+          "name": "Labour Day",
+          "scope": "Public sector and banks",
+          "kind": "public",
+          "source_url": "https://www.centralbank.cy/images/media/pdf/Bank-Holidays-2027-English.pdf",
+          "note": "Falls on Saturday; no substitute holiday is added."
+        },
+        {
+          "date": "2027-05-03",
+          "name": "Easter Monday",
+          "scope": "Public sector and banks",
+          "kind": "public",
+          "source_url": "https://www.centralbank.cy/images/media/pdf/Bank-Holidays-2027-English.pdf"
+        },
+        {
+          "date": "2027-05-04",
+          "name": "Easter Tuesday (bank holiday)",
+          "scope": "Banks",
+          "kind": "bank",
+          "source_url": "https://www.centralbank.cy/images/media/pdf/Bank-Holidays-2027-English.pdf"
+        },
+        {
+          "date": "2027-06-21",
+          "name": "Pentecost (bank holiday)",
+          "scope": "Banks",
+          "kind": "bank",
+          "source_url": "https://www.centralbank.cy/images/media/pdf/Bank-Holidays-2027-English.pdf"
+        },
+        {
+          "date": "2027-08-15",
+          "name": "Assumption Day",
+          "scope": "Public sector and banks",
+          "kind": "public",
+          "source_url": "https://www.centralbank.cy/images/media/pdf/Bank-Holidays-2027-English.pdf",
+          "note": "Falls on Sunday; the CBC schedule notes it as a public holiday."
+        },
+        {
+          "date": "2027-10-01",
+          "name": "Cyprus Independence Day",
+          "scope": "Public sector and banks",
+          "kind": "public",
+          "source_url": "https://www.centralbank.cy/images/media/pdf/Bank-Holidays-2027-English.pdf"
+        },
+        {
+          "date": "2027-10-28",
+          "name": "Greek National Day (Ochi Day)",
+          "scope": "Public sector and banks",
+          "kind": "public",
+          "source_url": "https://www.centralbank.cy/images/media/pdf/Bank-Holidays-2027-English.pdf"
+        },
+        {
+          "date": "2027-12-25",
+          "name": "Christmas Day",
+          "scope": "Public sector and banks",
+          "kind": "public",
+          "source_url": "https://www.centralbank.cy/images/media/pdf/Bank-Holidays-2027-English.pdf",
+          "note": "Falls on Saturday; no substitute holiday is added."
+        },
+        {
+          "date": "2027-12-26",
+          "name": "Boxing Day",
+          "scope": "Public sector and banks",
+          "kind": "public",
+          "source_url": "https://www.centralbank.cy/images/media/pdf/Bank-Holidays-2027-English.pdf",
+          "note": "Falls on Sunday; no substitute holiday is added."
+        }
+      ],
+      "notes": [
+        "The Central Bank of Cyprus schedule covers banks; public-sector offices observe the same statutory holidays. Private-sector observance may differ.",
+        "Easter Tuesday and Pentecost are bank holidays, not statutory public holidays; they are marked kind='bank'.",
+        "Assumption Day, Boxing Day and, in 2027, Labour Day and Christmas Day are included from the CBC notes even when they fall on weekends (15 August and 26 December 2026; 1 May, 15 August, 25 and 26 December 2027).",
+        "No substitute holidays are added.",
+        "Green Monday is the Orthodox Lent start date published by the Central Bank of Cyprus.",
+        "最近人工核对日期：2026-11-06；非实时接口，后续修订需重新核对。"
+      ]
+    }
+  ],
+  "errors": []
+}
