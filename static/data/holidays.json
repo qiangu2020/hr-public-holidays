@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T02:11:55+00:00",
+  "updated_at": "2026-11-17T04:30:52+00:00",
   "regions": [
     {
       "id": "MY",
@@ -2141,6 +2141,15 @@
           "kind": "bank",
           "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2026.json",
           "name_en": "Constitution Day"
+        },
+        {
+          "date": "2026-12-16",
+          "name": "额外特别假日",
+          "scope": "泰国（金融机构）",
+          "kind": "bank",
+          "source_url": "https://www.bot.or.th/content/bot/en/financial-institutions-holiday/jcr:content/root/container/holidaycalendar.model.2026.json",
+          "name_en": "Additional special holiday",
+          "note": "BOT 公布之金融机构额外特别假日。"
         },
         {
           "date": "2026-12-31",
